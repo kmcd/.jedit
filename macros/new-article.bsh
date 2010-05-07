@@ -1,0 +1,32 @@
+import java.util.regex.*; 
+import java.util.Date;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+
+String currentDate(){
+   DateFormat dateFormat = new SimpleDateFormat("EEE d MMM yyyy");
+   Date date = new Date();
+   return dateFormat.format(date);
+}
+
+void newArticle()
+{
+   // 1. Prompt for article title (or take from selected text)
+   article_title = Macros.input(view, "Article title:");
+   
+   // 2. Open a new buffer with the following content:
+   template = "---\n";
+   template += "title: " + article_title + "\n";
+   template += "tag:   draft\n";
+   template += "date:  " + currentDate() + "\n";
+   template += "---\n\n";
+   
+   article_buffer = jEdit.newFile(view);
+   textArea.setText(template);
+   
+   // 3. Save buffer with downcased & underscored file name
+   file_name = article_title.toLowerCase().replaceAll("\\s","_") + ".txtl" ;
+   // article_buffer.save(view, "/home/kmcd/src/blog/articles/" + file_name);
+}
+
+newArticle();

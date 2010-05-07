@@ -1,0 +1,286 @@
+Log file created on Thu May 06 12:08:55 BST 2010
+IMPORTANT:
+Because updating this file after every log message would kill
+performance, it will be *incomplete* unless you invoke the
+Utilities->Troubleshooting->Update Activity Log on Disk command!
+12:08:55 [main] [message] Log: When reporting bugs, please include the following information:
+12:08:55 [main] [message] Log: java.version=1.6.0_20
+12:08:55 [main] [message] Log: java.vm.version=16.3-b01
+12:08:55 [main] [message] Log: java.runtime.version=1.6.0_20-b02
+12:08:55 [main] [message] Log: java.vendor=Sun Microsystems Inc.
+12:08:55 [main] [message] Log: java.compiler=null
+12:08:55 [main] [message] Log: os.name=Linux
+12:08:55 [main] [message] Log: os.version=2.6.32-22-generic
+12:08:55 [main] [message] Log: os.arch=i386
+12:08:55 [main] [message] Log: user.home=/home/kmcd
+12:08:55 [main] [message] Log: java.home=/usr/lib/jvm/java-6-sun-1.6.0.20/jre
+12:08:55 [main] [message] Log: java.class.path=/home/kmcd/jedit/4.3.1/jedit.jar
+12:08:55 [main] [notice] jEdit: An error occurred while connecting to the jEdit server instance.
+12:08:55 [main] [notice] jEdit: This probably means that jEdit crashed and/or exited abnormally
+12:08:55 [main] [notice] jEdit: the last time it was run.
+12:08:55 [main] [notice] jEdit: If you don't know what this means, don't worry.
+12:08:55 [main] [notice] jEdit: java.net.ConnectException: Connection refused
+12:08:55 [main] [notice] jEdit:  at java.net.PlainSocketImpl.socketConnect(Native Method)
+12:08:55 [main] [notice] jEdit:  at java.net.PlainSocketImpl.doConnect(PlainSocketImpl.java:333)
+12:08:55 [main] [notice] jEdit:  at java.net.PlainSocketImpl.connectToAddress(PlainSocketImpl.java:195)
+12:08:55 [main] [notice] jEdit:  at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:182)
+12:08:55 [main] [notice] jEdit:  at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:366)
+12:08:55 [main] [notice] jEdit:  at java.net.Socket.connect(Socket.java:529)
+12:08:55 [main] [notice] jEdit:  at java.net.Socket.connect(Socket.java:478)
+12:08:55 [main] [notice] jEdit:  at java.net.Socket.<init>(Socket.java:375)
+12:08:55 [main] [notice] jEdit:  at java.net.Socket.<init>(Socket.java:218)
+12:08:55 [main] [notice] jEdit:  at org.gjt.sp.jedit.jEdit.main(jEdit.java:269)
+12:08:55 [main] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/activity.log" to "/home/kmcd/.jedit/settings-backup/activity.log~1~"
+12:08:55 [main] [notice] jEdit: jEdit version 4.3.1
+12:08:55 [main] [message] jEdit: Settings directory is /home/kmcd/.jedit
+12:08:55 [main] [message] jEdit: jEdit home directory is /home/kmcd/jedit/4.3.1
+12:08:55 [main] [debug] SplashScreen: init:15ms
+12:08:55 [main] [debug] SplashScreen: init system properties:42ms
+12:08:55 [main] [message] BeanShell: Beanshell Init
+12:08:55 [main] [debug] SplashScreen: init beanshell:60ms
+12:08:55 [main] [debug] SplashScreen: loading site properties:3ms
+12:08:55 [main] [debug] SplashScreen: loading user properties:2ms
+12:08:55 [main] [debug] GUIUtilities: Icon theme set to: tango
+12:08:55 [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+12:08:55 [main] [debug] SplashScreen: init GUI:36ms
+12:08:55 [main] [debug] EditServer: jEdit server started on port 44938
+12:08:55 [main] [debug] EditServer: Authorization key is 858857530
+12:08:55 [main] [debug] SplashScreen: init server:19ms
+12:08:55 [main] [debug] SplashScreen: init look and feel:117ms
+12:08:55 [main] [debug] SplashScreen: init VFS Manager:7ms
+12:08:55 [main] [debug] ActionSet: Loading actions from jar:file:/home/kmcd/jedit/4.3.1/jedit.jar!/org/gjt/sp/jedit/actions.xml
+12:08:55 [main] [debug] DockableWindowManager: Loading dockables from jar:file:/home/kmcd/jedit/4.3.1/jedit.jar!/org/gjt/sp/jedit/dockables.xml
+12:08:55 [main] [debug] EditBus: SearchSettingsChanged[source=null]
+12:08:55 [main] [debug] SplashScreen: init resources:194ms
+12:08:55 [main] [notice] jEdit: Loading plugins from /home/kmcd/jedit/4.3.1/jars
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/jedit/4.3.1/jars/LatestVersion.jar,class=LatestVersionPlugin]
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/jedit/4.3.1/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+12:08:55 [main] [notice] jEdit: Loading plugins from /home/kmcd/.jedit/jars
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/SideKick.jar,class=sidekick.SideKickPlugin]
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/Console.jar,class=console.ConsolePlugin]
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/OpenIt.jar,class=org.etheridge.openit.OpenItPlugin]
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/resolver.jar]
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/jna.jar]
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/SpellCheck.jar,class=cswilly.jeditPlugins.spell.SpellCheckPlugin]
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/jing.jar]
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/CandyFolds.jar,class=candyfolds.CandyFoldsPlugin]
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/kappalayout.jar]
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/trang.jar]
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/Beauty.jar,class=beauty.BeautyPlugin]
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/CommonControls.jar,class=CommonControlsPlugin]
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/TextTools.jar,class=TextToolsPlugin]
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/jsch.jar]
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/relaxngDatatype.jar]
+12:08:55 [main] [debug] ActionSet: Loading actions from jar:file:/home/kmcd/jedit/4.3.1/jedit.jar!/org/gjt/sp/jedit/browser.actions.xml
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/FindFile.jar,class=findfile.FindFilePlugin]
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/Sessions.jar,class=sessions.SessionsPlugin]
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/hunspell.jar]
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/xercesImpl.jar]
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/SuperAbbrevs.jar,class=SuperAbbrevsPlugin]
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/FTP.jar,class=ftp.FtpPlugin]
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/VoxSpell.jar,class=voxspellcheck.VoxSpellPlugin]
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/colorchooser.jar,class=colorchooser.ColorChooserPlugin]
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/XML.jar,class=xml.XmlPlugin]
+12:08:55 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/XercesPlugin.jar,class=xerces.XercesPlugin]
+12:08:55 [main] [debug] SplashScreen: init plugins:167ms
+12:08:55 [main] [message] HistoryModel: Loading history
+12:08:55 [main] [debug] SplashScreen: init history model:5ms
+12:08:55 [main] [message] BufferHistory: Loading /home/kmcd/.jedit/recent.xml
+12:08:55 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/xercesImpl.jar
+12:08:56 [main] [debug] SplashScreen: init buffer history:181ms
+12:08:56 [main] [message] KillRing: Loading /home/kmcd/.jedit/killring.xml
+12:08:56 [main] [debug] SplashScreen: init killring:17ms
+12:08:56 [main] [debug] jEdit: SOCKS proxy disabled
+12:08:56 [main] [debug] jEdit: HTTP proxy disabled
+12:08:56 [main] [debug] EditBus: PropertiesChanged[source=null]
+12:08:56 [main] [debug] SplashScreen: init various properties:31ms
+12:08:56 [main] [message] jEdit: Loading mode catalog file /home/kmcd/jedit/4.3.1/modes/catalog
+12:08:56 [main] [message] jEdit: Loading mode catalog file /home/kmcd/.jedit/modes/catalog
+12:08:56 [main] [debug] SplashScreen: init modes:60ms
+12:08:56 [main] [debug] PluginJAR: Activating sidekick.SideKickPlugin because of startup
+12:08:56 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/SideKick.jar
+12:08:56 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/SideKick.jar,class=sidekick.SideKickPlugin]
+12:08:56 [main] [debug] PluginJAR: Activating console.ConsolePlugin because of startup
+12:08:56 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/Console.jar
+12:08:56 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:08:56 [main] [debug] ConsolePlugin: Loaded 15 Actions
+12:08:56 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/ErrorList.jar
+12:08:56 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
+12:08:56 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/Console.jar,class=console.ConsolePlugin]
+12:08:56 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:08:56 [main] [debug] PluginJAR: Activating cswilly.jeditPlugins.spell.SpellCheckPlugin because of startup
+12:08:56 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/SpellCheck.jar
+12:08:56 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/SpellCheck.jar,class=cswilly.jeditPlugins.spell.SpellCheckPlugin]
+12:08:56 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:08:56 [main] [debug] PluginJAR: Activating candyfolds.CandyFoldsPlugin because of startup
+12:08:56 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/CandyFolds.jar
+12:08:56 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/CandyFolds.jar,class=candyfolds.CandyFoldsPlugin]
+12:08:56 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:08:56 [main] [debug] PluginJAR: Activating sessions.SessionsPlugin because of startup
+12:08:56 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/Sessions.jar
+12:08:56 [main] [debug] Session: open: name=default
+12:08:56 [main] [debug] Session: loadXML: name=default filename=/home/kmcd/.jedit/sessions/default.xml
+12:08:56 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/Sessions.jar,class=sessions.SessionsPlugin]
+12:08:56 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:08:56 [main] [debug] PluginJAR: Activating buffertabs.BufferTabsPlugin because of startup
+12:08:56 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/BufferTabs.jar
+12:08:56 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+12:08:56 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:08:56 [main] [debug] PluginJAR: Activating voxspellcheck.VoxSpellPlugin because of startup
+12:08:56 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/VoxSpell.jar
+12:08:58 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/VoxSpell.jar,class=voxspellcheck.VoxSpellPlugin]
+12:08:58 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+12:08:58 [main] [debug] SplashScreen: activate plugins:2147ms
+12:08:58 [main] [debug] Macros: Registered beanshell macro handler
+12:08:58 [main] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+12:08:58 [main] [message] BeanShell: Running script /home/kmcd/jedit/4.3.1/startup/startup.bsh
+12:08:58 [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+12:08:58 [main] [debug] SplashScreen: init macros:101ms
+12:08:58 [main] [debug] SplashScreen: run startup scripts:2ms
+12:08:58 [main] [debug] SplashScreen: run startup scripts:3ms
+12:08:58 [AWT-EventQueue-0] [message] PerspectiveManager: Loading /home/kmcd/.jedit/perspective.xml
+12:08:58 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/kmcd/jedit/4.3.1/modes/ruby.xml
+12:08:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=application_helper.rb (~/src/petri/app/helpers/)]
+12:08:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=application_helper.rb (~/src/petri/app/helpers/)]
+12:08:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=application_helper.rb (~/src/petri/app/helpers/)]
+12:08:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=application_helper.rb (~/src/petri/app/helpers/)]
+12:08:59 [AWT-EventQueue-0] [debug] BufferSet: 18439211 addBufferAt(application_helper.rb (~/src/petri/app/helpers/),-1)
+12:08:59 [AWT-EventQueue-0] [debug] BufferSet: 18439211: Buffer added application_helper.rb (~/src/petri/app/helpers/) at 0
+12:08:59 [AWT-EventQueue-0] [debug] BufferSet: 18439211: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive,global]
+12:08:59 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFERSET_CHANGED,source=org.gjt.sp.jedit.EditPane[inactive,global]]
+12:08:59 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive,global]]
+12:08:59 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive,global]]
+12:08:59 [AWT-EventQueue-0] [debug] BufferSet: 18439211: Buffer added application_helper.rb (~/src/petri/app/helpers/) at 0
+12:08:59 [AWT-EventQueue-0] [debug] BufferSet: 18439211: addBufferSetListener buffertabs.BufferTabs[application_helper.rb]
+12:08:59 [AWT-EventQueue-0] [debug] BufferSet: 18439211 addBufferAt(application_helper.rb (~/src/petri/app/helpers/),0)
+12:08:59 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+12:08:59 [AWT-EventQueue-0] [debug] SideKick: No parser
+12:08:59 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@10df4e2
+12:08:59 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+12:08:59 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:08:59 [AWT-EventQueue-0] [debug] BufferSet: 18439211 addBufferAt(application_helper.rb (~/src/petri/app/helpers/),-1)
+12:08:59 [AWT-EventQueue-0] [debug] BufferSet: 18439211: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive,global]
+12:08:59 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFERSET_CHANGED,source=org.gjt.sp.jedit.EditPane[inactive,global]]
+12:08:59 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive,global]]
+12:08:59 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive,global]]
+12:08:59 [AWT-EventQueue-0] [debug] BufferSet: 18439211: Buffer added application_helper.rb (~/src/petri/app/helpers/) at 0
+12:08:59 [AWT-EventQueue-0] [debug] BufferSet: 18439211: addBufferSetListener buffertabs.BufferTabs[application_helper.rb]
+12:08:59 [AWT-EventQueue-0] [debug] BufferSet: 18439211 addBufferAt(application_helper.rb (~/src/petri/app/helpers/),0)
+12:08:59 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[inactive]]
+12:08:59 [AWT-EventQueue-0] [debug] SideKick: No parser
+12:08:59 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[inactive] to sidekick.SideKickParsedData@1735b26
+12:08:59 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+12:08:59 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:08:59 [AWT-EventQueue-0] [debug] BufferSet: 18439211 addBufferAt(application_helper.rb (~/src/petri/app/helpers/),-1)
+12:08:59 [AWT-EventQueue-0] [debug] BufferSet: 18439211: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive,global]
+12:08:59 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFERSET_CHANGED,source=org.gjt.sp.jedit.EditPane[inactive,global]]
+12:08:59 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive,global]]
+12:08:59 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive,global]]
+12:08:59 [AWT-EventQueue-0] [debug] BufferSet: 18439211: Buffer added application_helper.rb (~/src/petri/app/helpers/) at 0
+12:08:59 [AWT-EventQueue-0] [debug] BufferSet: 18439211: addBufferSetListener buffertabs.BufferTabs[application_helper.rb]
+12:08:59 [AWT-EventQueue-0] [debug] BufferSet: 18439211 addBufferAt(application_helper.rb (~/src/petri/app/helpers/),0)
+12:08:59 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[inactive]]
+12:08:59 [AWT-EventQueue-0] [debug] SideKick: No parser
+12:08:59 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[inactive] to sidekick.SideKickParsedData@6c5356
+12:08:59 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+12:08:59 [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+12:08:59 [jEdit I/O #1] [debug] WorkThread: Work request thread starting [jEdit I/O #1]
+12:08:59 [jEdit I/O #2] [debug] WorkThread: Work request thread starting [jEdit I/O #2]
+12:08:59 [jEdit I/O #3] [debug] WorkThread: Work request thread starting [jEdit I/O #3]
+12:08:59 [jEdit I/O #4] [debug] WorkThread: Work request thread starting [jEdit I/O #4]
+12:08:59 [AWT-EventQueue-0] [message] jEdit: Startup complete
+12:09:00 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+12:09:00 [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+12:09:00 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:09:00 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:09:00 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:09:06 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:09:06 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:09:06 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:09:26 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/perspective.xml" to "/home/kmcd/.jedit/settings-backup/perspective.xml~1~"
+12:09:32 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:09:32 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:09:32 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:09:40 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+12:09:40 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:09:40 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:09:40 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:09:41 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+12:10:02 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:10:02 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:10:02 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:14:26 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:14:26 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:14:26 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:15:10 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+12:15:10 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:15:10 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:15:10 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:15:10 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+12:17:32 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:17:32 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:17:32 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:17:45 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:17:45 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:17:45 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:18:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:18:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:18:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:18:53 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:18:53 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:18:53 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:18:54 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+12:18:54 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:18:54 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:18:54 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:18:56 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:18:56 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:18:56 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:19:11 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+12:19:11 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:19:11 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:19:11 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:19:15 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+12:19:15 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:19:15 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:19:15 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:19:31 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:19:31 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:19:31 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:19:47 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+12:19:47 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:19:47 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:19:47 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:20:49 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+12:20:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:20:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:20:49 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:21:02 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:21:02 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:21:02 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:21:05 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:21:05 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:21:05 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:21:09 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:21:09 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:21:09 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:21:39 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+12:21:39 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:21:39 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:21:39 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:21:40 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+12:45:09 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+12:45:09 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:45:09 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:45:09 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:45:11 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:45:11 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:45:11 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:45:12 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+12:45:12 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+12:45:12 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active,global]]
+12:45:12 [AWT-EventQueue-0] [notice] CandyFoldsPlugin: textAreaExt removed
+12:45:12 [AWT-EventQueue-0] [debug] BufferSet: 18439211: removeBufferSetListener buffertabs.BufferTabs[]
+12:45:26 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/perspective.xml" to "/home/kmcd/.jedit/settings-backup/perspective.xml~1~"

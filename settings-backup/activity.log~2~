@@ -1,0 +1,336 @@
+Log file created on Thu May 06 14:53:25 BST 2010
+IMPORTANT:
+Because updating this file after every log message would kill
+performance, it will be *incomplete* unless you invoke the
+Utilities->Troubleshooting->Update Activity Log on Disk command!
+14:53:25 [main] [message] Log: When reporting bugs, please include the following information:
+14:53:25 [main] [message] Log: java.version=1.6.0_20
+14:53:25 [main] [message] Log: java.vm.version=16.3-b01
+14:53:25 [main] [message] Log: java.runtime.version=1.6.0_20-b02
+14:53:25 [main] [message] Log: java.vendor=Sun Microsystems Inc.
+14:53:25 [main] [message] Log: java.compiler=null
+14:53:25 [main] [message] Log: os.name=Linux
+14:53:25 [main] [message] Log: os.version=2.6.32-22-generic
+14:53:25 [main] [message] Log: os.arch=i386
+14:53:25 [main] [message] Log: user.home=/home/kmcd
+14:53:25 [main] [message] Log: java.home=/usr/lib/jvm/java-6-sun-1.6.0.20/jre
+14:53:25 [main] [message] Log: java.class.path=/home/kmcd/jedit/4.3.1/jedit.jar
+14:53:25 [main] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/activity.log" to "/home/kmcd/.jedit/settings-backup/activity.log~1~"
+14:53:25 [main] [notice] jEdit: jEdit version 4.3.1
+14:53:25 [main] [message] jEdit: Settings directory is /home/kmcd/.jedit
+14:53:25 [main] [message] jEdit: jEdit home directory is /home/kmcd/jedit/4.3.1
+14:53:25 [main] [debug] SplashScreen: init:33ms
+14:53:25 [main] [debug] SplashScreen: init system properties:50ms
+14:53:25 [main] [message] BeanShell: Beanshell Init
+14:53:25 [main] [debug] SplashScreen: init beanshell:75ms
+14:53:25 [main] [debug] SplashScreen: loading site properties:4ms
+14:53:26 [main] [debug] SplashScreen: loading user properties:10ms
+14:53:26 [main] [debug] GUIUtilities: Icon theme set to: tango
+14:53:26 [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+14:53:26 [main] [debug] SplashScreen: init GUI:35ms
+14:53:26 [main] [debug] EditServer: jEdit server started on port 33362
+14:53:26 [main] [debug] EditServer: Authorization key is 1289105842
+14:53:26 [main] [debug] SplashScreen: init server:38ms
+14:53:26 [main] [debug] SplashScreen: init look and feel:260ms
+14:53:26 [main] [debug] SplashScreen: init VFS Manager:5ms
+14:53:26 [main] [debug] ActionSet: Loading actions from jar:file:/home/kmcd/jedit/4.3.1/jedit.jar!/org/gjt/sp/jedit/actions.xml
+14:53:26 [main] [debug] DockableWindowManager: Loading dockables from jar:file:/home/kmcd/jedit/4.3.1/jedit.jar!/org/gjt/sp/jedit/dockables.xml
+14:53:26 [main] [debug] EditBus: SearchSettingsChanged[source=null]
+14:53:26 [main] [debug] SplashScreen: init resources:383ms
+14:53:26 [main] [notice] jEdit: Loading plugins from /home/kmcd/jedit/4.3.1/jars
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/jedit/4.3.1/jars/LatestVersion.jar,class=LatestVersionPlugin]
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/jedit/4.3.1/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+14:53:26 [main] [notice] jEdit: Loading plugins from /home/kmcd/.jedit/jars
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/SideKick.jar,class=sidekick.SideKickPlugin]
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/Console.jar,class=console.ConsolePlugin]
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/OpenIt.jar,class=org.etheridge.openit.OpenItPlugin]
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/resolver.jar]
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/jna.jar]
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/SpellCheck.jar,class=cswilly.jeditPlugins.spell.SpellCheckPlugin]
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/jing.jar]
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/CandyFolds.jar,class=candyfolds.CandyFoldsPlugin]
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/kappalayout.jar]
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/trang.jar]
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/Beauty.jar,class=beauty.BeautyPlugin]
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/CommonControls.jar,class=CommonControlsPlugin]
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/TextTools.jar,class=TextToolsPlugin]
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/jsch.jar]
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/relaxngDatatype.jar]
+14:53:26 [main] [debug] ActionSet: Loading actions from jar:file:/home/kmcd/jedit/4.3.1/jedit.jar!/org/gjt/sp/jedit/browser.actions.xml
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/FindFile.jar,class=findfile.FindFilePlugin]
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/Sessions.jar,class=sessions.SessionsPlugin]
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/hunspell.jar]
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/xercesImpl.jar]
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/SuperAbbrevs.jar,class=SuperAbbrevsPlugin]
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/FTP.jar,class=ftp.FtpPlugin]
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/VoxSpell.jar,class=voxspellcheck.VoxSpellPlugin]
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/colorchooser.jar,class=colorchooser.ColorChooserPlugin]
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/XML.jar,class=xml.XmlPlugin]
+14:53:26 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/XercesPlugin.jar,class=xerces.XercesPlugin]
+14:53:26 [main] [debug] SplashScreen: init plugins:231ms
+14:53:26 [main] [message] HistoryModel: Loading history
+14:53:26 [main] [debug] SplashScreen: init history model:7ms
+14:53:26 [main] [message] BufferHistory: Loading /home/kmcd/.jedit/recent.xml
+14:53:26 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/xercesImpl.jar
+14:53:27 [main] [debug] SplashScreen: init buffer history:231ms
+14:53:27 [main] [message] KillRing: Loading /home/kmcd/.jedit/killring.xml
+14:53:27 [main] [debug] SplashScreen: init killring:24ms
+14:53:27 [main] [debug] jEdit: SOCKS proxy disabled
+14:53:27 [main] [debug] jEdit: HTTP proxy disabled
+14:53:27 [main] [debug] EditBus: PropertiesChanged[source=null]
+14:53:27 [main] [debug] SplashScreen: init various properties:40ms
+14:53:27 [main] [message] jEdit: Loading mode catalog file /home/kmcd/jedit/4.3.1/modes/catalog
+14:53:27 [main] [message] jEdit: Loading mode catalog file /home/kmcd/.jedit/modes/catalog
+14:53:27 [main] [debug] SplashScreen: init modes:98ms
+14:53:27 [main] [debug] PluginJAR: Activating sidekick.SideKickPlugin because of startup
+14:53:27 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/SideKick.jar
+14:53:27 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/SideKick.jar,class=sidekick.SideKickPlugin]
+14:53:27 [main] [debug] PluginJAR: Activating console.ConsolePlugin because of startup
+14:53:27 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/Console.jar
+14:53:27 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+14:53:27 [main] [debug] ConsolePlugin: Loaded 15 Actions
+14:53:27 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/ErrorList.jar
+14:53:27 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
+14:53:27 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/Console.jar,class=console.ConsolePlugin]
+14:53:27 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+14:53:27 [main] [debug] PluginJAR: Activating cswilly.jeditPlugins.spell.SpellCheckPlugin because of startup
+14:53:27 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/SpellCheck.jar
+14:53:27 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/SpellCheck.jar,class=cswilly.jeditPlugins.spell.SpellCheckPlugin]
+14:53:27 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+14:53:27 [main] [debug] PluginJAR: Activating candyfolds.CandyFoldsPlugin because of startup
+14:53:27 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/CandyFolds.jar
+14:53:27 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/CandyFolds.jar,class=candyfolds.CandyFoldsPlugin]
+14:53:27 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+14:53:27 [main] [debug] PluginJAR: Activating sessions.SessionsPlugin because of startup
+14:53:27 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/Sessions.jar
+14:53:27 [main] [debug] Session: open: name=default
+14:53:27 [main] [debug] Session: loadXML: name=default filename=/home/kmcd/.jedit/sessions/default.xml
+14:53:27 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/Sessions.jar,class=sessions.SessionsPlugin]
+14:53:27 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+14:53:27 [main] [debug] PluginJAR: Activating buffertabs.BufferTabsPlugin because of startup
+14:53:27 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/BufferTabs.jar
+14:53:27 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+14:53:27 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+14:53:27 [main] [debug] PluginJAR: Activating voxspellcheck.VoxSpellPlugin because of startup
+14:53:27 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/VoxSpell.jar
+14:53:30 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/VoxSpell.jar,class=voxspellcheck.VoxSpellPlugin]
+14:53:30 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+14:53:30 [main] [debug] SplashScreen: activate plugins:3420ms
+14:53:30 [main] [debug] Macros: Registered beanshell macro handler
+14:53:30 [main] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+14:53:30 [main] [message] BeanShell: Running script /home/kmcd/jedit/4.3.1/startup/startup.bsh
+14:53:30 [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+14:53:30 [main] [debug] SplashScreen: init macros:133ms
+14:53:30 [main] [debug] SplashScreen: run startup scripts:2ms
+14:53:30 [main] [debug] SplashScreen: run startup scripts:3ms
+14:53:30 [AWT-EventQueue-0] [message] PerspectiveManager: Loading /home/kmcd/.jedit/perspective.xml
+14:53:31 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/)]
+14:53:31 [AWT-EventQueue-0] [debug] BufferSet: 2416253 addBufferAt(Untitled-1 (~/),-1)
+14:53:31 [AWT-EventQueue-0] [debug] BufferSet: 2416253: Buffer added Untitled-1 (~/) at 0
+14:53:31 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/)]
+14:53:31 [AWT-EventQueue-0] [debug] BufferSet: 2416253 addBufferAt(Untitled-1 (~/),-1)
+14:53:31 [AWT-EventQueue-0] [debug] BufferSet: 2416253: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive,global]
+14:53:31 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFERSET_CHANGED,source=org.gjt.sp.jedit.EditPane[inactive,global]]
+14:53:31 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive,global]]
+14:53:31 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive,global]]
+14:53:31 [AWT-EventQueue-0] [debug] BufferSet: 2416253: Buffer added Untitled-1 (~/) at 0
+14:53:31 [AWT-EventQueue-0] [debug] BufferSet: 2416253: addBufferSetListener buffertabs.BufferTabs[Untitled-1]
+14:53:32 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+14:53:32 [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+14:53:32 [jEdit I/O #1] [debug] WorkThread: Work request thread starting [jEdit I/O #1]
+14:53:32 [jEdit I/O #2] [debug] WorkThread: Work request thread starting [jEdit I/O #2]
+14:53:32 [jEdit I/O #3] [debug] WorkThread: Work request thread starting [jEdit I/O #3]
+14:53:32 [jEdit I/O #4] [debug] WorkThread: Work request thread starting [jEdit I/O #4]
+14:53:32 [AWT-EventQueue-0] [message] jEdit: Startup complete
+14:53:32 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/kmcd/jedit/4.3.1/modes/text.xml
+14:53:32 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/)]
+14:53:32 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/)]
+14:53:32 [AWT-EventQueue-0] [debug] SideKick: No parser
+14:53:32 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@159ea8e
+14:53:32 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+14:53:32 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+14:53:32 [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+14:53:34 [AWT-EventQueue-0] [debug] ActionSet: Loading actions from jeditresource:/OpenIt.jar!/actions.xml
+14:53:34 [AWT-EventQueue-0] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/OpenIt.jar
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR: Error while starting plugin org.etheridge.openit.OpenItPlugin
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR: java.lang.NoClassDefFoundError: projectviewer/vpt/VPTNode
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.lang.Class.getDeclaredMethods0(Native Method)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.lang.Class.privateGetDeclaredMethods(Class.java:2427)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.lang.Class.privateGetPublicMethods(Class.java:2547)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.lang.Class.getMethods(Class.java:1410)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.EditBus$HandlerList.addComponent(EditBus.java:357)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.EditBus.addToBus(EditBus.java:140)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.EditBus.addToBus(EditBus.java:120)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.etheridge.openit.PVListener.start(Unknown Source)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.etheridge.openit.OpenItPlugin.start(Unknown Source)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.PluginJAR.startPlugin(PluginJAR.java:1392)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.PluginJAR.activatePlugin(PluginJAR.java:753)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.JARClassLoader._loadClass(JARClassLoader.java:414)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.JARClassLoader.loadClass(JARClassLoader.java:109)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.bsh.classpath.ClassManagerImpl.classForName(ClassManagerImpl.java:203)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.bsh.NameSpace.classForName(NameSpace.java:1318)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.bsh.NameSpace.getClassImpl(NameSpace.java:1218)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.bsh.NameSpace.getClass(NameSpace.java:1159)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.bsh.Name.consumeNextObjectField(Name.java:298)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.bsh.Name.toObject(Name.java:199)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.bsh.Name.toObject(Name.java:182)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.bsh.Name.invokeMethod(Name.java:829)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.bsh.BSHMethodInvocation.eval(BSHMethodInvocation.java:75)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:102)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.bsh.BSHPrimaryExpression.eval(BSHPrimaryExpression.java:47)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.bsh.BSHBlock.evalBlock(BSHBlock.java:130)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.bsh.BSHBlock.eval(BSHBlock.java:80)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.bsh.BshMethod.invokeImpl(BshMethod.java:362)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.bsh.BshMethod.invoke(BshMethod.java:258)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.bsh.BshMethod.invoke(BshMethod.java:186)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.BeanShellFacade.runCachedBlock(BeanShellFacade.java:225)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.BeanShell.runCachedBlock(BeanShell.java:423)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.BeanShellAction.invoke(BeanShellAction.java:73)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.gui.InputHandler.invokeAction(InputHandler.java:352)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.gui.InputHandler.invokeAction(InputHandler.java:317)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.gui.DefaultInputHandler.handleKey(DefaultInputHandler.java:197)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.input.AbstractInputHandler.processKeyEventKeyStrokeHandling(AbstractInputHandler.java:405)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.gui.InputHandler.processKeyEvent(InputHandler.java:151)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.textarea.TextArea.processKeyEvent(TextArea.java:4633)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.awt.Component.processEvent(Component.java:6040)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.awt.Container.processEvent(Container.java:2041)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.awt.Component.dispatchEventImpl(Component.java:4630)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.awt.Container.dispatchEventImpl(Container.java:2099)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.awt.Component.dispatchEvent(Component.java:4460)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1850)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:712)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:990)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:855)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:676)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.awt.Component.dispatchEventImpl(Component.java:4502)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.awt.Container.dispatchEventImpl(Container.java:2099)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.awt.Window.dispatchEventImpl(Window.java:2478)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.awt.Component.dispatchEvent(Component.java:4460)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.awt.EventQueue.dispatchEvent(EventQueue.java:599)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:269)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:184)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:174)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:169)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:161)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.awt.EventDispatchThread.run(EventDispatchThread.java:122)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR: Caused by: java.lang.ClassNotFoundException: projectviewer.vpt.VPTNode
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.security.AccessController.doPrivileged(Native Method)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.JARClassLoader.loadFromParent(JARClassLoader.java:539)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at org.gjt.sp.jedit.JARClassLoader.loadClass(JARClassLoader.java:87)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+14:53:34 [AWT-EventQueue-0] [error] PluginJAR:  ... 60 more
+14:53:34 [AWT-EventQueue-0] [error] ErrorListDialog$ErrorEntry: /home/kmcd/.jedit/jars/OpenIt.jar:
+14:53:34 [AWT-EventQueue-0] [error] ErrorListDialog$ErrorEntry: Cannot start: java.lang.NoClassDefFoundError: projectviewer/vpt/VPTNode
+14:53:34 [AWT-EventQueue-0] [error] ErrorListDialog$ErrorEntry: Try updating to a newer version of the plugin.
+14:53:34 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/OpenIt.jar,class=org.etheridge.openit.OpenItPlugin]
+14:53:34 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+14:53:34 [Thread-4] [error] Thread-4: Exception in thread "Thread-4" 
+14:53:34 [Thread-4] [error] Thread-4: java.lang.NoClassDefFoundError: org/etheridge/openit/sourcepath/filter/RegularExpressionSourcePathFilter
+14:53:34 [Thread-4] [error] Thread-4:  at org.etheridge.openit.SourcePathManager.recreateSourcePaths(Unknown Source)
+14:53:34 [Thread-4] [error] Thread-4:  at org.etheridge.openit.SourcePathManager.access$000(Unknown Source)
+14:53:34 [Thread-4] [error] Thread-4:  at org.etheridge.openit.SourcePathManager$SourcePathRefreshThread.run(Unknown Source)
+14:53:34 [Thread-4] [error] Thread-4: Caused by: java.lang.ClassNotFoundException: org.etheridge.openit.sourcepath.filter.RegularExpressionSourcePathFilter
+14:53:34 [Thread-4] [error] Thread-4:  at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+14:53:34 [Thread-4] [error] Thread-4:  at java.security.AccessController.doPrivileged(Native Method)
+14:53:34 [Thread-4] [error] Thread-4:  at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+14:53:34 [Thread-4] [error] Thread-4:  at java.lang.ClassLoader.loadClass(ClassLoader.java:307)
+14:53:34 [Thread-4] [error] Thread-4:  at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+14:53:34 [Thread-4] [error] Thread-4:  at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+14:53:34 [Thread-4] [error] Thread-4:  at org.gjt.sp.jedit.JARClassLoader.loadFromParent(JARClassLoader.java:539)
+14:53:34 [Thread-4] [error] Thread-4:  at org.gjt.sp.jedit.JARClassLoader.loadClass(JARClassLoader.java:87)
+14:53:34 [Thread-4] [error] Thread-4:  at java.lang.ClassLoader.loadClass(ClassLoader.java:248)
+14:53:34 [Thread-4] [error] Thread-4:  ... 3 more
+14:53:37 [AWT-EventQueue-0] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/Beauty.jar
+14:53:40 [AWT-EventQueue-0] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/OpenIt.jar
+14:53:41 [AWT-EventQueue-0] [debug] PluginJAR: Opening /home/kmcd/jedit/4.3.1/jars/QuickNotepad.jar
+14:53:44 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=3,run=org.gjt.sp.jedit.pluginmgr.PluginManager$2@14683c0]
+14:53:44 [jEdit I/O #4] [message] PluginList: PluginList cached copy too old. Downloading from mirror. 
+14:53:45 [jEdit I/O #4] [message] PluginList: Updated cached pluginlist 347
+14:53:45 [jEdit I/O #4] [message] PluginList: Using cached pluginlist
+14:53:48 [AWT-EventQueue-0] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/TextTools.jar
+14:53:50 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=false,source=/home/kmcd/.jedit/jars/OpenIt.jar,class=org.etheridge.openit.OpenItPlugin]
+14:53:50 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+14:53:50 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugins,source=null]
+14:53:50 [AWT-EventQueue-0] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/FindFile.jar
+14:53:53 [AWT-EventQueue-0] [notice] Roster$Remove: Deleting /home/kmcd/.jedit/jars/OpenIt.jar
+14:53:57 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/perspective.xml" to "/home/kmcd/.jedit/settings-backup/perspective.xml~1~"
+14:54:13 [AWT-EventQueue-0] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/OpenIt.jar
+14:54:13 [AWT-EventQueue-0] [debug] ActionSet: Loading actions from jeditresource:/OpenIt.jar!/actions.xml
+14:54:14 [AWT-EventQueue-0] [debug] PluginJAR: Writing /home/kmcd/.jedit/jars-cache/OpenIt.jar.summary
+14:54:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/OpenIt.jar,class=org.etheridge.openit.OpenItPlugin]
+14:54:14 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+14:54:14 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugins,source=null]
+14:54:14 [AWT-EventQueue-0] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/ProjectViewer.jar
+14:54:14 [AWT-EventQueue-0] [debug] ActionSet: Loading actions from jeditresource:/ProjectViewer.jar!/actions.xml
+14:54:14 [AWT-EventQueue-0] [debug] DockableWindowManager: Loading dockables from jeditresource:/ProjectViewer.jar!/dockables.xml
+14:54:14 [AWT-EventQueue-0] [debug] PluginJAR: Writing /home/kmcd/.jedit/jars-cache/ProjectViewer.jar.summary
+14:54:14 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/ProjectViewer.jar,class=projectviewer.ProjectPlugin]
+14:54:14 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+14:54:14 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugins,source=null]
+14:54:14 [AWT-EventQueue-0] [debug] PluginJAR: Opening /home/kmcd/jedit/4.3.1/jars/LatestVersion.jar
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+14:54:22 [AWT-EventQueue-0] [message] PerspectiveManager: Saving /home/kmcd/.jedit/perspective.xml
+14:54:22 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/perspective.xml" to "/home/kmcd/.jedit/settings-backup/perspective.xml~1~"
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active,global]]
+14:54:22 [AWT-EventQueue-0] [notice] CandyFoldsPlugin: textAreaExt removed
+14:54:22 [AWT-EventQueue-0] [debug] BufferSet: 2416253: removeBufferSetListener buffertabs.BufferTabs[]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/jedit/4.3.1/jars/LatestVersion.jar,class=LatestVersionPlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/jedit/4.3.1/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,source=/home/kmcd/.jedit/jars/SideKick.jar,class=sidekick.SideKickPlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/SideKick.jar,class=sidekick.SideKickPlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,source=/home/kmcd/.jedit/jars/Console.jar,class=console.ConsolePlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/Console.jar,class=console.ConsolePlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/resolver.jar]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/jna.jar]
+14:54:22 [AWT-EventQueue-0] [debug] SpellCheckPlugin: stopping SpellCheckPlugin
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,source=/home/kmcd/.jedit/jars/SpellCheck.jar,class=cswilly.jeditPlugins.spell.SpellCheckPlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/SpellCheck.jar,class=cswilly.jeditPlugins.spell.SpellCheckPlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,source=/home/kmcd/.jedit/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/jing.jar]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,source=/home/kmcd/.jedit/jars/CandyFolds.jar,class=candyfolds.CandyFoldsPlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/CandyFolds.jar,class=candyfolds.CandyFoldsPlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/kappalayout.jar]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/trang.jar]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/Beauty.jar,class=beauty.BeautyPlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/CommonControls.jar,class=CommonControlsPlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/TextTools.jar,class=TextToolsPlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/jsch.jar]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/relaxngDatatype.jar]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/FindFile.jar,class=findfile.FindFilePlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,source=/home/kmcd/.jedit/jars/Sessions.jar,class=sessions.SessionsPlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/Sessions.jar,class=sessions.SessionsPlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/hunspell.jar]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/xercesImpl.jar]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/SuperAbbrevs.jar,class=SuperAbbrevsPlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,source=/home/kmcd/.jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/FTP.jar,class=ftp.FtpPlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,source=/home/kmcd/.jedit/jars/VoxSpell.jar,class=voxspellcheck.VoxSpellPlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/VoxSpell.jar,class=voxspellcheck.VoxSpellPlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/colorchooser.jar,class=colorchooser.ColorChooserPlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/XML.jar,class=xml.XmlPlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/XercesPlugin.jar,class=xerces.XercesPlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/OpenIt.jar,class=org.etheridge.openit.OpenItPlugin]
+14:54:22 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/ProjectViewer.jar,class=projectviewer.ProjectPlugin]
+14:54:22 [AWT-EventQueue-0] [message] HistoryModel: Saving history
+14:54:22 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/history" to "/home/kmcd/.jedit/settings-backup/history~1~"
+14:54:22 [AWT-EventQueue-0] [message] BufferHistory: Saving /home/kmcd/.jedit/recent.xml
+14:54:22 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/recent.xml" to "/home/kmcd/.jedit/settings-backup/recent.xml~1~"
+14:54:22 [AWT-EventQueue-0] [message] KillRing: Saving /home/kmcd/.jedit/killring.xml
+14:54:22 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/killring.xml" to "/home/kmcd/.jedit/settings-backup/killring.xml~1~"
+14:54:22 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/properties" to "/home/kmcd/.jedit/settings-backup/properties~1~"

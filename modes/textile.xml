@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!DOCTYPE MODE SYSTEM "xmode.dtd">
+
+<!-- 
+This file goes in a jEdit "modes" subdirectory.  Add the following line to 
+the catalog file in that directory:
+
+<MODE NAME="xilize" FILE="xilize.xml" FILE_NAME_GLOB="*.xil*" />
+-->
+
+<MODE>
+	<PROPS>
+		<PROPERTY NAME="noTabs" VALUE="true"/>
+		<PROPERTY NAME="wrap" VALUE="soft"/>
+		<PROPERTY NAME="folding" VALUE="explicit"/>
+		<PROPERTY NAME="noTabs" VALUE="true"/>
+		<PROPERTY NAME="tabSize" VALUE="2"/>
+
+		<PROPERTY NAME="indentSize" VALUE="2"/>
+		<PROPERTY NAME="wrap" VALUE="soft"/>
+		<PROPERTY NAME="lineComment" VALUE=">xil>" />
+	</PROPS>
+	
+	<RULES IGNORE_CASE="TRUE">
+      <SPAN TYPE="LITERAL1" NO_LINE_BREAK="TRUE">
+			<BEGIN>"</BEGIN>
+			<END>"</END>
+		</SPAN>
+	</RULES>
+</MODE>
+

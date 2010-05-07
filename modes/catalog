@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE MODES SYSTEM "catalog.dtd">
+
+<MODES>
+
+<!-- Add lines like the following, one for each edit mode you add: -->
+<!-- <MODE NAME="foo" FILE="foo.xml" FILE_NAME_GLOB="*.foo" /> -->
+   <MODE NAME="haml" FILE="haml.xml" FILE_NAME_GLOB="*.haml" />
+   <MODE NAME="sass" FILE="sass.xml" FILE_NAME_GLOB="*.sass" />
+   <MODE NAME="yaml" FILE="yaml.xml" FILE_NAME_GLOB="*.yml" />
+   <MODE NAME="user story" FILE="user_story.xml" FILE_NAME_GLOB="*.{story,feature,features}" />
+   <MODE NAME="textile" FILE="textile.xml" FILE_NAME_GLOB="*txtl" />
+</MODES>

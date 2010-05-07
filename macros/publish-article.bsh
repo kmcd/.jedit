@@ -1,0 +1,4 @@
+// 1. Prompt for commit message (or just use article name)
+// 2. Commit to local repo
+// 3. Push to heroku
+// 4. Push to github

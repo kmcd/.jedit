@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE MODE SYSTEM "xmode.dtd">
+
+<MODE>
+   <PROPS>
+      <PROPERTY NAME="indentNextLines" VALUE="\s*((if\s+.*|Scenario:.*|Story:.*|)*)"/>
+   </PROPS>
+   
+   <RULES ESCAPE="\" IGNORE_CASE="FALSE" HIGHLIGHT_DIGITS="FALSE">
+   
+   <!-- A story -->
+      <EOL_SPAN TYPE="LITERAL1">Story:</EOL_SPAN>
+      <EOL_SPAN TYPE="LITERAL2">Feature:</EOL_SPAN>
+      <EOL_SPAN TYPE="LITERAL3">Scenario:</EOL_SPAN>
+      
+      <KEYWORDS>
+         <KEYWORD1>Given</KEYWORD1>
+         <KEYWORD2>When</KEYWORD2>
+         <KEYWORD3>Then</KEYWORD3>
+         <KEYWORD4>And</KEYWORD4>
+      </KEYWORDS>
+   </RULES>
+</MODE>
+

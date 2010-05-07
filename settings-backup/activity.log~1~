@@ -1,0 +1,1469 @@
+Log file created on Thu May 06 14:54:28 BST 2010
+IMPORTANT:
+Because updating this file after every log message would kill
+performance, it will be *incomplete* unless you invoke the
+Utilities->Troubleshooting->Update Activity Log on Disk command!
+14:54:27 [main] [message] Log: When reporting bugs, please include the following information:
+14:54:27 [main] [message] Log: java.version=1.6.0_20
+14:54:27 [main] [message] Log: java.vm.version=16.3-b01
+14:54:27 [main] [message] Log: java.runtime.version=1.6.0_20-b02
+14:54:27 [main] [message] Log: java.vendor=Sun Microsystems Inc.
+14:54:27 [main] [message] Log: java.compiler=null
+14:54:27 [main] [message] Log: os.name=Linux
+14:54:27 [main] [message] Log: os.version=2.6.32-22-generic
+14:54:27 [main] [message] Log: os.arch=i386
+14:54:27 [main] [message] Log: user.home=/home/kmcd
+14:54:27 [main] [message] Log: java.home=/usr/lib/jvm/java-6-sun-1.6.0.20/jre
+14:54:27 [main] [message] Log: java.class.path=/home/kmcd/jedit/4.3.1/jedit.jar
+14:54:28 [main] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/activity.log" to "/home/kmcd/.jedit/settings-backup/activity.log~1~"
+14:54:28 [main] [notice] jEdit: jEdit version 4.3.1
+14:54:28 [main] [message] jEdit: Settings directory is /home/kmcd/.jedit
+14:54:28 [main] [message] jEdit: jEdit home directory is /home/kmcd/jedit/4.3.1
+14:54:28 [main] [debug] SplashScreen: init:32ms
+14:54:28 [main] [debug] SplashScreen: init system properties:64ms
+14:54:28 [main] [message] BeanShell: Beanshell Init
+14:54:28 [main] [debug] SplashScreen: init beanshell:73ms
+14:54:28 [main] [debug] SplashScreen: loading site properties:3ms
+14:54:28 [main] [debug] SplashScreen: loading user properties:9ms
+14:54:28 [main] [debug] GUIUtilities: Icon theme set to: tango
+14:54:28 [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+14:54:28 [main] [debug] SplashScreen: init GUI:28ms
+14:54:28 [main] [debug] EditServer: jEdit server started on port 53235
+14:54:28 [main] [debug] EditServer: Authorization key is 1546430741
+14:54:28 [main] [debug] SplashScreen: init server:35ms
+14:54:28 [main] [debug] SplashScreen: init look and feel:221ms
+14:54:28 [main] [debug] SplashScreen: init VFS Manager:12ms
+14:54:28 [main] [debug] ActionSet: Loading actions from jar:file:/home/kmcd/jedit/4.3.1/jedit.jar!/org/gjt/sp/jedit/actions.xml
+14:54:29 [main] [debug] DockableWindowManager: Loading dockables from jar:file:/home/kmcd/jedit/4.3.1/jedit.jar!/org/gjt/sp/jedit/dockables.xml
+14:54:29 [main] [debug] EditBus: SearchSettingsChanged[source=null]
+14:54:29 [main] [debug] SplashScreen: init resources:275ms
+14:54:29 [main] [notice] jEdit: Loading plugins from /home/kmcd/jedit/4.3.1/jars
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/jedit/4.3.1/jars/LatestVersion.jar,class=LatestVersionPlugin]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/jedit/4.3.1/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+14:54:29 [main] [notice] jEdit: Loading plugins from /home/kmcd/.jedit/jars
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/SideKick.jar,class=sidekick.SideKickPlugin]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/Console.jar,class=console.ConsolePlugin]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/OpenIt.jar,class=org.etheridge.openit.OpenItPlugin]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/resolver.jar]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/jna.jar]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/SpellCheck.jar,class=cswilly.jeditPlugins.spell.SpellCheckPlugin]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/jing.jar]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/CandyFolds.jar,class=candyfolds.CandyFoldsPlugin]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/kappalayout.jar]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/trang.jar]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/Beauty.jar,class=beauty.BeautyPlugin]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/CommonControls.jar,class=CommonControlsPlugin]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/TextTools.jar,class=TextToolsPlugin]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/jsch.jar]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/relaxngDatatype.jar]
+14:54:29 [main] [debug] ActionSet: Loading actions from jar:file:/home/kmcd/jedit/4.3.1/jedit.jar!/org/gjt/sp/jedit/browser.actions.xml
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/FindFile.jar,class=findfile.FindFilePlugin]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/Sessions.jar,class=sessions.SessionsPlugin]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/hunspell.jar]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/xercesImpl.jar]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/SuperAbbrevs.jar,class=SuperAbbrevsPlugin]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/ProjectViewer.jar,class=projectviewer.ProjectPlugin]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/FTP.jar,class=ftp.FtpPlugin]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/VoxSpell.jar,class=voxspellcheck.VoxSpellPlugin]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/colorchooser.jar,class=colorchooser.ColorChooserPlugin]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/XML.jar,class=xml.XmlPlugin]
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/XercesPlugin.jar,class=xerces.XercesPlugin]
+14:54:29 [main] [debug] SplashScreen: init plugins:301ms
+14:54:29 [main] [message] HistoryModel: Loading history
+14:54:29 [main] [debug] SplashScreen: init history model:12ms
+14:54:29 [main] [message] BufferHistory: Loading /home/kmcd/.jedit/recent.xml
+14:54:29 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/xercesImpl.jar
+14:54:29 [main] [debug] SplashScreen: init buffer history:282ms
+14:54:29 [main] [message] KillRing: Loading /home/kmcd/.jedit/killring.xml
+14:54:29 [main] [debug] SplashScreen: init killring:24ms
+14:54:29 [main] [debug] jEdit: SOCKS proxy disabled
+14:54:29 [main] [debug] jEdit: HTTP proxy disabled
+14:54:29 [main] [debug] EditBus: PropertiesChanged[source=null]
+14:54:29 [main] [debug] SplashScreen: init various properties:54ms
+14:54:29 [main] [message] jEdit: Loading mode catalog file /home/kmcd/jedit/4.3.1/modes/catalog
+14:54:29 [main] [message] jEdit: Loading mode catalog file /home/kmcd/.jedit/modes/catalog
+14:54:29 [main] [debug] SplashScreen: init modes:100ms
+14:54:29 [main] [debug] PluginJAR: Activating sidekick.SideKickPlugin because of startup
+14:54:29 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/SideKick.jar
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/SideKick.jar,class=sidekick.SideKickPlugin]
+14:54:29 [main] [debug] PluginJAR: Activating console.ConsolePlugin because of startup
+14:54:29 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/Console.jar
+14:54:29 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+14:54:29 [main] [debug] ConsolePlugin: Loaded 15 Actions
+14:54:29 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/ErrorList.jar
+14:54:29 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
+14:54:30 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/Console.jar,class=console.ConsolePlugin]
+14:54:30 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+14:54:30 [main] [debug] PluginJAR: Activating cswilly.jeditPlugins.spell.SpellCheckPlugin because of startup
+14:54:30 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/SpellCheck.jar
+14:54:30 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/SpellCheck.jar,class=cswilly.jeditPlugins.spell.SpellCheckPlugin]
+14:54:30 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+14:54:30 [main] [debug] PluginJAR: Activating candyfolds.CandyFoldsPlugin because of startup
+14:54:30 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/CandyFolds.jar
+14:54:30 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/CandyFolds.jar,class=candyfolds.CandyFoldsPlugin]
+14:54:30 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+14:54:30 [main] [debug] PluginJAR: Activating sessions.SessionsPlugin because of startup
+14:54:30 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/Sessions.jar
+14:54:30 [main] [debug] Session: open: name=default
+14:54:30 [main] [debug] Session: loadXML: name=default filename=/home/kmcd/.jedit/sessions/default.xml
+14:54:30 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/Sessions.jar,class=sessions.SessionsPlugin]
+14:54:30 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+14:54:30 [main] [debug] PluginJAR: Activating buffertabs.BufferTabsPlugin because of startup
+14:54:30 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/BufferTabs.jar
+14:54:30 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+14:54:30 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+14:54:30 [main] [debug] PluginJAR: Activating voxspellcheck.VoxSpellPlugin because of startup
+14:54:30 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/VoxSpell.jar
+14:54:33 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/VoxSpell.jar,class=voxspellcheck.VoxSpellPlugin]
+14:54:33 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+14:54:33 [main] [debug] SplashScreen: activate plugins:3101ms
+14:54:33 [main] [debug] Macros: Registered beanshell macro handler
+14:54:33 [main] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+14:54:33 [main] [message] BeanShell: Running script /home/kmcd/jedit/4.3.1/startup/startup.bsh
+14:54:33 [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+14:54:33 [main] [debug] SplashScreen: init macros:141ms
+14:54:33 [main] [debug] SplashScreen: run startup scripts:3ms
+14:54:33 [main] [debug] SplashScreen: run startup scripts:5ms
+14:54:33 [AWT-EventQueue-0] [message] PerspectiveManager: Loading /home/kmcd/.jedit/perspective.xml
+14:54:33 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/)]
+14:54:33 [AWT-EventQueue-0] [debug] BufferSet: 8886368 addBufferAt(Untitled-1 (~/),-1)
+14:54:33 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer added Untitled-1 (~/) at 0
+14:54:33 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/)]
+14:54:33 [AWT-EventQueue-0] [debug] BufferSet: 8886368 addBufferAt(Untitled-1 (~/),-1)
+14:54:33 [AWT-EventQueue-0] [debug] BufferSet: 8886368: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive,global]
+14:54:33 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFERSET_CHANGED,source=org.gjt.sp.jedit.EditPane[inactive,global]]
+14:54:33 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive,global]]
+14:54:34 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive,global]]
+14:54:34 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer added Untitled-1 (~/) at 0
+14:54:34 [AWT-EventQueue-0] [debug] BufferSet: 8886368: addBufferSetListener buffertabs.BufferTabs[Untitled-1]
+14:54:34 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+14:54:34 [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+14:54:34 [jEdit I/O #1] [debug] WorkThread: Work request thread starting [jEdit I/O #1]
+14:54:34 [jEdit I/O #2] [debug] WorkThread: Work request thread starting [jEdit I/O #2]
+14:54:34 [jEdit I/O #3] [debug] WorkThread: Work request thread starting [jEdit I/O #3]
+14:54:34 [jEdit I/O #4] [debug] WorkThread: Work request thread starting [jEdit I/O #4]
+14:54:34 [AWT-EventQueue-0] [message] jEdit: Startup complete
+14:54:34 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+14:54:35 [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+14:54:35 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/kmcd/jedit/4.3.1/modes/text.xml
+14:54:35 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/)]
+14:54:35 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/)]
+14:54:35 [AWT-EventQueue-0] [debug] SideKick: No parser
+14:54:35 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@24e801
+14:54:35 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+14:54:36 [AWT-EventQueue-0] [debug] ActionSet: Loading actions from jeditresource:/OpenIt.jar!/actions.xml
+14:54:36 [AWT-EventQueue-0] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/OpenIt.jar
+14:54:36 [AWT-EventQueue-0] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/ProjectViewer.jar
+14:54:36 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/ProjectViewer.jar,class=projectviewer.ProjectPlugin]
+14:54:36 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+14:54:36 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/OpenIt.jar,class=org.etheridge.openit.OpenItPlugin]
+14:54:36 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+14:54:59 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/perspective.xml" to "/home/kmcd/.jedit/settings-backup/perspective.xml~1~"
+14:55:01 [AWT-EventQueue-0] [debug] jEdit: SOCKS proxy disabled
+14:55:01 [AWT-EventQueue-0] [debug] jEdit: HTTP proxy disabled
+14:55:01 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/)]
+14:55:01 [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+14:55:01 [AWT-EventQueue-0] [message] HistoryModel: Saving history
+14:55:01 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/history" to "/home/kmcd/.jedit/settings-backup/history~1~"
+14:55:01 [AWT-EventQueue-0] [message] BufferHistory: Saving /home/kmcd/.jedit/recent.xml
+14:55:01 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/recent.xml" to "/home/kmcd/.jedit/settings-backup/recent.xml~1~"
+14:55:01 [AWT-EventQueue-0] [message] KillRing: Saving /home/kmcd/.jedit/killring.xml
+14:55:01 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/killring.xml" to "/home/kmcd/.jedit/settings-backup/killring.xml~1~"
+14:55:01 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/properties" to "/home/kmcd/.jedit/settings-backup/properties~1~"
+14:55:08 [AWT-EventQueue-0] [debug] jEdit: SOCKS proxy disabled
+14:55:08 [AWT-EventQueue-0] [debug] jEdit: HTTP proxy disabled
+14:55:08 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/)]
+14:55:08 [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+14:55:08 [AWT-EventQueue-0] [message] BufferHistory: Saving /home/kmcd/.jedit/recent.xml
+14:55:08 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/recent.xml" to "/home/kmcd/.jedit/settings-backup/recent.xml~1~"
+14:55:08 [AWT-EventQueue-0] [message] KillRing: Saving /home/kmcd/.jedit/killring.xml
+14:55:08 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/killring.xml" to "/home/kmcd/.jedit/settings-backup/killring.xml~1~"
+14:55:08 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/properties" to "/home/kmcd/.jedit/settings-backup/properties~1~"
+14:55:09 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+14:55:15 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=metrix.js (~/src/metrixapp/public/)]
+14:55:15 [AWT-EventQueue-0] [debug] BufferSet: 8886368 addBufferAt(metrix.js (~/src/metrixapp/public/),-1)
+14:55:15 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer added metrix.js (~/src/metrixapp/public/) at 0
+14:55:15 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=3,run=org.gjt.sp.jedit.bufferio.BufferLoadRequest[metrix.js (~/src/metrixapp/public/)]]
+14:55:15 [AWT-EventQueue-0] [debug] BufferSetManager: removeBuffer(BufferSet[nbBuffers=2],Untitled-1 (~/))
+14:55:15 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer removed Untitled-1 (~/)
+14:55:15 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+14:55:15 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+14:55:15 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (~/) is in no bufferSet anymore, closing it
+14:55:15 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSING,view=null,source=Untitled-1 (~/)]
+14:55:15 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=null,source=Untitled-1 (~/)]
+14:55:15 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=metrix.js (~/src/metrixapp/public/)]
+14:55:15 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/kmcd/jedit/4.3.1/modes/javascript.xml
+14:55:15 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=metrix.js (~/src/metrixapp/public/)]
+14:55:15 [AWT-EventQueue-0] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/XML.jar
+14:55:16 [AWT-EventQueue-0] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/resolver.jar
+14:55:16 [AWT-EventQueue-0] [error] AWT-EventQueue-0: JAXP: find factoryId =javax.xml.parsers.SAXParserFactory
+14:55:16 [AWT-EventQueue-0] [error] AWT-EventQueue-0: JAXP: found jar resource=META-INF/services/javax.xml.parsers.SAXParserFactory using ClassLoader: <anonymous>(1)
+14:55:16 [AWT-EventQueue-0] [error] AWT-EventQueue-0: JAXP: found in resource, value=org.apache.xerces.jaxp.SAXParserFactoryImpl
+14:55:16 [AWT-EventQueue-0] [error] AWT-EventQueue-0: JAXP: created new instance of class org.apache.xerces.jaxp.SAXParserFactoryImpl using ClassLoader: <anonymous>(1)
+14:55:16 [AWT-EventQueue-0] [message] Resolver: Loading system catalogs
+14:55:16 [AWT-EventQueue-0] [error] AWT-EventQueue-0: Cannot find CatalogManager.properties
+14:55:16 [AWT-EventQueue-0] [message] Resolver: Loading internal catalog: jeditresource:/XML.jar!/xml/dtds/catalog
+14:55:16 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/XML.jar,class=xml.XmlPlugin]
+14:55:16 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+14:55:16 [AWT-EventQueue-0] [debug] JavaScriptParser: javascript: activated for metrix.js (~/src/metrixapp/public/)
+14:55:16 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=metrix.js (~/src/metrixapp/public/)]
+14:55:16 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@81933a
+14:55:16 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+14:55:16 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+14:55:16 [SideKick #1] [debug] WorkThread: Work request thread starting [SideKick #1]
+14:55:16 [SideKick #1] [debug] WorkThread: Running in work thread: [id=6,run=sidekick.SideKick$ParseRequest@9b86ea]
+14:55:16 [SideKick #1] [debug] JavaScriptParser: +++++ startLine = 0
+14:55:16 [SideKick #1] [debug] JavaScriptParser: parsing completed
+14:55:16 [SideKick #1] [debug] JavaScriptParser: tree built
+14:55:16 [AWT-EventQueue-0] [debug] SideKick$ParseAWTRequest: ParseAWTRequest
+14:55:16 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@9d267d
+14:55:16 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+14:55:21 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+14:55:22 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+14:55:24 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+14:55:25 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+14:55:25 [AWT-EventQueue-0] [debug] BufferSet: 8886368 addBufferAt(todo.txt (~/src/metrixapp/),-1)
+14:55:25 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=8,run=org.gjt.sp.jedit.bufferio.BufferLoadRequest[todo.txt (~/src/metrixapp/)]]
+14:55:25 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer added todo.txt (~/src/metrixapp/) at 1
+14:55:25 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+14:55:25 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+14:55:25 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+14:55:25 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+14:55:25 [AWT-EventQueue-0] [debug] JavaScriptParser: javascript: deactivated
+14:55:25 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+14:55:25 [AWT-EventQueue-0] [debug] JavaScriptParser: javascript: deactivated
+14:55:25 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+14:55:25 [AWT-EventQueue-0] [debug] SideKick: No parser
+14:55:25 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@bbaa16
+14:55:25 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+14:55:25 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+14:55:26 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+14:55:29 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/perspective.xml" to "/home/kmcd/.jedit/settings-backup/perspective.xml~1~"
+14:56:02 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+14:56:04 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+14:56:07 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=populate.rake (~/src/metrixapp/lib/tasks/)]
+14:56:07 [AWT-EventQueue-0] [debug] BufferSet: 8886368 addBufferAt(populate.rake (~/src/metrixapp/lib/tasks/),-1)
+14:56:07 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=11,run=org.gjt.sp.jedit.bufferio.BufferLoadRequest[populate.rake (~/src/metrixapp/lib/tasks/)]]
+14:56:07 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer added populate.rake (~/src/metrixapp/lib/tasks/) at 1
+14:56:07 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=populate.rake (~/src/metrixapp/lib/tasks/)]
+14:56:07 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+14:56:07 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+14:56:07 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+14:56:07 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/kmcd/jedit/4.3.1/modes/ruby.xml
+14:56:07 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=populate.rake (~/src/metrixapp/lib/tasks/)]
+14:56:08 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=populate.rake (~/src/metrixapp/lib/tasks/)]
+14:56:08 [AWT-EventQueue-0] [debug] SideKick: No parser
+14:56:08 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@15a142f
+14:56:08 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+14:56:08 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+14:56:08 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+14:56:29 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/perspective.xml" to "/home/kmcd/.jedit/settings-backup/perspective.xml~1~"
+14:56:37 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+14:56:37 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+14:56:38 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+14:56:45 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+14:56:45 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+14:56:51 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+14:57:08 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+14:57:08 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+14:57:29 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+14:57:54 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+14:57:56 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+14:57:56 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+14:57:56 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+14:57:56 [AWT-EventQueue-0] [debug] SideKick: No parser
+14:57:56 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@f6852d
+14:57:56 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+14:57:58 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+14:57:58 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+14:57:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+14:57:59 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=14,run=org.gjt.sp.jedit.bufferio.BufferAutosaveRequest[todo.txt (~/src/metrixapp/)]]
+14:58:10 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+14:58:10 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+14:58:10 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=15,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+14:58:10 [jEdit I/O #3] [debug] MiscUtilities: Saving backup of file "/home/kmcd/src/metrixapp/todo.txt" to "/home/kmcd/tmp/home/kmcd/src/metrixapp/jedit-bak.todo.txt"
+14:58:10 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+14:58:10 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+14:58:10 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+14:58:10 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+14:58:10 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+14:58:11 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=$,source=null]
+14:58:11 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+14:58:11 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+14:58:13 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+14:58:13 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+14:58:15 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+14:58:15 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+14:58:15 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=18,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+14:58:15 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+14:58:15 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+14:58:15 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+14:58:15 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+14:58:15 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+14:58:18 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=$,source=null]
+14:58:18 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+14:58:18 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+14:58:22 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+14:58:22 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+14:58:22 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+14:58:23 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+14:58:23 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=21,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+14:58:23 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+14:58:23 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+14:58:23 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+14:58:23 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+14:58:23 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+14:59:13 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+14:59:55 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:00:22 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:01:14 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:01:17 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:01:18 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:01:18 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:01:18 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:01:18 [AWT-EventQueue-0] [debug] SideKick: No parser
+15:01:18 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@7857a5
+15:01:18 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:01:21 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:01:22 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:01:23 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:01:28 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:01:28 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:03:50 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:03:50 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:03:51 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:03:54 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:15:15 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:15:15 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:15:17 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:15:17 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:15:17 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSING,view=org.gjt.sp.jedit.View[active],source=populate.rake (~/src/metrixapp/lib/tasks/)]
+15:15:17 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer removed populate.rake (~/src/metrixapp/lib/tasks/)
+15:15:17 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:15:17 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:15:17 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:15:17 [AWT-EventQueue-0] [debug] SideKick: No parser
+15:15:17 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@394ffa
+15:15:17 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:15:17 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=populate.rake (~/src/metrixapp/lib/tasks/)]
+15:15:19 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:15:19 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:15:19 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:15:19 [AWT-EventQueue-0] [debug] JavaScriptParser: javascript: activated for metrix.js (~/src/metrixapp/public/)
+15:15:19 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@52f73e
+15:15:19 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:15:19 [SideKick #1] [debug] WorkThread: Running in work thread: [id=24,run=sidekick.SideKick$ParseRequest@e634bf]
+15:15:19 [SideKick #1] [debug] JavaScriptParser: +++++ startLine = 0
+15:15:19 [SideKick #1] [debug] JavaScriptParser: parsing completed
+15:15:19 [SideKick #1] [debug] JavaScriptParser: tree built
+15:15:19 [AWT-EventQueue-0] [debug] SideKick$ParseAWTRequest: ParseAWTRequest
+15:15:19 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@142f703
+15:15:19 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:15:19 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:15:19 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:15:19 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSING,view=org.gjt.sp.jedit.View[active],source=metrix.js (~/src/metrixapp/public/)]
+15:15:19 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer removed metrix.js (~/src/metrixapp/public/)
+15:15:19 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:15:19 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:15:19 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:15:19 [AWT-EventQueue-0] [debug] JavaScriptParser: javascript: deactivated
+15:15:19 [AWT-EventQueue-0] [debug] SideKick: No parser
+15:15:19 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@8d0a11
+15:15:19 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:15:19 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=metrix.js (~/src/metrixapp/public/)]
+15:15:24 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=index.xml.erb (~/src/metrixapp/app/views/reports/)]
+15:15:24 [AWT-EventQueue-0] [debug] BufferSet: 8886368 addBufferAt(index.xml.erb (~/src/metrixapp/app/views/reports/),-1)
+15:15:24 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=26,run=org.gjt.sp.jedit.bufferio.BufferLoadRequest[index.xml.erb (~/src/metrixapp/app/views/reports/)]]
+15:15:24 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer added index.xml.erb (~/src/metrixapp/app/views/reports/) at 0
+15:15:24 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=index.xml.erb (~/src/metrixapp/app/views/reports/)]
+15:15:24 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:15:24 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:15:24 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:15:24 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/kmcd/jedit/4.3.1/modes/rhtml.xml
+15:15:24 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/kmcd/jedit/4.3.1/modes/html.xml
+15:15:24 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/kmcd/jedit/4.3.1/modes/xml.xml
+15:15:24 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/kmcd/jedit/4.3.1/modes/css.xml
+15:15:24 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/kmcd/jedit/4.3.1/modes/javascript.xml
+15:15:24 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/kmcd/jedit/4.3.1/modes/xml.xml
+15:15:24 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/kmcd/jedit/4.3.1/modes/css.xml
+15:15:24 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/kmcd/jedit/4.3.1/modes/javascript.xml
+15:15:24 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/kmcd/jedit/4.3.1/modes/javascript.xml
+15:15:24 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/kmcd/jedit/4.3.1/modes/ruby.xml
+15:15:24 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/kmcd/jedit/4.3.1/modes/html.xml
+15:15:24 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/kmcd/jedit/4.3.1/modes/xml.xml
+15:15:24 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/kmcd/jedit/4.3.1/modes/css.xml
+15:15:24 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/kmcd/jedit/4.3.1/modes/javascript.xml
+15:15:24 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/kmcd/jedit/4.3.1/modes/javascript.xml
+15:15:25 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/kmcd/jedit/4.3.1/modes/xml.xml
+15:15:25 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=index.xml.erb (~/src/metrixapp/app/views/reports/)]
+15:15:25 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=index.xml.erb (~/src/metrixapp/app/views/reports/)]
+15:15:25 [AWT-EventQueue-0] [debug] SideKick: No parser
+15:15:25 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@1c4bcda
+15:15:25 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:15:25 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:15:25 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:15:29 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/perspective.xml" to "/home/kmcd/.jedit/settings-backup/perspective.xml~1~"
+15:15:36 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=amstock_settings.xml (~/src/metrixapp/public/amstock/)]
+15:15:36 [AWT-EventQueue-0] [debug] BufferSet: 8886368 addBufferAt(amstock_settings.xml (~/src/metrixapp/public/amstock/),-1)
+15:15:36 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer added amstock_settings.xml (~/src/metrixapp/public/amstock/) at 0
+15:15:36 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=29,run=org.gjt.sp.jedit.bufferio.BufferLoadRequest[amstock_settings.xml (~/src/metrixapp/public/amstock/)]]
+15:15:36 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=amstock_settings.xml (~/src/metrixapp/public/amstock/)]
+15:15:36 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:15:36 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:15:36 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:15:36 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=amstock_settings.xml (~/src/metrixapp/public/amstock/)]
+15:15:36 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=amstock_settings.xml (~/src/metrixapp/public/amstock/)]
+15:15:36 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@a93995
+15:15:36 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:15:36 [SideKick #1] [debug] WorkThread: Running in work thread: [id=32,run=sidekick.SideKick$ParseRequest@396c7]
+15:15:36 [SideKick #1] [debug] SchemaMappingManager: no schemas.xml in /home/kmcd/src/metrixapp/public/amstock/amstock_settings.xml
+15:15:36 [SideKick #1] [debug] SchemaMappingManager: global mapping=file:/home/kmcd/.jedit/plugins/xml.XmlPlugin/schemas.xml
+15:15:36 [SideKick #1] [debug] SchemaMapping: fromDocument(file:/home/kmcd/.jedit/plugins/xml.XmlPlugin/schemas.xml)
+15:15:37 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:15:37 [SideKick #1] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/jing.jar
+15:15:37 [SideKick #1] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/trang.jar
+15:15:37 [SideKick #1] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/relaxngDatatype.jar
+15:15:37 [SideKick #1] [debug] SchemaLoader: loadJaxpGrammar(null,locate.rng)
+15:15:37 [SideKick #1] [debug] Resolver: Resolver.resolveEntity(null,null,null,locate.rng)
+15:15:37 [SideKick #1] [debug] Resolver: resolvePublicOrSystemFromCache(locate.rng)
+15:15:37 [SideKick #1] [debug] Resolver: not found locate.rng in cache
+15:15:37 [SideKick #1] [debug] Resolver: resolvePublicOrSystemFromCache(jeditresource:/XML.jar!/xml/dtds/locate.rng)
+15:15:37 [SideKick #1] [debug] Resolver: not found jeditresource:/XML.jar!/xml/dtds/locate.rng in cache
+15:15:37 [SideKick #1] [debug] Resolver: resolving to local file: jeditresource:/XML.jar!/xml/dtds/locate.rng
+15:15:37 [SideKick #1] [debug] Resolver: systemId=: jeditresource:/XML.jar!/xml/dtds/locate.rng
+15:15:37 [SideKick #1] [error] SideKick #1: JAXP: find factoryId =javax.xml.parsers.SAXParserFactory
+15:15:37 [SideKick #1] [error] SideKick #1: JAXP: found jar resource=META-INF/services/javax.xml.parsers.SAXParserFactory using ClassLoader: <anonymous>(1)
+15:15:37 [SideKick #1] [error] SideKick #1: JAXP: found in resource, value=org.apache.xerces.jaxp.SAXParserFactoryImpl
+15:15:37 [SideKick #1] [error] SideKick #1: JAXP: created new instance of class org.apache.xerces.jaxp.SAXParserFactoryImpl using ClassLoader: <anonymous>(1)
+15:15:37 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:15:37 [SideKick #1] [debug] SchemaMapping: fromDocument(jeditresource:/XML.jar!/xml/dtds/schemas.xml)
+15:15:37 [SideKick #1] [debug] SchemaLoader: loadJaxpGrammar(null,locate.rng)
+15:15:37 [SideKick #1] [debug] Resolver: Resolver.resolveEntity(null,null,null,locate.rng)
+15:15:37 [SideKick #1] [debug] Resolver: resolvePublicOrSystemFromCache(locate.rng)
+15:15:37 [SideKick #1] [debug] Resolver: not found locate.rng in cache
+15:15:37 [SideKick #1] [debug] Resolver: resolvePublicOrSystemFromCache(jeditresource:/XML.jar!/xml/dtds/locate.rng)
+15:15:37 [SideKick #1] [debug] Resolver: not found jeditresource:/XML.jar!/xml/dtds/locate.rng in cache
+15:15:37 [SideKick #1] [debug] Resolver: resolving to local file: jeditresource:/XML.jar!/xml/dtds/locate.rng
+15:15:37 [SideKick #1] [debug] Resolver: systemId=: jeditresource:/XML.jar!/xml/dtds/locate.rng
+15:15:37 [SideKick #1] [error] SideKick #1: JAXP: find factoryId =javax.xml.parsers.SAXParserFactory
+15:15:37 [SideKick #1] [error] SideKick #1: JAXP: found jar resource=META-INF/services/javax.xml.parsers.SAXParserFactory using ClassLoader: <anonymous>(1)
+15:15:37 [SideKick #1] [error] SideKick #1: JAXP: found in resource, value=org.apache.xerces.jaxp.SAXParserFactoryImpl
+15:15:37 [SideKick #1] [error] SideKick #1: JAXP: created new instance of class org.apache.xerces.jaxp.SAXParserFactoryImpl using ClassLoader: <anonymous>(1)
+15:15:37 [SideKick #1] [debug] SchemaAutoLoader: PARSE input (null,/home/kmcd/src/metrixapp/public/amstock/amstock_settings.xml)
+15:15:37 [SideKick #1] [debug] SchemaAutoLoader: DOC element  (,settings,settings)
+15:15:37 [SideKick #1] [debug] SchemaMapping: getSchemaForDocumentElement(null,file:/home/kmcd/src/metrixapp/public/amstock/amstock_settings.xml,,,settings)
+15:15:37 [SideKick #1] [debug] SchemaMapping: getSchemaForDocumentElement(null,file:/home/kmcd/src/metrixapp/public/amstock/amstock_settings.xml,,,settings)
+15:15:37 [SideKick #1] [debug] SchemaMapping: resourceExists(file:/home/kmcd/src/metrixapp/public/amstock/amstock_settings.rng)
+15:15:37 [SideKick #1] [debug] SchemaMapping: resource 'file:/home/kmcd/src/metrixapp/public/amstock/amstock_settings.rng' not found for 'file:/home/kmcd/src/metrixapp/public/amstock/amstock_settings.xml'
+15:15:37 [SideKick #1] [debug] SchemaMapping: resourceExists(file:/home/kmcd/src/metrixapp/public/amstock/amstock_settings.xsd)
+15:15:37 [SideKick #1] [debug] SchemaMapping: resource 'file:/home/kmcd/src/metrixapp/public/amstock/amstock_settings.xsd' not found for 'file:/home/kmcd/src/metrixapp/public/amstock/amstock_settings.xml'
+15:15:37 [AWT-EventQueue-0] [debug] SideKick$ParseAWTRequest: ParseAWTRequest
+15:15:37 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to xml.XmlParsedData@1dfa490
+15:15:37 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:15:53 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:15:59 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/perspective.xml" to "/home/kmcd/.jedit/settings-backup/perspective.xml~1~"
+15:17:00 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:17:43 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:17:43 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:17:44 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:17:44 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:17:44 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer removed amstock_settings.xml (~/src/metrixapp/public/amstock/)
+15:17:44 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:17:44 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:17:44 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:17:44 [AWT-EventQueue-0] [debug] SideKick: No parser
+15:17:44 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@b81eaa
+15:17:44 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:17:44 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=amstock_settings.xml (~/src/metrixapp/public/amstock/)]
+15:17:44 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:17:44 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer removed index.xml.erb (~/src/metrixapp/app/views/reports/)
+15:17:44 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:17:44 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:17:44 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:17:44 [AWT-EventQueue-0] [debug] SideKick: No parser
+15:17:44 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@1e565bd
+15:17:44 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:17:44 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=index.xml.erb (~/src/metrixapp/app/views/reports/)]
+15:17:44 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:17:44 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer removed todo.txt (~/src/metrixapp/)
+15:17:44 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/src/metrixapp/)]
+15:17:44 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/src/metrixapp/)]
+15:17:44 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/src/metrixapp/)]
+15:17:44 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/src/metrixapp/)]
+15:17:44 [AWT-EventQueue-0] [debug] BufferSet: 8886368 addBufferAt(Untitled-1 (~/src/metrixapp/),-1)
+15:17:44 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer added Untitled-1 (~/src/metrixapp/) at 0
+15:17:44 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:17:44 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:17:44 [AWT-EventQueue-0] [debug] SideKick: No parser
+15:17:44 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@113c817
+15:17:44 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:17:44 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+15:17:54 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+15:17:54 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+15:17:54 [AWT-EventQueue-0] [debug] EditBus: DockableWindowUpdate[what=ACTIVATED,dockable=hypersearch-results,source=org.gjt.sp.jedit.gui.DockableWindowManagerImpl[,0,0,939x603,layout=org.gjt.sp.jedit.gui.DockableLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@2c6f70,flags=9,maximumSize=,minimumSize=,preferredSize=]]
+15:17:54 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=34,run=org.gjt.sp.jedit.search.HyperSearchRequest@f8acd0]
+15:17:55 [jEdit I/O #2] [notice] FileVFS: /home/kmcd/src/metrixapp/public/open-flash-chart.swf: skipped as a binary file
+15:17:55 [jEdit I/O #2] [notice] FileVFS: /home/kmcd/src/metrixapp/public/amline/plugins/value_indicator.swf: skipped as a binary file
+15:17:55 [jEdit I/O #2] [notice] FileVFS: /home/kmcd/src/metrixapp/public/amline/fonts/tahoma.fla: skipped as a binary file
+15:17:55 [jEdit I/O #2] [notice] FileVFS: /home/kmcd/src/metrixapp/public/amline/fonts/tahoma.swf: skipped as a binary file
+15:17:55 [jEdit I/O #2] [notice] FileVFS: /home/kmcd/src/metrixapp/public/amline/fonts/arial.swf: skipped as a binary file
+15:17:55 [jEdit I/O #2] [notice] FileVFS: /home/kmcd/src/metrixapp/public/amline/fonts/georgia.swf: skipped as a binary file
+15:17:55 [jEdit I/O #2] [notice] FileVFS: /home/kmcd/src/metrixapp/public/amline/fonts/times new roman.swf: skipped as a binary file
+15:17:55 [jEdit I/O #2] [notice] FileVFS: /home/kmcd/src/metrixapp/public/amline/fonts/garamond.swf: skipped as a binary file
+15:17:55 [jEdit I/O #2] [notice] FileVFS: /home/kmcd/src/metrixapp/public/amline/amline.swf: skipped as a binary file
+15:17:55 [jEdit I/O #2] [notice] FileVFS: /home/kmcd/src/metrixapp/public/new_screenshot.png: skipped as a binary file
+15:17:55 [jEdit I/O #2] [notice] FileVFS: /home/kmcd/src/metrixapp/public/images/tick.png: skipped as a binary file
+15:17:55 [jEdit I/O #2] [notice] FileVFS: /home/kmcd/src/metrixapp/public/images/data_page_2.png: skipped as a binary file
+15:17:55 [jEdit I/O #2] [notice] FileVFS: /home/kmcd/src/metrixapp/public/images/data_page.png: skipped as a binary file
+15:17:55 [jEdit I/O #2] [notice] FileVFS: /home/kmcd/src/metrixapp/public/images/rails.png: skipped as a binary file
+15:17:55 [jEdit I/O #2] [notice] FileVFS: /home/kmcd/src/metrixapp/public/open-flash-chart-bar-clicking.swf: skipped as a binary file
+15:17:55 [jEdit I/O #2] [notice] FileVFS: /home/kmcd/src/metrixapp/public/amstock/amstock.swf: skipped as a binary file
+15:17:55 [jEdit I/O #2] [notice] FileVFS: /home/kmcd/src/metrixapp/public/cropped_screenshot.png: skipped as a binary file
+15:17:56 [jEdit I/O #2] [message] HyperSearchRequest: 7 OCCURENCES
+15:18:00 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/perspective.xml" to "/home/kmcd/.jedit/settings-backup/perspective.xml~1~"
+15:18:01 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=index.html.erb (~/src/metrixapp/app/views/reports/)]
+15:18:01 [AWT-EventQueue-0] [debug] BufferSet: 8886368 addBufferAt(index.html.erb (~/src/metrixapp/app/views/reports/),-1)
+15:18:01 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer added index.html.erb (~/src/metrixapp/app/views/reports/) at 0
+15:18:01 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=36,run=org.gjt.sp.jedit.bufferio.BufferLoadRequest[index.html.erb (~/src/metrixapp/app/views/reports/)]]
+15:18:01 [AWT-EventQueue-0] [debug] BufferSetManager: removeBuffer(BufferSet[nbBuffers=2],Untitled-1 (~/src/metrixapp/))
+15:18:01 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer removed Untitled-1 (~/src/metrixapp/)
+15:18:01 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:18:01 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:18:01 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (~/src/metrixapp/) is in no bufferSet anymore, closing it
+15:18:01 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSING,view=null,source=Untitled-1 (~/src/metrixapp/)]
+15:18:01 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=null,source=Untitled-1 (~/src/metrixapp/)]
+15:18:01 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=index.html.erb (~/src/metrixapp/app/views/reports/)]
+15:18:01 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=index.html.erb (~/src/metrixapp/app/views/reports/)]
+15:18:01 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=index.html.erb (~/src/metrixapp/app/views/reports/)]
+15:18:01 [AWT-EventQueue-0] [debug] SideKick: No parser
+15:18:01 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@280bca
+15:18:01 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:18:01 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:18:02 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=amstock_settings.xml (~/src/metrixapp/public/amstock/)]
+15:18:02 [AWT-EventQueue-0] [debug] BufferSet: 8886368 addBufferAt(amstock_settings.xml (~/src/metrixapp/public/amstock/),-1)
+15:18:02 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=40,run=org.gjt.sp.jedit.bufferio.BufferLoadRequest[amstock_settings.xml (~/src/metrixapp/public/amstock/)]]
+15:18:02 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer added amstock_settings.xml (~/src/metrixapp/public/amstock/) at 0
+15:18:02 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=amstock_settings.xml (~/src/metrixapp/public/amstock/)]
+15:18:02 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:18:02 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:18:02 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:18:02 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=amstock_settings.xml (~/src/metrixapp/public/amstock/)]
+15:18:02 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=amstock_settings.xml (~/src/metrixapp/public/amstock/)]
+15:18:02 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@58d6b0
+15:18:02 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:18:02 [SideKick #1] [debug] WorkThread: Running in work thread: [id=44,run=sidekick.SideKick$ParseRequest@76ec2d]
+15:18:02 [SideKick #1] [debug] SchemaMappingManager: no schemas.xml in /home/kmcd/src/metrixapp/public/amstock/amstock_settings.xml
+15:18:02 [SideKick #1] [debug] SchemaMappingManager: global mapping=file:/home/kmcd/.jedit/plugins/xml.XmlPlugin/schemas.xml
+15:18:02 [SideKick #1] [debug] SchemaMapping: fromDocument(file:/home/kmcd/.jedit/plugins/xml.XmlPlugin/schemas.xml)
+15:18:02 [SideKick #1] [debug] SchemaLoader: loadJaxpGrammar(null,locate.rng)
+15:18:02 [SideKick #1] [debug] Resolver: Resolver.resolveEntity(null,null,null,locate.rng)
+15:18:02 [SideKick #1] [debug] Resolver: resolvePublicOrSystemFromCache(locate.rng)
+15:18:02 [SideKick #1] [debug] Resolver: not found locate.rng in cache
+15:18:02 [SideKick #1] [debug] Resolver: resolvePublicOrSystemFromCache(jeditresource:/XML.jar!/xml/dtds/locate.rng)
+15:18:02 [SideKick #1] [debug] Resolver: not found jeditresource:/XML.jar!/xml/dtds/locate.rng in cache
+15:18:02 [SideKick #1] [debug] Resolver: resolving to local file: jeditresource:/XML.jar!/xml/dtds/locate.rng
+15:18:02 [SideKick #1] [debug] Resolver: systemId=: jeditresource:/XML.jar!/xml/dtds/locate.rng
+15:18:02 [SideKick #1] [error] SideKick #1: JAXP: find factoryId =javax.xml.parsers.SAXParserFactory
+15:18:02 [SideKick #1] [error] SideKick #1: JAXP: found jar resource=META-INF/services/javax.xml.parsers.SAXParserFactory using ClassLoader: <anonymous>(1)
+15:18:02 [SideKick #1] [error] SideKick #1: JAXP: found in resource, value=org.apache.xerces.jaxp.SAXParserFactoryImpl
+15:18:02 [SideKick #1] [error] SideKick #1: JAXP: created new instance of class org.apache.xerces.jaxp.SAXParserFactoryImpl using ClassLoader: <anonymous>(1)
+15:18:02 [SideKick #1] [debug] SchemaMapping: fromDocument(jeditresource:/XML.jar!/xml/dtds/schemas.xml)
+15:18:02 [SideKick #1] [debug] SchemaLoader: loadJaxpGrammar(null,locate.rng)
+15:18:02 [SideKick #1] [debug] Resolver: Resolver.resolveEntity(null,null,null,locate.rng)
+15:18:02 [SideKick #1] [debug] Resolver: resolvePublicOrSystemFromCache(locate.rng)
+15:18:02 [SideKick #1] [debug] Resolver: not found locate.rng in cache
+15:18:02 [SideKick #1] [debug] Resolver: resolvePublicOrSystemFromCache(jeditresource:/XML.jar!/xml/dtds/locate.rng)
+15:18:02 [SideKick #1] [debug] Resolver: not found jeditresource:/XML.jar!/xml/dtds/locate.rng in cache
+15:18:02 [SideKick #1] [debug] Resolver: resolving to local file: jeditresource:/XML.jar!/xml/dtds/locate.rng
+15:18:02 [SideKick #1] [debug] Resolver: systemId=: jeditresource:/XML.jar!/xml/dtds/locate.rng
+15:18:02 [SideKick #1] [error] SideKick #1: JAXP: find factoryId =javax.xml.parsers.SAXParserFactory
+15:18:02 [SideKick #1] [error] SideKick #1: JAXP: found jar resource=META-INF/services/javax.xml.parsers.SAXParserFactory using ClassLoader: <anonymous>(1)
+15:18:02 [SideKick #1] [error] SideKick #1: JAXP: found in resource, value=org.apache.xerces.jaxp.SAXParserFactoryImpl
+15:18:02 [SideKick #1] [error] SideKick #1: JAXP: created new instance of class org.apache.xerces.jaxp.SAXParserFactoryImpl using ClassLoader: <anonymous>(1)
+15:18:02 [SideKick #1] [debug] SchemaAutoLoader: PARSE input (null,/home/kmcd/src/metrixapp/public/amstock/amstock_settings.xml)
+15:18:02 [SideKick #1] [debug] SchemaAutoLoader: DOC element  (,settings,settings)
+15:18:02 [SideKick #1] [debug] SchemaMapping: getSchemaForDocumentElement(null,file:/home/kmcd/src/metrixapp/public/amstock/amstock_settings.xml,,,settings)
+15:18:02 [SideKick #1] [debug] SchemaMapping: getSchemaForDocumentElement(null,file:/home/kmcd/src/metrixapp/public/amstock/amstock_settings.xml,,,settings)
+15:18:02 [SideKick #1] [debug] SchemaMapping: resourceExists(file:/home/kmcd/src/metrixapp/public/amstock/amstock_settings.rng)
+15:18:03 [SideKick #1] [debug] SchemaMapping: resource 'file:/home/kmcd/src/metrixapp/public/amstock/amstock_settings.rng' not found for 'file:/home/kmcd/src/metrixapp/public/amstock/amstock_settings.xml'
+15:18:03 [SideKick #1] [debug] SchemaMapping: resourceExists(file:/home/kmcd/src/metrixapp/public/amstock/amstock_settings.xsd)
+15:18:03 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:18:03 [SideKick #1] [debug] SchemaMapping: resource 'file:/home/kmcd/src/metrixapp/public/amstock/amstock_settings.xsd' not found for 'file:/home/kmcd/src/metrixapp/public/amstock/amstock_settings.xml'
+15:18:03 [AWT-EventQueue-0] [debug] SideKick$ParseAWTRequest: ParseAWTRequest
+15:18:03 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to xml.XmlParsedData@e6f711
+15:18:03 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:18:05 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=reports_controller.rb (~/src/metrixapp/app/controllers/)]
+15:18:05 [AWT-EventQueue-0] [debug] BufferSet: 8886368 addBufferAt(reports_controller.rb (~/src/metrixapp/app/controllers/),-1)
+15:18:05 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=46,run=org.gjt.sp.jedit.bufferio.BufferLoadRequest[reports_controller.rb (~/src/metrixapp/app/controllers/)]]
+15:18:05 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer added reports_controller.rb (~/src/metrixapp/app/controllers/) at 2
+15:18:05 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=reports_controller.rb (~/src/metrixapp/app/controllers/)]
+15:18:05 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:18:05 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:18:05 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:18:05 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=reports_controller.rb (~/src/metrixapp/app/controllers/)]
+15:18:05 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=reports_controller.rb (~/src/metrixapp/app/controllers/)]
+15:18:05 [AWT-EventQueue-0] [debug] SideKick: No parser
+15:18:05 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@1125f92
+15:18:05 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:18:07 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:18:08 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+15:18:08 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+15:18:08 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:18:16 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:18:16 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:18:24 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:18:25 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:18:25 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:18:25 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:18:25 [AWT-EventQueue-0] [debug] SideKick: No parser
+15:18:25 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@119c297
+15:18:25 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:18:30 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/perspective.xml" to "/home/kmcd/.jedit/settings-backup/perspective.xml~1~"
+15:18:35 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:18:35 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:18:36 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:18:36 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:18:36 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:18:36 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@12504e0
+15:18:36 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:18:36 [SideKick #1] [debug] WorkThread: Running in work thread: [id=50,run=sidekick.SideKick$ParseRequest@1630eb6]
+15:18:36 [SideKick #1] [debug] SchemaMappingManager: no schemas.xml in /home/kmcd/src/metrixapp/public/amstock/amstock_settings.xml
+15:18:36 [SideKick #1] [debug] SchemaMappingManager: global mapping=file:/home/kmcd/.jedit/plugins/xml.XmlPlugin/schemas.xml
+15:18:36 [SideKick #1] [debug] SchemaMapping: fromDocument(file:/home/kmcd/.jedit/plugins/xml.XmlPlugin/schemas.xml)
+15:18:36 [SideKick #1] [debug] SchemaLoader: loadJaxpGrammar(null,locate.rng)
+15:18:36 [SideKick #1] [debug] Resolver: Resolver.resolveEntity(null,null,null,locate.rng)
+15:18:36 [SideKick #1] [debug] Resolver: resolvePublicOrSystemFromCache(locate.rng)
+15:18:36 [SideKick #1] [debug] Resolver: not found locate.rng in cache
+15:18:36 [SideKick #1] [debug] Resolver: resolvePublicOrSystemFromCache(jeditresource:/XML.jar!/xml/dtds/locate.rng)
+15:18:36 [SideKick #1] [debug] Resolver: not found jeditresource:/XML.jar!/xml/dtds/locate.rng in cache
+15:18:36 [SideKick #1] [debug] Resolver: resolving to local file: jeditresource:/XML.jar!/xml/dtds/locate.rng
+15:18:36 [SideKick #1] [debug] Resolver: systemId=: jeditresource:/XML.jar!/xml/dtds/locate.rng
+15:18:36 [SideKick #1] [error] SideKick #1: JAXP: find factoryId =javax.xml.parsers.SAXParserFactory
+15:18:36 [SideKick #1] [error] SideKick #1: JAXP: found jar resource=META-INF/services/javax.xml.parsers.SAXParserFactory using ClassLoader: <anonymous>(1)
+15:18:36 [SideKick #1] [error] SideKick #1: JAXP: found in resource, value=org.apache.xerces.jaxp.SAXParserFactoryImpl
+15:18:36 [SideKick #1] [error] SideKick #1: JAXP: created new instance of class org.apache.xerces.jaxp.SAXParserFactoryImpl using ClassLoader: <anonymous>(1)
+15:18:36 [SideKick #1] [debug] SchemaMapping: fromDocument(jeditresource:/XML.jar!/xml/dtds/schemas.xml)
+15:18:36 [SideKick #1] [debug] SchemaLoader: loadJaxpGrammar(null,locate.rng)
+15:18:36 [SideKick #1] [debug] Resolver: Resolver.resolveEntity(null,null,null,locate.rng)
+15:18:36 [SideKick #1] [debug] Resolver: resolvePublicOrSystemFromCache(locate.rng)
+15:18:36 [SideKick #1] [debug] Resolver: not found locate.rng in cache
+15:18:36 [SideKick #1] [debug] Resolver: resolvePublicOrSystemFromCache(jeditresource:/XML.jar!/xml/dtds/locate.rng)
+15:18:36 [SideKick #1] [debug] Resolver: not found jeditresource:/XML.jar!/xml/dtds/locate.rng in cache
+15:18:36 [SideKick #1] [debug] Resolver: resolving to local file: jeditresource:/XML.jar!/xml/dtds/locate.rng
+15:18:36 [SideKick #1] [debug] Resolver: systemId=: jeditresource:/XML.jar!/xml/dtds/locate.rng
+15:18:36 [SideKick #1] [error] SideKick #1: JAXP: find factoryId =javax.xml.parsers.SAXParserFactory
+15:18:36 [SideKick #1] [error] SideKick #1: JAXP: found jar resource=META-INF/services/javax.xml.parsers.SAXParserFactory using ClassLoader: <anonymous>(1)
+15:18:36 [SideKick #1] [error] SideKick #1: JAXP: found in resource, value=org.apache.xerces.jaxp.SAXParserFactoryImpl
+15:18:36 [SideKick #1] [error] SideKick #1: JAXP: created new instance of class org.apache.xerces.jaxp.SAXParserFactoryImpl using ClassLoader: <anonymous>(1)
+15:18:36 [SideKick #1] [debug] SchemaAutoLoader: PARSE input (null,/home/kmcd/src/metrixapp/public/amstock/amstock_settings.xml)
+15:18:36 [SideKick #1] [debug] SchemaAutoLoader: DOC element  (,settings,settings)
+15:18:36 [SideKick #1] [debug] SchemaMapping: getSchemaForDocumentElement(null,file:/home/kmcd/src/metrixapp/public/amstock/amstock_settings.xml,,,settings)
+15:18:36 [SideKick #1] [debug] SchemaMapping: getSchemaForDocumentElement(null,file:/home/kmcd/src/metrixapp/public/amstock/amstock_settings.xml,,,settings)
+15:18:36 [SideKick #1] [debug] SchemaMapping: resourceExists(file:/home/kmcd/src/metrixapp/public/amstock/amstock_settings.rng)
+15:18:36 [SideKick #1] [debug] SchemaMapping: resource 'file:/home/kmcd/src/metrixapp/public/amstock/amstock_settings.rng' not found for 'file:/home/kmcd/src/metrixapp/public/amstock/amstock_settings.xml'
+15:18:36 [SideKick #1] [debug] SchemaMapping: resourceExists(file:/home/kmcd/src/metrixapp/public/amstock/amstock_settings.xsd)
+15:18:36 [SideKick #1] [debug] SchemaMapping: resource 'file:/home/kmcd/src/metrixapp/public/amstock/amstock_settings.xsd' not found for 'file:/home/kmcd/src/metrixapp/public/amstock/amstock_settings.xml'
+15:18:37 [AWT-EventQueue-0] [debug] SideKick$ParseAWTRequest: ParseAWTRequest
+15:18:37 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to xml.XmlParsedData@3d0426
+15:18:37 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:19:33 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:19:33 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:19:36 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+15:19:36 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+15:19:36 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:19:37 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+15:19:37 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+15:19:37 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:19:37 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+15:19:37 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:19:37 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+15:19:37 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+15:19:37 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:19:38 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+15:19:38 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+15:19:38 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:19:38 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+15:19:38 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+15:19:38 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:19:38 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+15:19:38 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:19:40 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+15:19:40 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+15:19:40 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:19:40 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+15:19:40 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+15:19:40 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:19:40 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+15:19:40 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:19:41 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+15:19:41 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:19:41 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+15:19:41 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:19:41 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+15:19:41 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:19:42 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+15:19:42 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:19:42 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+15:19:42 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:19:43 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:19:43 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:19:43 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSING,view=org.gjt.sp.jedit.View[active],source=amstock_settings.xml (~/src/metrixapp/public/amstock/)]
+15:19:43 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer removed amstock_settings.xml (~/src/metrixapp/public/amstock/)
+15:19:43 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:19:43 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:19:43 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:19:43 [AWT-EventQueue-0] [debug] SideKick: No parser
+15:19:43 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@11c5342
+15:19:43 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:19:43 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=amstock_settings.xml (~/src/metrixapp/public/amstock/)]
+15:19:45 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:19:45 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:19:45 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:19:45 [AWT-EventQueue-0] [debug] SideKick: No parser
+15:19:45 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@1e13ce3
+15:19:45 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:19:46 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:19:46 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:19:46 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:19:46 [AWT-EventQueue-0] [debug] SideKick: No parser
+15:19:46 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@1b3a74d
+15:19:46 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:19:49 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:19:59 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:20:00 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/perspective.xml" to "/home/kmcd/.jedit/settings-backup/perspective.xml~1~"
+15:20:03 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=index.html.erb (~/src/metrixapp/app/views/reports/)]
+15:20:05 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=index.html.erb (~/src/metrixapp/app/views/reports/)]
+15:20:05 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/app/views/reports/index.html.erb has permissions 0644
+15:20:05 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=52,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[index.html.erb (~/src/metrixapp/app/views/reports/)]]
+15:20:05 [jEdit I/O #4] [debug] MiscUtilities: Saving backup of file "/home/kmcd/src/metrixapp/app/views/reports/index.html.erb" to "/home/kmcd/tmp/home/kmcd/src/metrixapp/app/views/reports/jedit-bak.index.html.erb"
+15:20:05 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=index.html.erb (~/src/metrixapp/app/views/reports/)]
+15:20:05 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=index.html.erb (~/src/metrixapp/app/views/reports/)]
+15:20:05 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=index.html.erb (~/src/metrixapp/app/views/reports/)]
+15:20:05 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/app/views/reports,source=null]
+15:20:05 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/app/views/reports/index.html.erb,source=null]
+15:20:43 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:20:43 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:20:44 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:20:51 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:20:51 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:23:29 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:23:30 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:23:34 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=routes.rb (~/src/metrixapp/config/)]
+15:23:34 [AWT-EventQueue-0] [debug] BufferSet: 8886368 addBufferAt(routes.rb (~/src/metrixapp/config/),-1)
+15:23:34 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=55,run=org.gjt.sp.jedit.bufferio.BufferLoadRequest[routes.rb (~/src/metrixapp/config/)]]
+15:23:34 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer added routes.rb (~/src/metrixapp/config/) at 2
+15:23:34 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=routes.rb (~/src/metrixapp/config/)]
+15:23:34 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:23:34 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:23:34 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:23:34 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=routes.rb (~/src/metrixapp/config/)]
+15:23:34 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=routes.rb (~/src/metrixapp/config/)]
+15:23:34 [AWT-EventQueue-0] [debug] SideKick: No parser
+15:23:34 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@24bef5
+15:23:34 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:23:34 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:23:35 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:23:36 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:23:37 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:23:41 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:23:41 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:23:41 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSING,view=org.gjt.sp.jedit.View[active],source=routes.rb (~/src/metrixapp/config/)]
+15:23:41 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer removed routes.rb (~/src/metrixapp/config/)
+15:23:41 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:23:41 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:23:41 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:23:41 [AWT-EventQueue-0] [debug] SideKick: No parser
+15:23:41 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@15d63da
+15:23:41 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:23:41 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=routes.rb (~/src/metrixapp/config/)]
+15:23:42 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:24:00 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/perspective.xml" to "/home/kmcd/.jedit/settings-backup/perspective.xml~1~"
+15:28:25 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:28:25 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:28:25 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:30:39 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:30:39 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:33:31 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:33:31 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:36:53 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:36:53 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:36:56 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:36:58 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:36:59 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=index.html.erb (~/src/metrixapp/app/views/reports/)]
+15:37:00 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=58,run=org.gjt.sp.jedit.bufferio.BufferAutosaveRequest[index.html.erb (~/src/metrixapp/app/views/reports/)]]
+15:37:02 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=index.html.erb (~/src/metrixapp/app/views/reports/)]
+15:37:02 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/app/views/reports/index.html.erb has permissions 0644
+15:37:02 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=59,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[index.html.erb (~/src/metrixapp/app/views/reports/)]]
+15:37:02 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=index.html.erb (~/src/metrixapp/app/views/reports/)]
+15:37:02 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=index.html.erb (~/src/metrixapp/app/views/reports/)]
+15:37:02 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=index.html.erb (~/src/metrixapp/app/views/reports/)]
+15:37:02 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/app/views/reports,source=null]
+15:37:02 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/app/views/reports/index.html.erb,source=null]
+15:38:22 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:38:22 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:38:23 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:38:23 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:38:23 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:38:23 [AWT-EventQueue-0] [debug] SideKick: No parser
+15:38:23 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@2f0bd7
+15:38:23 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:38:24 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:38:24 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:38:24 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:38:24 [AWT-EventQueue-0] [debug] SideKick: No parser
+15:38:24 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@8fb65
+15:38:24 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:57:25 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:57:25 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:57:38 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:57:38 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:57:38 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:57:38 [AWT-EventQueue-0] [debug] SideKick: No parser
+15:57:38 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@123cf50
+15:57:38 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:57:43 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:57:43 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:57:43 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSING,view=org.gjt.sp.jedit.View[active],source=reports_controller.rb (~/src/metrixapp/app/controllers/)]
+15:57:43 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer removed reports_controller.rb (~/src/metrixapp/app/controllers/)
+15:57:43 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:57:43 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:57:43 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:57:43 [AWT-EventQueue-0] [debug] SideKick: No parser
+15:57:43 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@1aa5f9b
+15:57:43 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:57:43 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=reports_controller.rb (~/src/metrixapp/app/controllers/)]
+15:58:00 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/perspective.xml" to "/home/kmcd/.jedit/settings-backup/perspective.xml~1~"
+15:59:37 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:59:37 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:59:41 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+15:59:41 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=62,run=org.gjt.sp.jedit.bufferio.BufferLoadRequest[todo.txt (~/src/metrixapp/)]]
+15:59:41 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+15:59:41 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+15:59:41 [AWT-EventQueue-0] [debug] SideKick: No parser
+15:59:41 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@a1e9b0
+15:59:41 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:59:41 [AWT-EventQueue-0] [debug] BufferSet: 8886368 addBufferAt(todo.txt (~/src/metrixapp/),-1)
+15:59:41 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer added todo.txt (~/src/metrixapp/) at 1
+15:59:41 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+15:59:41 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:59:41 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:59:41 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:59:41 [AWT-EventQueue-0] [debug] SideKick: No parser
+15:59:41 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@1553743
+15:59:41 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:59:43 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:59:43 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+15:59:43 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+15:59:44 [AWT-EventQueue-0] [debug] ActionSet: Loading actions from jeditresource:/SuperAbbrevs.jar!/actions.xml
+15:59:44 [AWT-EventQueue-0] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/SuperAbbrevs.jar
+15:59:44 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/SuperAbbrevs.jar,class=SuperAbbrevsPlugin]
+15:59:44 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+15:59:44 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:00:00 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/perspective.xml" to "/home/kmcd/.jedit/settings-backup/perspective.xml~1~"
+16:00:00 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=63,run=org.gjt.sp.jedit.bufferio.BufferAutosaveRequest[todo.txt (~/src/metrixapp/)]]
+16:00:04 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:00:15 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:00:16 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:00:24 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:00:30 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=64,run=org.gjt.sp.jedit.bufferio.BufferAutosaveRequest[todo.txt (~/src/metrixapp/)]]
+16:00:32 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:00:32 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+16:00:32 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=65,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+16:00:32 [jEdit I/O #3] [debug] MiscUtilities: Saving backup of file "/home/kmcd/src/metrixapp/todo.txt" to "/home/kmcd/tmp/home/kmcd/src/metrixapp/jedit-bak.todo.txt"
+16:00:32 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:00:32 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:00:32 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:00:32 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+16:00:32 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+16:00:36 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:00:38 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+16:00:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:00:41 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:00:41 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:00:41 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+16:00:43 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:00:52 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:00:52 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+16:00:52 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=68,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+16:00:52 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:00:52 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:00:52 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:00:52 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+16:00:52 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+16:00:57 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:01:07 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:01:07 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:01:08 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:01:08 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:01:08 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:01:13 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:01:15 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:01:25 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=$,source=null]
+16:01:25 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:01:26 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:01:27 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:01:27 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:01:27 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:01:27 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+16:01:27 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=71,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+16:01:27 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:01:27 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:01:27 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:01:27 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+16:01:27 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+16:02:18 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:02:18 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:02:19 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:02:20 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:02:20 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:02:20 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+16:02:20 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=74,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+16:02:20 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:02:20 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:02:20 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:02:20 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+16:02:20 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+16:02:21 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:02:22 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:02:22 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:02:22 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+16:02:22 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=77,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+16:02:22 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:02:22 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:02:22 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:02:22 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+16:02:22 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+16:02:24 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:02:27 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:02:27 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+16:02:27 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=80,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+16:02:27 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:02:27 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:02:27 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:02:27 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+16:02:27 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+16:02:44 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:02:44 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:02:46 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:02:47 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:02:48 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=$,source=null]
+16:02:48 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:02:48 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:02:49 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:02:50 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:02:50 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:02:50 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:02:52 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:02:52 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:02:52 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+16:02:52 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=83,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+16:02:52 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:02:52 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:02:52 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:02:52 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+16:02:52 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+16:08:36 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:08:36 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:08:37 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/src/metrixapp/)]
+16:08:37 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/src/metrixapp/)]
+16:08:37 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/src/metrixapp/)]
+16:08:37 [AWT-EventQueue-0] [debug] SideKick: No parser
+16:08:37 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@f6d9ca
+16:08:37 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+16:08:37 [AWT-EventQueue-0] [debug] BufferSet: 8886368 addBufferAt(Untitled-1 (~/src/metrixapp/),-1)
+16:08:37 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer added Untitled-1 (~/src/metrixapp/) at 2
+16:08:37 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/src/metrixapp/)]
+16:08:37 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:08:37 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:08:37 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:08:37 [AWT-EventQueue-0] [debug] SideKick: No parser
+16:08:37 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@1d694da
+16:08:37 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+16:08:38 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:08:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-1 (~/src/metrixapp/)]
+16:08:43 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:08:45 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+16:08:46 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=$,source=null]
+16:09:00 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/perspective.xml" to "/home/kmcd/.jedit/settings-backup/perspective.xml~1~"
+16:11:31 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:11:41 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSING,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/src/metrixapp/)]
+16:11:41 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer removed Untitled-1 (~/src/metrixapp/)
+16:11:41 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:11:41 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:11:41 [AWT-EventQueue-0] [debug] SideKick: No parser
+16:11:41 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@2fbdd2
+16:11:41 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+16:11:41 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/src/metrixapp/)]
+16:11:41 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:11:41 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer removed index.html.erb (~/src/metrixapp/app/views/reports/)
+16:11:41 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=index.html.erb (~/src/metrixapp/app/views/reports/)]
+16:11:41 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:11:41 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer removed todo.txt (~/src/metrixapp/)
+16:11:41 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/src/metrixapp/)]
+16:11:41 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/src/metrixapp/)]
+16:11:41 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/src/metrixapp/)]
+16:11:41 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/src/metrixapp/)]
+16:11:41 [AWT-EventQueue-0] [debug] BufferSet: 8886368 addBufferAt(Untitled-1 (~/src/metrixapp/),-1)
+16:11:41 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer added Untitled-1 (~/src/metrixapp/) at 0
+16:11:41 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:11:41 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:11:41 [AWT-EventQueue-0] [debug] SideKick: No parser
+16:11:41 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@330301
+16:11:41 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+16:11:41 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:11:42 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:12:00 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/perspective.xml" to "/home/kmcd/.jedit/settings-backup/perspective.xml~1~"
+16:12:21 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:12:22 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=Untitled-1 (~/src/metrixapp/)]
+16:12:24 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:15:37 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:15:38 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=86,run=org.gjt.sp.jedit.browser.BrowserIORequest[type=LIST_DIRECTORY,vfs=org.gjt.sp.jedit.io.FileVFS@e7736c,path1=/home/kmcd/src/metrixapp/,path2=null]]
+16:19:59 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:20:00 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:20:02 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSING,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/src/metrixapp/)]
+16:20:02 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer removed Untitled-1 (~/src/metrixapp/)
+16:20:02 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/src/metrixapp/)]
+16:20:02 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/src/metrixapp/)]
+16:20:02 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/src/metrixapp/)]
+16:20:02 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/src/metrixapp/)]
+16:20:02 [AWT-EventQueue-0] [debug] BufferSet: 8886368 addBufferAt(Untitled-1 (~/src/metrixapp/),-1)
+16:20:02 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer added Untitled-1 (~/src/metrixapp/) at 0
+16:20:02 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:20:02 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:20:02 [AWT-EventQueue-0] [debug] SideKick: No parser
+16:20:02 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@ae264f
+16:20:02 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+16:20:02 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=Untitled-1 (~/src/metrixapp/)]
+16:20:04 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:20:04 [AWT-EventQueue-0] [debug] BufferSet: 8886368 addBufferAt(todo.txt (~/src/metrixapp/),-1)
+16:20:04 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=89,run=org.gjt.sp.jedit.bufferio.BufferLoadRequest[todo.txt (~/src/metrixapp/)]]
+16:20:04 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer added todo.txt (~/src/metrixapp/) at 0
+16:20:04 [AWT-EventQueue-0] [debug] BufferSetManager: removeBuffer(BufferSet[nbBuffers=2],Untitled-1 (~/src/metrixapp/))
+16:20:04 [AWT-EventQueue-0] [debug] BufferSet: 8886368: Buffer removed Untitled-1 (~/src/metrixapp/)
+16:20:04 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:20:04 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:20:04 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (~/src/metrixapp/) is in no bufferSet anymore, closing it
+16:20:04 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSING,view=null,source=Untitled-1 (~/src/metrixapp/)]
+16:20:04 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=null,source=Untitled-1 (~/src/metrixapp/)]
+16:20:04 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:20:04 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:20:04 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:20:04 [AWT-EventQueue-0] [debug] SideKick: No parser
+16:20:04 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@10204ce
+16:20:04 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+16:20:04 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:20:06 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:20:06 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:20:06 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:20:07 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:20:30 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/perspective.xml" to "/home/kmcd/.jedit/settings-backup/perspective.xml~1~"
+16:20:30 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=92,run=org.gjt.sp.jedit.bufferio.BufferAutosaveRequest[todo.txt (~/src/metrixapp/)]]
+16:20:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:20:38 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+16:20:38 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=93,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+16:20:38 [jEdit I/O #3] [debug] MiscUtilities: Saving backup of file "/home/kmcd/src/metrixapp/todo.txt" to "/home/kmcd/tmp/home/kmcd/src/metrixapp/jedit-bak.todo.txt"
+16:20:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:20:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:20:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:20:38 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+16:20:38 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+16:20:40 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:20:43 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:21:11 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:21:18 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:21:20 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:21:30 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=$,source=null]
+16:21:30 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:21:30 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=96,run=org.gjt.sp.jedit.bufferio.BufferAutosaveRequest[todo.txt (~/src/metrixapp/)]]
+16:21:31 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:21:32 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:21:32 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:21:32 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:21:32 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:21:33 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+16:21:33 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=97,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+16:21:33 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:21:33 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:21:33 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:21:33 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+16:21:33 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+16:21:37 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:21:41 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:21:43 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:21:56 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:21:56 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+16:21:56 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=100,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+16:21:56 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:21:56 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:21:56 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:21:56 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+16:21:56 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+16:21:58 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:21:59 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:22:02 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:22:02 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:16 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:16 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:26:16 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:26:17 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:19 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:19 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:20 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:21 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:24 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=$,source=null]
+16:26:24 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:25 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:26 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:26 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:27 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:28 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:29 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:30 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=103,run=org.gjt.sp.jedit.bufferio.BufferAutosaveRequest[todo.txt (~/src/metrixapp/)]]
+16:26:31 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:26:31 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+16:26:31 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=104,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+16:26:31 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:26:31 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:26:31 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:26:31 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+16:26:31 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+16:26:31 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:34 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=$,source=null]
+16:26:34 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:34 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:26:35 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:36 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:36 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:37 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:39 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=$,source=null]
+16:26:39 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:40 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:40 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:40 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:41 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:43 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=$,source=null]
+16:26:43 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:43 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:44 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:26:45 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+16:26:45 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=107,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+16:26:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:26:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:26:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:26:45 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+16:26:45 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+16:26:47 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:47 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:47 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:26:48 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:48 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:48 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:50 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:26:55 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:26:55 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+16:26:55 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=110,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+16:26:55 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:26:55 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:26:55 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:26:55 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+16:26:55 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+16:26:56 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:27:01 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:27:05 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:27:05 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+16:27:05 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=113,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+16:27:05 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:27:05 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:27:05 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:27:05 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+16:27:05 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+16:27:32 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:27:34 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:27:34 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+16:27:34 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=116,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+16:27:34 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:27:34 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:27:34 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:27:34 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+16:27:34 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+16:27:36 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:27:37 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:27:39 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:27:39 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:27:41 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:27:41 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:27:43 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:27:43 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:27:56 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=$,source=null]
+16:27:56 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:27:56 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:28:00 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=119,run=org.gjt.sp.jedit.bufferio.BufferAutosaveRequest[todo.txt (~/src/metrixapp/)]]
+16:28:02 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:03 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:08 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:28:08 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+16:28:08 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=120,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+16:28:08 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:28:08 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:28:08 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:28:08 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+16:28:08 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+16:28:09 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:09 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:11 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=$,source=null]
+16:28:11 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:11 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:28:13 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:15 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:15 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:16 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:28:16 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+16:28:16 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=123,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+16:28:16 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:28:16 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:28:16 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:28:16 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+16:28:16 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+16:28:18 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=$,source=null]
+16:28:18 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:18 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:28:19 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:20 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:20 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:20 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:28:20 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+16:28:20 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=126,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+16:28:20 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:28:20 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:28:20 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:28:20 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+16:28:20 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+16:28:21 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:22 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:22 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:28:22 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+16:28:22 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=129,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+16:28:22 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:28:22 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:28:22 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:28:22 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+16:28:22 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+16:28:30 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:30 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:28:31 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:33 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:33 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:33 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:28:42 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:42 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:48 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:49 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:51 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:54 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+16:28:55 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=$,source=null]
+16:28:55 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:56 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:56 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:57 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:57 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:28:57 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+16:28:57 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=132,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+16:28:57 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:28:57 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:28:57 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:28:57 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+16:28:57 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+16:28:58 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:28:59 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:00 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:01 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:03 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=%,source=null]
+16:29:03 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=$,source=null]
+16:29:03 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:03 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:29:05 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:05 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:06 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:06 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:06 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:29:06 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+16:29:06 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=135,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+16:29:06 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:29:06 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:29:06 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:29:06 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+16:29:06 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+16:29:07 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:07 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:09 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:10 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=$,source=null]
+16:29:10 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:10 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:29:13 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:14 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:14 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:14 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:17 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:29:17 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+16:29:17 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=138,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+16:29:17 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:29:17 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:29:17 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:29:17 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+16:29:17 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+16:29:19 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=$,source=null]
+16:29:19 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:19 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:29:20 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:20 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:21 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:21 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:29:21 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+16:29:21 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=141,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+16:29:21 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:29:21 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:29:21 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:29:21 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+16:29:21 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+16:29:22 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:29:29 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:29:29 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+16:29:29 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=144,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+16:29:29 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:29:29 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:29:29 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:29:29 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+16:29:29 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+16:29:36 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:29:38 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:39 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:40 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:40 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:41 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:41 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:41 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:47 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:49 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:50 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:52 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:29:54 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:46:50 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:47:02 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:47:10 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:47:10 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:47:11 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:47:14 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:47:15 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:47:15 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:47:15 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:47:16 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:47:17 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:47:18 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:47:30 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=147,run=org.gjt.sp.jedit.bufferio.BufferAutosaveRequest[todo.txt (~/src/metrixapp/)]]
+16:47:35 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:47:35 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:47:35 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+16:47:35 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=148,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+16:47:35 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:47:35 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:47:35 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:47:35 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+16:47:35 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+16:47:36 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:47:36 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:47:48 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:47:49 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:47:49 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:48:00 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=151,run=org.gjt.sp.jedit.bufferio.BufferAutosaveRequest[todo.txt (~/src/metrixapp/)]]
+16:48:01 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:48:01 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/metrixapp/todo.txt has permissions 0644
+16:48:01 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=152,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[todo.txt (~/src/metrixapp/)]]
+16:48:01 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=todo.txt (~/src/metrixapp/)]
+16:48:01 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:48:01 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=todo.txt (~/src/metrixapp/)]
+16:48:01 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp,source=null]
+16:48:01 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/metrixapp/todo.txt,source=null]
+16:48:03 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:48:06 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:48:08 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+16:48:15 [AWT-EventQueue-0] [debug] SessionManager: autosaving current session...
+16:48:15 [AWT-EventQueue-0] [debug] Session: save: name=default
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:48:15 [AWT-EventQueue-0] [debug] Session: saveXML: name=default filename=/home/kmcd/.jedit/sessions/default.xml
+16:48:15 [AWT-EventQueue-0] [debug] SessionManager: saveCurrentSessionProperty: currentSession=default
+16:48:15 [AWT-EventQueue-0] [message] HistoryModel: Saving history
+16:48:15 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/history" to "/home/kmcd/.jedit/settings-backup/history~1~"
+16:48:15 [AWT-EventQueue-0] [message] BufferHistory: Saving /home/kmcd/.jedit/recent.xml
+16:48:15 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/recent.xml" to "/home/kmcd/.jedit/settings-backup/recent.xml~1~"
+16:48:15 [AWT-EventQueue-0] [message] KillRing: Saving /home/kmcd/.jedit/killring.xml
+16:48:15 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/killring.xml" to "/home/kmcd/.jedit/settings-backup/killring.xml~1~"
+16:48:15 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/properties" to "/home/kmcd/.jedit/settings-backup/properties~1~"
+16:48:15 [AWT-EventQueue-0] [debug] SessionManager: session saved: default
+16:48:15 [AWT-EventQueue-0] [message] PerspectiveManager: Saving /home/kmcd/.jedit/perspective.xml
+16:48:15 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/perspective.xml" to "/home/kmcd/.jedit/settings-backup/perspective.xml~1~"
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active,global]]
+16:48:15 [AWT-EventQueue-0] [notice] CandyFoldsPlugin: textAreaExt removed
+16:48:15 [AWT-EventQueue-0] [debug] BufferSet: 8886368: removeBufferSetListener buffertabs.BufferTabs[]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/jedit/4.3.1/jars/LatestVersion.jar,class=LatestVersionPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/jedit/4.3.1/jars/QuickNotepad.jar,class=QuickNotepadPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,source=/home/kmcd/.jedit/jars/SideKick.jar,class=sidekick.SideKickPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/SideKick.jar,class=sidekick.SideKickPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,source=/home/kmcd/.jedit/jars/Console.jar,class=console.ConsolePlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/Console.jar,class=console.ConsolePlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,source=/home/kmcd/.jedit/jars/OpenIt.jar,class=org.etheridge.openit.OpenItPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/OpenIt.jar,class=org.etheridge.openit.OpenItPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/resolver.jar]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/jna.jar]
+16:48:15 [AWT-EventQueue-0] [debug] SpellCheckPlugin: stopping SpellCheckPlugin
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,source=/home/kmcd/.jedit/jars/SpellCheck.jar,class=cswilly.jeditPlugins.spell.SpellCheckPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/SpellCheck.jar,class=cswilly.jeditPlugins.spell.SpellCheckPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,source=/home/kmcd/.jedit/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/jing.jar]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,source=/home/kmcd/.jedit/jars/CandyFolds.jar,class=candyfolds.CandyFoldsPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/CandyFolds.jar,class=candyfolds.CandyFoldsPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/kappalayout.jar]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/trang.jar]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/Beauty.jar,class=beauty.BeautyPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/CommonControls.jar,class=CommonControlsPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/TextTools.jar,class=TextToolsPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/jsch.jar]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/relaxngDatatype.jar]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/FindFile.jar,class=findfile.FindFilePlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,source=/home/kmcd/.jedit/jars/Sessions.jar,class=sessions.SessionsPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/Sessions.jar,class=sessions.SessionsPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/hunspell.jar]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/xercesImpl.jar]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,source=/home/kmcd/.jedit/jars/SuperAbbrevs.jar,class=SuperAbbrevsPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/SuperAbbrevs.jar,class=SuperAbbrevsPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/CommonControls.jar
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/CommonControls.jar,class=CommonControlsPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=plugin.projectviewer.ProjectPlugin.menu,source=null]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,source=/home/kmcd/.jedit/jars/ProjectViewer.jar,class=projectviewer.ProjectPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/ProjectViewer.jar,class=projectviewer.ProjectPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,source=/home/kmcd/.jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/FTP.jar,class=ftp.FtpPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,source=/home/kmcd/.jedit/jars/VoxSpell.jar,class=voxspellcheck.VoxSpellPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/VoxSpell.jar,class=voxspellcheck.VoxSpellPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/colorchooser.jar,class=colorchooser.ColorChooserPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=DEACTIVATED,exit=true,source=/home/kmcd/.jedit/jars/XML.jar,class=xml.XmlPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/XML.jar,class=xml.XmlPlugin]
+16:48:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=UNLOADED,exit=true,source=/home/kmcd/.jedit/jars/XercesPlugin.jar,class=xerces.XercesPlugin]
+16:48:15 [AWT-EventQueue-0] [message] BufferHistory: Saving /home/kmcd/.jedit/recent.xml
+16:48:15 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/recent.xml" to "/home/kmcd/.jedit/settings-backup/recent.xml~1~"
+16:48:15 [AWT-EventQueue-0] [message] KillRing: Saving /home/kmcd/.jedit/killring.xml
+16:48:15 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/killring.xml" to "/home/kmcd/.jedit/settings-backup/killring.xml~1~"
+16:48:15 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/properties" to "/home/kmcd/.jedit/settings-backup/properties~1~"

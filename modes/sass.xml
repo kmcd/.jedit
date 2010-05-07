@@ -1,0 +1,125 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MODE SYSTEM "xmode.dtd">
+<MODE>
+  <PROPS>
+		<PROPERTY NAME="noTabs" VALUE="true"/>
+		<PROPERTY NAME="wrap" VALUE="none"/>
+		<PROPERTY NAME="tabSize" VALUE="2"/>
+		<PROPERTY NAME="indentSize" VALUE="2"/>
+		<PROPERTY NAME="folding" VALUE="indent"/>
+		<PROPERTY NAME="noWordSep" VALUE="_-"/>
+    <PROPERTY NAME="indentNextLines" VALUE="[ ]*(((((([a-z0-9]+|&amp;)(:[a-z-]+)?)?((#|\.)[\w-]+)*)([ ]+((([a-z0-9]+|&amp;)(:[a-z-]+)?)?((#|\.)[\w-]+)*))*)(,[ ]+(((([a-z0-9]+|&amp;)(:[a-z-]+)?)?((#|\.)[\w-]+)*)([ ]+((([a-z0-9]+|&amp;)(:[a-z-]+)?)?((#|\.)[\w-]+)*))*))*)|:\w+)" />
+  </PROPS>
+  <RULES ESCAPE="\"
+    IGNORE_CASE="TRUE"
+    HIGHLIGHT_DIGITS="TRUE"
+    NO_WORD_SEP="-_%">
+		<MARK_FOLLOWING TYPE="KEYWORD1">.</MARK_FOLLOWING>
+    <SEQ AT_WORD_START="TRUE" TYPE="LITERAL2">!important</SEQ>
+    <SEQ_REGEXP TYPE="COMMENT4">#([0-9a-fA-F]{3}){1,2}</SEQ_REGEXP>
+    <SEQ_REGEXP TYPE="KEYWORD4">#[A-Za-z][A-Za-z0-9-_]*</SEQ_REGEXP>
+    <SEQ_REGEXP TYPE="OPERATOR">-?[\p{Digit}]*\.?[\p{Digit}]+(pt|pc|in|mm|cm|em|ex|px|ms|s|%)</SEQ_REGEXP>
+    
+    <SEQ_REGEXP TYPE="KEYWORD2" AT_WHITESPACE_END="TRUE">abbr|acronym|address|applet|area|a|base|basefont|bdo|big|blockquote|body|br|button|b|caption|center|cite|code|col|colgroup|dd|del|dfn|dir|div|dl|dt|em|fieldset|font|form|frame|frameset|h[0-6]|head|hr|html|iframe|img|input|ins|isindex|i|kbd|label|legend|link|li|map|menu|meta|noframes|noscript|object|ol|optgroup|option|param|pre|p|q|samp|script|select|small|span|strike|strong|style|sub|sup|s|table|tbody|td|textarea|tfoot|thead|th|title|tr|tt|ul|u|var|xmp</SEQ_REGEXP>
+    
+		<MARK_FOLLOWING TYPE="KEYWORD3">!</MARK_FOLLOWING>
+    <SPAN TYPE="LITERAL1" NO_LINE_BREAK="TRUE">
+      <BEGIN>"</BEGIN>
+      <END>"</END>
+    </SPAN>
+    <SPAN TYPE="LITERAL1" NO_LINE_BREAK="TRUE">
+      <BEGIN>'</BEGIN>
+      <END>'</END>
+    </SPAN>
+    <KEYWORDS>
+      <KEYWORD3>:after</KEYWORD3>
+      <KEYWORD3>:align</KEYWORD3>
+      <KEYWORD3>:attachment</KEYWORD3>
+      <KEYWORD3>:azimuth</KEYWORD3>
+      <KEYWORD3>:background</KEYWORD3>
+      <KEYWORD3>:before</KEYWORD3>
+      <KEYWORD3>:bidi</KEYWORD3>
+      <KEYWORD3>:border</KEYWORD3>
+      <KEYWORD3>:bottom</KEYWORD3>
+      <KEYWORD3>:break</KEYWORD3>
+      <KEYWORD3>:caption</KEYWORD3>
+      <KEYWORD3>:cells</KEYWORD3>
+      <KEYWORD3>:clear</KEYWORD3>
+      <KEYWORD3>:clip</KEYWORD3>
+      <KEYWORD3>:collapse</KEYWORD3>
+      <KEYWORD3>:color</KEYWORD3>
+      <KEYWORD3>:content</KEYWORD3>
+      <KEYWORD3>:counter</KEYWORD3>
+      <KEYWORD3>:cue</KEYWORD3>
+      <KEYWORD3>:cursor</KEYWORD3>
+      <KEYWORD3>:decoration</KEYWORD3>
+      <KEYWORD3>:direction</KEYWORD3>
+      <KEYWORD3>:display</KEYWORD3>
+      <KEYWORD3>:during</KEYWORD3>
+      <KEYWORD3>:elevation</KEYWORD3>
+      <KEYWORD3>:empty</KEYWORD3>
+      <KEYWORD3>:family</KEYWORD3>
+      <KEYWORD3>:float</KEYWORD3>
+      <KEYWORD3>:font</KEYWORD3>
+      <KEYWORD3>:header</KEYWORD3>
+      <KEYWORD3>:height</KEYWORD3>
+      <KEYWORD3>:hover</KEYWORD3>
+      <KEYWORD3>:image</KEYWORD3>
+      <KEYWORD3>:increment</KEYWORD3>
+      <KEYWORD3>:indent</KEYWORD3>
+      <KEYWORD3>:index</KEYWORD3>
+      <KEYWORD3>:inside</KEYWORD3>
+      <KEYWORD3>:layout</KEYWORD3>
+      <KEYWORD3>:left</KEYWORD3>
+      <KEYWORD3>:letter</KEYWORD3>
+      <KEYWORD3>:line</KEYWORD3>
+      <KEYWORD3>:list</KEYWORD3>
+      <KEYWORD3>:margin</KEYWORD3>
+      <KEYWORD3>:max</KEYWORD3>
+      <KEYWORD3>:min</KEYWORD3>
+      <KEYWORD3>:numeral</KEYWORD3>
+      <KEYWORD3>:orphans</KEYWORD3>
+      <KEYWORD3>:outline</KEYWORD3>
+      <KEYWORD3>:overflow</KEYWORD3>
+      <KEYWORD3>:padding</KEYWORD3>
+      <KEYWORD3>:page</KEYWORD3>
+      <KEYWORD3>:pause</KEYWORD3>
+      <KEYWORD3>:pitch</KEYWORD3>
+      <KEYWORD3>:play</KEYWORD3>
+      <KEYWORD3>:position</KEYWORD3>
+      <KEYWORD3>:punctuation</KEYWORD3>
+      <KEYWORD3>:quotes</KEYWORD3>
+      <KEYWORD3>:range</KEYWORD3>
+      <KEYWORD3>:rate</KEYWORD3>
+      <KEYWORD3>:repeat</KEYWORD3>
+      <KEYWORD3>:reset</KEYWORD3>
+      <KEYWORD3>:richness</KEYWORD3>
+      <KEYWORD3>:right</KEYWORD3>
+      <KEYWORD3>:side</KEYWORD3>
+      <KEYWORD3>:size</KEYWORD3>
+      <KEYWORD3>:space</KEYWORD3>
+      <KEYWORD3>:spacing</KEYWORD3>
+      <KEYWORD3>:speak</KEYWORD3>
+      <KEYWORD3>:speech</KEYWORD3>
+      <KEYWORD3>:stress</KEYWORD3>
+      <KEYWORD3>:style</KEYWORD3>
+      <KEYWORD3>:table</KEYWORD3>
+      <KEYWORD3>:text</KEYWORD3>
+      <KEYWORD3>:top</KEYWORD3>
+      <KEYWORD3>:transform</KEYWORD3>
+      <KEYWORD3>:type</KEYWORD3>
+      <KEYWORD3>:unicode</KEYWORD3>
+      <KEYWORD3>:variant</KEYWORD3>
+      <KEYWORD3>:vertical</KEYWORD3>
+      <KEYWORD3>:visibility</KEYWORD3>
+      <KEYWORD3>:voice</KEYWORD3>
+      <KEYWORD3>:volume</KEYWORD3>
+      <KEYWORD3>:weight</KEYWORD3>
+      <KEYWORD3>:white</KEYWORD3>
+      <KEYWORD3>:widows</KEYWORD3>
+      <KEYWORD3>:width</KEYWORD3>
+      <KEYWORD3>:word</KEYWORD3>
+      <KEYWORD3>:z</KEYWORD3>
+    </KEYWORDS>
+  </RULES>
+</MODE>

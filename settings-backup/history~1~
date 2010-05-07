@@ -1,0 +1,166 @@
+[vfs.browser.path]
+/home/kmcd/src/blog
+/home/kmcd/.jedit/macros
+/home/kmcd/src
+/home/kmcd/src/metrixapp
+/home/kmcd/src/metrixapp/config
+/home/kmcd/src/petri/app/helpers
+/home/kmcd/src/petri
+/home/kmcd/src/petri/lib/tasks
+/home/kmcd/src/petri/public/javascripts
+/home/kmcd/src/petri/public
+/home/kmcd/src/petri/app
+/home/kmcd/src/petri/app/metal
+/home/kmcd/src/petri/app/views/user_sessions
+/home/kmcd/src/petri/app/views
+/home/kmcd/src/petri/app/controllers
+/home/kmcd/src/petri/app/views/layouts
+/home/kmcd/src/petri/app/views/leads
+/home/kmcd/src/tmp
+/home/kmcd/src/petri/db/migrate
+/home/kmcd/src/petri/db
+[vfs.browser.filter]
+*\[^~#\]
+*\[^~#\].html
+[sftp.host]
+staging.careermee.com
+[helpviewer.search]
+superabb
+[FindFilePlugin.path]
+/home/kmcd/src/clash/admin/
+[ftp.user]
+root
+[search.directory]
+/home/kmcd/src/metrixapp
+/home/kmcd/src/petri/vendor
+/home/kmcd/src/petri/
+/home/kmcd/src/petri/app
+/home/kmcd/src/petri
+/home/kmcd/src/petri/app/
+/home/kmcd/src/petri/app/views/users
+/home/kmcd/src/blog
+/home/kmcd/src/clash/admin/vendor
+/home/kmcd/src/clash/api
+/home/kmcd/src/clash/admin
+/home/kmcd/src/carrierwave/lib
+/home/kmcd/src/clash/admin/app/models
+/home/kmcd/src/clash/admin/a
+/home/kmcd/src/clash/admin/app
+/home/kmcd/src/clash/admin/
+/home/kmcd/src/clash/api/test
+/home/kmcd/src/clash/api/data
+/home/kmcd/src/clash/path/app
+/home/kmcd/src/clash/path
+[replace]
+graph_data_for
+account_code
+</li>
+<li>
+&lt;
+&gt;
+h1
+h2
+li
+dt
+protocol
+login_with
+user
+fieldset
+password_confirmation
+password
+Password
+email
+#index
+email_address
+[console.BeanShell]
+2 + 2
+[FindFilePlugin.filter]
+camp*cont*rb
+[search.filter]
+*
+[action]
+global-options
+prev-buffer
+undo
+SuperAbbrevs.tab
+insert-newline-indent
+next-buffer
+document-end
+next-page
+prev-page
+close-buffer
+make_it_pretty
+plugin-options
+commando
+Editing/Mode_Switcher
+open-file
+save
+delete-line
+select-prev-page
+new-article
+select-none
+[console.System]
+jedit /home/kmcd/tmp/blog_lib.diff
+git log -p lib > /home/kmcd/tmp/blog_lib.diff
+rm jedit
+ls
+git log -p lib > jedit
+git log -p lib/
+git log -p Rakefile
+git log Rakefile
+rake -T
+cd src/blog/
+cd
+rm lookup_resource.bsh
+rm Untitled-1
+cd .jedit/macros
+cd 
+tree
+rm -Rf config.yml spec
+autotest
+rake
+rake log:clear
+[clipboard]
+Clean up / split existing articles
+Summarise Dieter Rams design principles (from wikipedia)
+Dreyfus model of skill acquisition
+clean up routes
+Tests for signup / login / creating events
+Housekeeping\n   minify metrix.js\n   clean up routes\n   auto-test live site
+minify metrix.js\n   clean up routes\n   auto-test live site
+minify metrix.js
+Matt
+Lean startup circle
+User testing
+Google ad campaigns
+up to the minute real time data
+cc8e0c9e1b1aa9e12e55ea48edc67b44
+http://www.metrixapp.com/log?account_code=cc8e0c9e1b1aa9e12e55ea48edc67b44&name=New%20event&data=undefined
+Hint to turn on/off data lines
+/reports should have totals for entire period
+Chart empty with one event
+fastercsv
+authlogic
+[sftp.privateKey]
+/home/kmcd/.ssh/id_dsa
+[find]
+^$\\n
+amstock
+require
+Add ev
+grouped_by_date_name
+Back to
+stringify
+json_encode
+track
+toJSON
+encodeURIComponent
+http_build_query
+SecureRandom
+account_id
+\\bs\\b
+\\bs\\b 
+now
+token
+\\bq\\b
+\\br\\b

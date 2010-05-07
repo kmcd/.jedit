@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE PERSPECTIVE SYSTEM "perspective.dtd">
+<PERSPECTIVE>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">/home/kmcd/src/blog/backlog.txt</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">/home/kmcd/.jedit/macros/new-article.bsh</BUFFER>
+<VIEW PLAIN="FALSE"><PANES>
+"/home/kmcd/.jedit/macros/new-article.bsh" buffer "/home/kmcd/src/blog/backlog.txt" buff "/home/kmcd/.jedit/macros/new-article.bsh" buff "global" bufferset
+</PANES>
+<GEOMETRY X="233" Y="791" WIDTH="945" HEIGHT="679" EXT_STATE="0" />
+</VIEW>
+</PERSPECTIVE>
