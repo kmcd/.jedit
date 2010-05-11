@@ -1,24 +1,24 @@
 [vfs.browser.path]
+/home/kmcd
+/home/kmcd/src/blog/views
 /home/kmcd/src/blog
-/home/kmcd/.jedit/macros
+/home/kmcd/src/blog/lib
+/home/kmcd/src/blog/articles
+/home/kmcd/src/blog/public
 /home/kmcd/src
+/home/kmcd/.jedit
+/home/kmcd/.jedit/macros
+/home/kmcd/src/metrixapp/doc
 /home/kmcd/src/metrixapp
+/home/kmcd/src/metrixapp/db
+/home/kmcd/src/metrixapp/app
+/home/kmcd/src/metrixapp/app/views
+/home/kmcd/src/metrixapp/app/views/layouts
+/home/kmcd/src/metrixapp/public/images
+/home/kmcd/src/metrixapp/public
+/home/kmcd/src/metrixapp/public/stylesheets
+/home/kmcd/.jedit/modes
 /home/kmcd/src/metrixapp/config
-/home/kmcd/src/petri/app/helpers
-/home/kmcd/src/petri
-/home/kmcd/src/petri/lib/tasks
-/home/kmcd/src/petri/public/javascripts
-/home/kmcd/src/petri/public
-/home/kmcd/src/petri/app
-/home/kmcd/src/petri/app/metal
-/home/kmcd/src/petri/app/views/user_sessions
-/home/kmcd/src/petri/app/views
-/home/kmcd/src/petri/app/controllers
-/home/kmcd/src/petri/app/views/layouts
-/home/kmcd/src/petri/app/views/leads
-/home/kmcd/src/tmp
-/home/kmcd/src/petri/db/migrate
-/home/kmcd/src/petri/db
 [vfs.browser.filter]
 *\[^~#\]
 *\[^~#\].html
@@ -32,6 +32,7 @@ superabb
 root
 [search.directory]
 /home/kmcd/src/metrixapp
+/home/kmcd/src/blog/articles
 /home/kmcd/src/petri/vendor
 /home/kmcd/src/petri/
 /home/kmcd/src/petri/app
@@ -50,117 +51,135 @@ root
 /home/kmcd/src/clash/api/test
 /home/kmcd/src/clash/api/data
 /home/kmcd/src/clash/path/app
-/home/kmcd/src/clash/path
 [replace]
+Traffic
+Upgrade to premium account
+Logged in
+Signed up
+Viewed landing page
+\\n
+* 
+\]
+\[
+;
+\"
+publish_blog += \"
+Conclusion
+\\* 
+h2. 
 graph_data_for
 account_code
 </li>
 <li>
 &lt;
-&gt;
-h1
-h2
-li
-dt
-protocol
-login_with
-user
-fieldset
-password_confirmation
-password
-Password
-email
-#index
-email_address
 [console.BeanShell]
-2 + 2
+exit;
+;
+quit
+runInSystemShell(view,\"cd /home/kmcd/src/blog\");
+runInSystemShell(view,\"ls\");
+runInSystemShell(view,\"System\",\"ls\");
+runCommandToBuffer(view,\"System\",\"ls\");
+runCommandInConsole(view,\"System\",\"ls\");
+runCommandInConsole(view,\"System\",null);
+runCommandInConsole(view,\"System\",command);
+runInSystemShell(view,view,\"ls\");
+getenv(\"Foo\");
+setenv(\"Foo\", \"Bar\");
+getenv();
+clearConsole(view);
+import console.*;
+import ;
+clearConsole();
+\"Dreyfus model of skill acquisition\".toLowerCase().replaceAll(\"\\\\s\",\"_\");
+\"Dreyfus model of skill acquisition\".toLowerCase();
 [FindFilePlugin.filter]
 camp*cont*rb
 [search.filter]
 *
 [action]
-global-options
-prev-buffer
-next-buffer
-undo
-SuperAbbrevs.tab
-insert-newline-indent
-document-end
-next-page
-prev-page
-close-buffer
-make_it_pretty
 plugin-options
-commando
-Editing/Mode_Switcher
-open-file
+openit.find-file-in-source-path
+close-buffer
+session-save
+undo
 save
+backspace
+prev-page
+next-page
+paste
+insert-newline-indent
 delete-line
-select-prev-page
-new-article
-select-none
+cut
+select-next-line
+select-end
+home
+document-home
+open-file
+close-all
+search-in-directory
 [console.System]
-jedit /home/kmcd/tmp/blog_lib.diff
-git log -p lib > /home/kmcd/tmp/blog_lib.diff
-rm jedit
-ls
-git log -p lib > jedit
-git log -p lib/
-git log -p Rakefile
-git log Rakefile
-rake -T
-cd src/blog/
-cd
-rm lookup_resource.bsh
-rm Untitled-1
-cd .jedit/macros
-cd 
-tree
-rm -Rf config.yml spec
-autotest
-rake
-rake log:clear
+git push heroku master
+git st
+git cma \'Fixed typos\'
+git add .
+g add .
+cd ../metrixapp/
+rake -f /home/kmcd/src/blog/Rakefile publish
+shotgun config.ru
+killall shotgun
+cd ../blog/
+firefox
+rake --hel
+rake publish
+git cma \'Lander route for adwords\'
+git status
+git cma \'Fixed typo\'
+git cma \'Space out trust section\'
+git cma \'Better copy\'
+g push heroku master
+git cma \'Updated lander to explain how JS works\'
 [clipboard]
-Clean up / split existing articles
-Summarise Dieter Rams design principles (from wikipedia)
-Dreyfus model of skill acquisition
-clean up routes
-Tests for signup / login / creating events
-Housekeeping\n   minify metrix.js\n   clean up routes\n   auto-test live site
-minify metrix.js\n   clean up routes\n   auto-test live site
+named routes for all accounts, eg http://metrixapp.com/ac/1\n   clean up routes (nice restful names)
 minify metrix.js
-Matt
-Lean startup circle
-User testing
-Google ad campaigns
-up to the minute real time data
-cc8e0c9e1b1aa9e12e55ea48edc67b44
-http://www.metrixapp.com/log?account_code=cc8e0c9e1b1aa9e12e55ea48edc67b44&name=New%20event&data=undefined
-Hint to turn on/off data lines
-/reports should have totals for entire period
-Chart empty with one event
-fastercsv
-authlogic
+data backup (heroku bundles)
+Change call to action to \"Signup in 10 seconds\"
+clean up routes (nice restful names)
+Decision
+decisions
+javascript
+rand(1)
+Referral
+Renewal
+Retention
+Activation
+:password => \'password\', :password_confirmation => \'password\'
+user
+password
+User.find_or_create_by_email \'kmcd@example.org\', :password => \'Pa$$w0rd!\', :password_confirmation => \'Pa$$w0rd!\'
+User.find_or_create_by_email \'kmcd@example.org\', :password => \'Pa$$w0rd!\',\n    :password_confirmation => \'Pa$$w0rd!\'
+Rename your data points
+Pa$$w0rd!
 [sftp.privateKey]
 /home/kmcd/.ssh/id_dsa
 [find]
-^$\\n
-amstock
-require
-Add ev
-grouped_by_date_name
-Back to
-stringify
-json_encode
-track
-toJSON
-encodeURIComponent
-http_build_query
-SecureRandom
-account_id
-\\bs\\b
-\\bs\\b 
-now
-token
-\\bq\\b
-\\br\\b
+of of
+Referral
+Renewal
+Retention
+Activation
+Acquisition
+user
+Blank
+$
+* 
+*  
+Good design is
+\"$
+^\"
+maintainng
+your trackin
+border: thin solid red;
+copy
+\"\"
+^

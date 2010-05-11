@@ -1,33 +1,39 @@
 <?xml version="1.1" encoding="UTF-8" ?>
 <!DOCTYPE KILLRING SYSTEM "killring.dtd">
 <KILLRING>
-<ENTRY>e</ENTRY>
-<ENTRY>tes</ENTRY>
-<ENTRY>he</ENTRY>
-<ENTRY>minify metrix.js
-   clean up routes
-   auto-test live site</ENTRY>
-<ENTRY>Housekeeping
-   minify metrix.js
-   clean up routes
-   auto-test live site</ENTRY>
-<ENTRY>Tests for signup / login / creating events</ENTRY>
-<ENTRY>clean up routes</ENTRY>
-<ENTRY>(</ENTRY>
-<ENTRY>)</ENTRY>
-<ENTRY>d</ENTRY>
-<ENTRY>ar</ENTRY>
-<ENTRY>refafc</ENTRY>
-<ENTRY>more</ENTRY>
-<ENTRY>ot</ENTRY>
-<ENTRY>s</ENTRY>
-<ENTRY>Dreyfus model of skill acquisition</ENTRY>
-<ENTRY>Summarise Dieter Rams design principles (from wikipedia)</ENTRY>
-<ENTRY>Clean up / split existing articles</ENTRY>
-<ENTRY>// This is a recorded macro. First, check over the
-// commands to make sure this is what you intended. Then,
-// save this buffer, and the macro should appear in the
-// Macros menu.
+<ENTRY>def randomise(nu)
+  
+end</ENTRY>
+<ENTRY>def randomise(num)
+  
+end</ENTRY>
+<ENTRY>def randomise(numb)
+  
+end</ENTRY>
+<ENTRY>def randomise(numbe)
+  
+end</ENTRY>
+<ENTRY>def randomise(number)
+  
+end</ENTRY>
+<ENTRY>2</ENTRY>
+<ENTRY>def randomise(number)
 </ENTRY>
-<ENTRY>def</ENTRY>
+<ENTRY>  rand(1)
+</ENTRY>
+<ENTRY>end
+</ENTRY>
+<ENTRY>javascritp</ENTRY>
+<ENTRY>c</ENTRY>
+<ENTRY>decisions</ENTRY>
+<ENTRY>D</ENTRY>
+<ENTRY> of</ENTRY>
+<ENTRY>Change call to action to "Signup in 10 seconds"</ENTRY>
+<ENTRY>   Fix invalid account code on production a/c
+</ENTRY>
+<ENTRY>clean up routes (nice restful names)</ENTRY>
+<ENTRY>data backup (heroku bundles)</ENTRY>
+<ENTRY>minify metrix.js</ENTRY>
+<ENTRY>named routes for all accounts, eg http://metrixapp.com/ac/1
+   clean up routes (nice restful names)</ENTRY>
 </KILLRING>

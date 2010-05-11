@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE PERSPECTIVE SYSTEM "perspective.dtd">
 <PERSPECTIVE>
-<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">/home/kmcd/src/blog/backlog.txt</BUFFER>
-<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">Foo_Bar.txtl</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">/home/kmcd/src/rails/railties/test/generators_test.rb</BUFFER>
 <VIEW PLAIN="FALSE"><PANES>
-"/home/kmcd/.jedit/macros/Untitled-1" buffer "/home/kmcd/src/blog/backlog.txt" buff "Foo_Bar.txtl" buff "global" bufferset
+"/home/kmcd/src/rails/railties/test/generators_test.rb" buffer "/home/kmcd/src/rails/railties/test/generators_test.rb" buff "global" bufferset
 </PANES>
-<GEOMETRY X="224" Y="792" WIDTH="945" HEIGHT="679" EXT_STATE="0" />
+<GEOMETRY X="60" Y="17" WIDTH="988" HEIGHT="728" EXT_STATE="0" />
 </VIEW>
 </PERSPECTIVE>
