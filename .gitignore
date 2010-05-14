@@ -1,3 +1,5 @@
 settings-backup/*.*
+settings-backup/*
 jars-cache/*.*
 history
+sessions/*.*

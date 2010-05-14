@@ -143,43 +143,43 @@ copyright|©
 theta|ϴ
 cong|≅
 Leftarrow|⇐
-mapsto|↦
 diamondsuit|♢
-tau|τ
+mapsto|↦
 S|§
+tau|τ
 Theta|Θ
-nu|ν
 c->|↪
-lceil|⎡
+nu|ν
 prec|≺
-updownarrow|↕
+lceil|⎡
 sigma|σ
+updownarrow|↕
 wedge|∧
 spadesuit|♠
-ni|∋
 notparallel|∦
-Sigma|Σ
+ni|∋
 cup|∪
-asymp|≍
+Sigma|Σ
 ominus|⊝
+asymp|≍
 notsim|≁
 odot|⊙
-subset|⊂
 lambda|λ
+subset|⊂
 surd|√
 mu|μ
 Rightarrow|⇒
-ae|æ
-mp|∓
 partial|∂
+mp|∓
+ae|æ
 supset|⊃
 sqcup|⊔
 aa|å
 '|&apos;
 =>|⇒
 chi|χ
-sqsubset|⊏
 rightharpoondown|⇁
+sqsubset|⊏
 bowtie|⋈
 divides|∣
 eta|η
@@ -189,9 +189,9 @@ increment|∆
 dag|†
 Uparrow|⇑
 ll|≪
-sqsupseteq|⊒
-<=|⇐
 prod|∏
+<=|⇐
+sqsupseteq|⊒
 models|⊨
 [c++]
 [sqr]
@@ -231,12 +231,13 @@ models|⊨
 [rhtml]
 %=|<%= \| %>
 %%|<% \| %>
+&|&amp;
 [textile]
 fm|---\ntitle:  \ntags:   \n---
 [powerdynamo]
 [vhdl]
-slv|std_logic_vector( x downto y )
 sl|std_logic
+slv|std_logic_vector( x downto y )
 var|variable
 sig|signal
 [maple]
@@ -287,9 +288,9 @@ s|<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
 o|<xsl:otherwise>\n\|\n</xsl:otherwise>
 cwto|<xsl:choose>\n\t<xsl:when test="\|">\n\t</xsl:when>\n\t<xsl:otherwise>\n\t</xsl:otherwise>\n</xsl:choose>
 n|<xsl:number/>
-tmm|<xsl:template match="\|" mode="">\n</xsl:template>
-m|<xsl:message>\|</xsl:message>
 inh|<xsl:include href="\|"/>
+m|<xsl:message>\|</xsl:message>
+tmm|<xsl:template match="\|" mode="">\n</xsl:template>
 k|<xsl:key name="\|" match="" use=""/>
 en|<xsl:element name="\|">\n</xsl:element>
 vos|<xsl:value-of select="\|"/>
@@ -431,42 +432,42 @@ logn|Log.log(Log.NOTICE,this,\|);
 logm|Log.log(Log.MESSAGE,this,\|);
 DMTN|DefaultMutableTreeNode
 loge|Log.log(Log.ERROR,this,\|);
-cvs|Box.createVerticalStrut(\|)
 logd|Log.log(Log.DEBUG,this,\|);
+cvs|Box.createVerticalStrut(\|)
 WI|while($1.hasNext())\n{\n\t\|\n}
 ogsu|import org.gjt.sp.util.
 gbp|jEdit.getBooleanProperty(\|)
 sout|System.out.println(\|);
 ogsj|import org.gjt.sp.jedit.
 [assembly-parrot]
+[dot]
 [xml]
 YY|<$1>\n\|\n</$1>
 Ykeycombo|<keycombo><keycap>$1</keycap><keycap>$2</keycap></keycombo>
 Ykeycap|<keycap>\|</keycap>
-[dot]
-[powershell]
 [cil]
+[powershell]
 [postscript]
 [sql-loader]
 [redcode]
-[literate-haskell]
 [renderman-rib]
+[literate-haskell]
 [doxygen]
 [javacc]
+[pike]
 [ruby]
 bfr|before do\n  \|\nend
 wip|violated "In progress"
 td|# TODO: 
-[pike]
 [applescript]
-[c#]
-[pascal]
-[ml]
 [bbj]
+[ml]
+[pascal]
+[c#]
 [freemarker]
 [vbscript]
-[sass]
 [povray]
+[sass]
 [jmk]
 [icalendar]
 [slate]
@@ -476,12 +477,12 @@ td|# TODO:
 [n3]
 [cobol]
 [csv]
-[assembly-x86]
 [css]
 rb|border: thin solid red;
+[assembly-x86]
 [binsource-agc]
+[uscript]
+[gnuplot]
+[xq]
 [javascript]
 td|// TODO: 
-[xq]
-[gnuplot]
-[uscript]

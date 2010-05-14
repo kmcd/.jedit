@@ -1,39 +1,24 @@
 <?xml version="1.1" encoding="UTF-8" ?>
 <!DOCTYPE KILLRING SYSTEM "killring.dtd">
 <KILLRING>
-<ENTRY>def randomise(nu)
-  
-end</ENTRY>
-<ENTRY>def randomise(num)
-  
-end</ENTRY>
-<ENTRY>def randomise(numb)
-  
-end</ENTRY>
-<ENTRY>def randomise(numbe)
-  
-end</ENTRY>
-<ENTRY>def randomise(number)
-  
-end</ENTRY>
-<ENTRY>2</ENTRY>
-<ENTRY>def randomise(number)
-</ENTRY>
-<ENTRY>  rand(1)
-</ENTRY>
-<ENTRY>end
-</ENTRY>
-<ENTRY>javascritp</ENTRY>
+<ENTRY>aht</ENTRY>
+<ENTRY>cr</ENTRY>
+<ENTRY> NT</ENTRY>
+<ENTRY>int</ENTRY>
+<ENTRY>,</ENTRY>
+<ENTRY>. </ENTRY>
+<ENTRY>.</ENTRY>
+<ENTRY>s</ENTRY>
+<ENTRY>, </ENTRY>
 <ENTRY>c</ENTRY>
-<ENTRY>decisions</ENTRY>
-<ENTRY>D</ENTRY>
-<ENTRY> of</ENTRY>
-<ENTRY>Change call to action to "Signup in 10 seconds"</ENTRY>
-<ENTRY>   Fix invalid account code on production a/c
-</ENTRY>
-<ENTRY>clean up routes (nice restful names)</ENTRY>
-<ENTRY>data backup (heroku bundles)</ENTRY>
-<ENTRY>minify metrix.js</ENTRY>
-<ENTRY>named routes for all accounts, eg http://metrixapp.com/ac/1
-   clean up routes (nice restful names)</ENTRY>
+<ENTRY>nt</ENTRY>
+<ENTRY>ton</ENTRY>
+<ENTRY>ct</ENTRY>
+<ENTRY>your </ENTRY>
+<ENTRY>f</ENTRY>
+<ENTRY>of </ENTRY>
+<ENTRY>or</ENTRY>
+<ENTRY>- not just unit testing: biz, usability, cash flow, performance</ENTRY>
+<ENTRY>e</ENTRY>
+<ENTRY>i</ENTRY>
 </KILLRING>

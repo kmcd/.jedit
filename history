@@ -1,24 +1,24 @@
 [vfs.browser.path]
+/home/kmcd/src/sodoku/test
+/home/kmcd/src/sodoku
+/home/kmcd/src/sodoku/lib
+/home/kmcd/src/soduku/lib
+/home/kmcd/src/soduku
+/home/kmcd/src/soduku/test
+/home/kmcd/src
+/home/kmcd/src/blog
+/home/kmcd/src/metrixapp/app/controllers
+/home/kmcd/src/metrixapp
+/home/kmcd/src/rails/railties/test
+/home/kmcd/.jedit
+/home/kmcd/jedit/4.3.1/modes
+/home/kmcd/.jedit/modes
 /home/kmcd
 /home/kmcd/src/blog/views
-/home/kmcd/src/blog
 /home/kmcd/src/blog/lib
 /home/kmcd/src/blog/articles
 /home/kmcd/src/blog/public
-/home/kmcd/src
-/home/kmcd/.jedit
 /home/kmcd/.jedit/macros
-/home/kmcd/src/metrixapp/doc
-/home/kmcd/src/metrixapp
-/home/kmcd/src/metrixapp/db
-/home/kmcd/src/metrixapp/app
-/home/kmcd/src/metrixapp/app/views
-/home/kmcd/src/metrixapp/app/views/layouts
-/home/kmcd/src/metrixapp/public/images
-/home/kmcd/src/metrixapp/public
-/home/kmcd/src/metrixapp/public/stylesheets
-/home/kmcd/.jedit/modes
-/home/kmcd/src/metrixapp/config
 [vfs.browser.filter]
 *\[^~#\]
 *\[^~#\].html
@@ -31,7 +31,9 @@ superabb
 [ftp.user]
 root
 [search.directory]
+/home/kmcd/src/sodoku
 /home/kmcd/src/metrixapp
+/home/kmcd/src/rails
 /home/kmcd/src/blog/articles
 /home/kmcd/src/petri/vendor
 /home/kmcd/src/petri/
@@ -49,9 +51,17 @@ root
 /home/kmcd/src/clash/admin/app
 /home/kmcd/src/clash/admin/
 /home/kmcd/src/clash/api/test
-/home/kmcd/src/clash/api/data
-/home/kmcd/src/clash/path/app
 [replace]
+sodoku
+sodoko
+</li>
+<li>
+h3
+h2
+.reports.show
+10 seconds
+Sign up in 10 seconds
+Sign up in 10 seconds 
 Traffic
 Upgrade to premium account
 Logged in
@@ -62,16 +72,6 @@ Viewed landing page
 \]
 \[
 ;
-\"
-publish_blog += \"
-Conclusion
-\\* 
-h2. 
-graph_data_for
-account_code
-</li>
-<li>
-&lt;
 [console.BeanShell]
 exit;
 ;
@@ -98,26 +98,26 @@ camp*cont*rb
 [search.filter]
 *
 [action]
-plugin-options
-openit.find-file-in-source-path
+session-manager
 close-buffer
-session-save
-undo
 save
 backspace
-prev-page
-next-page
-paste
+prev-char
 insert-newline-indent
+next-line
+paste
+SuperAbbrevs.tab
+end
+prev-line
 delete-line
 cut
-select-next-line
 select-end
 home
-document-home
-open-file
-close-all
-search-in-directory
+next-char
+delete
+find
+session-save-as
+copy
 [console.System]
 git push heroku master
 git st
@@ -140,46 +140,46 @@ git cma \'Better copy\'
 g push heroku master
 git cma \'Updated lander to explain how JS works\'
 [clipboard]
-named routes for all accounts, eg http://metrixapp.com/ac/1\n   clean up routes (nice restful names)
-minify metrix.js
-data backup (heroku bundles)
-Change call to action to \"Signup in 10 seconds\"
-clean up routes (nice restful names)
-Decision
-decisions
-javascript
-rand(1)
-Referral
-Renewal
-Retention
-Activation
-:password => \'password\', :password_confirmation => \'password\'
-user
-password
-User.find_or_create_by_email \'kmcd@example.org\', :password => \'Pa$$w0rd!\', :password_confirmation => \'Pa$$w0rd!\'
-User.find_or_create_by_email \'kmcd@example.org\', :password => \'Pa$$w0rd!\',\n    :password_confirmation => \'Pa$$w0rd!\'
-Rename your data points
-Pa$$w0rd!
+- not just unit testing: biz, usability, cash flow, performance
+Sodoku.new \'..3.2.6..9..3.5..1..18.64....81.29..7.......8..67.82....26.95..8..2.3..9..5.1.3..\'
+My Rails development environment
+Rename your data points\n   Re-order data points\n   handle https requests for metrix.js
+identify visitor with an id/token, eg metrixapp.identify(\'foo@example.org\')\n   track unique visitors with a cookie
+handle https requests for metrix.js
+Rename your data points\n   Re-order data points
+ Ruby gem wrapper for api call\n   up to the minute real time data\n   identify visitor with an id/token, eg metrixapp.identify(\'foo@example.org\')\n   track unique visitors with a cookie
+Ruby gem wrapper for api call\n   up to the minute real time data
+ Ruby gem wrapper for api call\n   up to the minute real time data
+track unique visitors with a cookie
+ Update lander \n      prune left copy\n      add screen shot with browser frame to \'how it works\' image
+Send follow up email to leancamp guys:\n      - Sam Oliver\n      - Gywn Morfey\n      - Dave Ganley
+Ruby gem wrapper for api call
+Howto send data to MetrixApp
+Sending your data to MetrixApp\n\n
+Hint to turn on/off data lines
+.reports.new .blank_slate h1 { color: black; border: none; }\n.reports.show .help
+.reports.show .help
+.reports.new li { list-style-type: none; }
 [sftp.privateKey]
 /home/kmcd/.ssh/id_dsa
 [find]
-of of
-Referral
-Renewal
-Retention
-Activation
-Acquisition
-user
-Blank
+soduku
+li 
+li
+ol
 $
-* 
-*  
-Good design is
-\"$
-^\"
-maintainng
-your trackin
-border: thin solid red;
-copy
-\"\"
 ^
+CSV
+dt 
+h2
+</li>
+<li>
+h1
+1.xml
+.reports.index
+swf
+data
+date_formats
+graphs
+legend
+60 seconds
