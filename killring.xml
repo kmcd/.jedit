@@ -1,24 +1,51 @@
 <?xml version="1.1" encoding="UTF-8" ?>
 <!DOCTYPE KILLRING SYSTEM "killring.dtd">
 <KILLRING>
-<ENTRY>aht</ENTRY>
-<ENTRY>cr</ENTRY>
-<ENTRY> NT</ENTRY>
-<ENTRY>int</ENTRY>
-<ENTRY>,</ENTRY>
-<ENTRY>. </ENTRY>
-<ENTRY>.</ENTRY>
+<ENTRY>h2</ENTRY>
+<ENTRY>p</ENTRY>
+<ENTRY>d</ENTRY>
+<ENTRY>a</ENTRY>
+<ENTRY>()</ENTRY>
+<ENTRY>params[</ENTRY>
+<ENTRY>:</ENTRY>
+<ENTRY>]</ENTRY>
+<ENTRY>Sign-up for emails from The Present Finder</ENTRY>
+<ENTRY>                  &lt;%= f.label :email_address, 'Email', :class =&gt; 'required' %&gt;
+</ENTRY>
+<ENTRY>e re</ENTRY>
+<ENTRY>ie</ENTRY>
 <ENTRY>s</ENTRY>
-<ENTRY>, </ENTRY>
-<ENTRY>c</ENTRY>
-<ENTRY>nt</ENTRY>
-<ENTRY>ton</ENTRY>
-<ENTRY>ct</ENTRY>
-<ENTRY>your </ENTRY>
-<ENTRY>f</ENTRY>
-<ENTRY>of </ENTRY>
-<ENTRY>or</ENTRY>
-<ENTRY>- not just unit testing: biz, usability, cash flow, performance</ENTRY>
-<ENTRY>e</ENTRY>
-<ENTRY>i</ENTRY>
+<ENTRY>ign Up</ENTRY>
+<ENTRY>ib</ENTRY>
+<ENTRY>dm</ENTRY>
+<ENTRY> &lt;div id="quick_signup" class="nav-section"&gt;
+         &lt;h2&gt;Newsletter&lt;/h2&gt;
+         
+         &lt;p&gt;To receive emails of regular &lt;em&gt;Special Offers&lt;/em&gt; enter your email address.&lt;/p&gt;
+         
+         &lt;% form_remote_tag(:url =&gt; shop_email_signup_path) do -%&gt;
+            &lt;% better_fields_for :email_signup, @email_signup do |f| %&gt;
+               &lt;div class='field'&gt;
+                  &lt;%= f.error_on :email_address %&gt;
+                  &lt;%= f.text_field :email_address, :maxlength =&gt; 255 %&gt;
+               &lt;/div&gt;
+            &lt;% end %&gt;
+            
+            &lt;%= submit_tag 'Subscribe', :class =&gt; 'submit_button' %&gt;
+         &lt;% end %&gt;
+       &lt;/div&gt;</ENTRY>
+<ENTRY>background-color: fuchsia; </ENTRY>
+<ENTRY>#centered-content {
+    min-height: 300px;
+    width: 960px;
+    position: relative;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 122px;
+    -webkit-box-shadow: 0px 0px 5px #9A8C7A;
+    background-color: white;
+}</ENTRY>
+<ENTRY>    debugger
+</ENTRY>
 </KILLRING>

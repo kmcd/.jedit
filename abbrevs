@@ -8,13 +8,13 @@ qed|∎
 leftarpoonup|↼
 angle|∠
 varphi|φ
-nillams|∍
 swarrow|↙
+nillams|∍
 rightarrow|→
 delta|δ
 bigtriangleup|∆
-propto|∝
 wr|≀
+propto|∝
 succ|≻
 hookleftarrow|↪
 Delta|Δ
@@ -119,8 +119,8 @@ top|⊤
 sim|∼
 leftharpoondown|↽
 lfloor|⎣
-otimes|⊗
 sangle|∢
+otimes|⊗
 leftrightarrow|↔
 Psi|Ψ
 sun|☼
@@ -143,43 +143,43 @@ copyright|©
 theta|ϴ
 cong|≅
 Leftarrow|⇐
-diamondsuit|♢
 mapsto|↦
-S|§
+diamondsuit|♢
 tau|τ
+S|§
 Theta|Θ
-c->|↪
 nu|ν
-prec|≺
+c->|↪
 lceil|⎡
-sigma|σ
+prec|≺
 updownarrow|↕
+sigma|σ
 wedge|∧
 spadesuit|♠
-notparallel|∦
 ni|∋
-cup|∪
+notparallel|∦
 Sigma|Σ
-ominus|⊝
+cup|∪
 asymp|≍
+ominus|⊝
 notsim|≁
 odot|⊙
-lambda|λ
 subset|⊂
+lambda|λ
 surd|√
 mu|μ
 Rightarrow|⇒
-partial|∂
-mp|∓
 ae|æ
+mp|∓
+partial|∂
 supset|⊃
 sqcup|⊔
 aa|å
 '|&apos;
 =>|⇒
 chi|χ
-rightharpoondown|⇁
 sqsubset|⊏
+rightharpoondown|⇁
 bowtie|⋈
 divides|∣
 eta|η
@@ -189,9 +189,9 @@ increment|∆
 dag|†
 Uparrow|⇑
 ll|≪
-prod|∏
-<=|⇐
 sqsupseteq|⊒
+<=|⇐
+prod|∏
 models|⊨
 [c++]
 [sqr]
@@ -234,12 +234,12 @@ models|⊨
 &|&amp;
 [textile]
 fm|---\ntitle:  \ntags:   \n---
-[powerdynamo]
 [vhdl]
-sl|std_logic
 slv|std_logic_vector( x downto y )
+sl|std_logic
 var|variable
 sig|signal
+[powerdynamo]
 [maple]
 [lotos]
 [django]
@@ -271,9 +271,9 @@ pse|<xsl:preserve-space elements="\|"/>
 cwt|<xsl:choose>\n\t<xsl:when test="\|">\n\t</xsl:when>\n</xsl:choose>
 wpn|<xsl:with-param name="\|" select=""/>
 it|<xsl:if test="\|">\n</xsl:if>
+tnm|<xsl:template name="\|" match="">\n</xsl:template>
 ctn|<xsl:call-template name="\|"/>
 co|<xsl:copy>\|</xsl:copy>
-tnm|<xsl:template name="\|" match="">\n</xsl:template>
 pin|<xsl:processing-instruction name="\|"></xsl:processing-instruction>
 om|<xsl:output method="\|"/>
 ats|<xsl:apply-templates select="\|"/>
@@ -288,9 +288,9 @@ s|<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0"
 o|<xsl:otherwise>\n\|\n</xsl:otherwise>
 cwto|<xsl:choose>\n\t<xsl:when test="\|">\n\t</xsl:when>\n\t<xsl:otherwise>\n\t</xsl:otherwise>\n</xsl:choose>
 n|<xsl:number/>
-inh|<xsl:include href="\|"/>
-m|<xsl:message>\|</xsl:message>
 tmm|<xsl:template match="\|" mode="">\n</xsl:template>
+m|<xsl:message>\|</xsl:message>
+inh|<xsl:include href="\|"/>
 k|<xsl:key name="\|" match="" use=""/>
 en|<xsl:element name="\|">\n</xsl:element>
 vos|<xsl:value-of select="\|"/>
@@ -331,14 +331,14 @@ th|<th>\|</th>
 [aspect-j]
 [squidconf]
 [rview]
-[jhtml]
 [jedit-actions]
+[jhtml]
 [stata_ado]
 [embperl]
 [mysql]
 [rd]
-[zpt]
 [objective-c]
+[zpt]
 [mqsc]
 [prolog]
 [stata_do]
@@ -347,11 +347,11 @@ th|<th>\|</th>
 [hex]
 [swig]
 [javafx]
-[rebol]
 [s+]
+[rebol]
 [dsssl]
-[forth]
 [nqc]
+[forth]
 [tpl]
 [s#]
 [fhtml]
@@ -375,8 +375,8 @@ th|<th>\|</th>
 [yaml]
 [assembly-ags]
 [shellscript]
-[gettext]
 [jcl]
+[gettext]
 [d]
 [c]
 [coldfusion]
@@ -385,19 +385,18 @@ th|<th>\|</th>
 [scheme]
 [texinfo]
 [assembly-agc]
-[user story]
 [java]
-Il|SwingUtilities.invokeLater(new Runnable()\n{\n\tpublic void run()\n\t{\n\t\t\|\n\t}\n});
 ne|nextElement()
+Il|SwingUtilities.invokeLater(new Runnable()\n{\n\tpublic void run()\n\t{\n\t\t\|\n\t}\n});
 W|while($1)\n{\n\t\|\n}
 V|Vector
 Fd|for(int $1 = $2 - 1; $1 >= 0; $1--)\n{\n\t\|\n}
+serr|System.err.println(\|);
 Fc|for(int $1 = 0; $1 < $2.size(); $1++)\n{\n\t$3 \| = ($3)$2.get($1);\n}
 Ie|if($1)\n{\n\t|\n}\nelse\n{\n\t\n}\n
-serr|System.err.println(\|);
-JE|JEditTextArea
 VDE|VFS.DirectoryEntry
 S|String
+JE|JEditTextArea
 Fa|for(int $1 = 0; $1 < $2.length; $1++)\n{\n\t$3 \| = $2[$1];\n}
 P|public
 O|Object
@@ -411,11 +410,11 @@ Br|BufferedReader $1 = new BufferedReader(\|);
 E|Exception
 D|do\n{\n\t\|\n}\nwhile($1);
 sp|jEdit.setProperty(\|);
-C|$1 $2 = ($1)\|
 Mal|MalformedURLException
+C|$1 $2 = ($1)\|
 B|Buffer
-hme|hasMoreElements()
 ogs|import org.gjt.sp.
+hme|hasMoreElements()
 El|else\n{\n\t\|\n}
 IO|IOException
 gb|getBuffer()
@@ -432,42 +431,43 @@ logn|Log.log(Log.NOTICE,this,\|);
 logm|Log.log(Log.MESSAGE,this,\|);
 DMTN|DefaultMutableTreeNode
 loge|Log.log(Log.ERROR,this,\|);
-logd|Log.log(Log.DEBUG,this,\|);
 cvs|Box.createVerticalStrut(\|)
+logd|Log.log(Log.DEBUG,this,\|);
 WI|while($1.hasNext())\n{\n\t\|\n}
 ogsu|import org.gjt.sp.util.
 gbp|jEdit.getBooleanProperty(\|)
 sout|System.out.println(\|);
 ogsj|import org.gjt.sp.jedit.
+[user story]
 [assembly-parrot]
-[dot]
 [xml]
 YY|<$1>\n\|\n</$1>
 Ykeycombo|<keycombo><keycap>$1</keycap><keycap>$2</keycap></keycombo>
 Ykeycap|<keycap>\|</keycap>
-[cil]
+[dot]
 [powershell]
+[cil]
 [postscript]
 [sql-loader]
 [redcode]
-[renderman-rib]
 [literate-haskell]
+[renderman-rib]
 [doxygen]
 [javacc]
-[pike]
 [ruby]
 bfr|before do\n  \|\nend
 wip|violated "In progress"
 td|# TODO: 
+[pike]
 [applescript]
-[bbj]
-[ml]
-[pascal]
 [c#]
+[pascal]
+[ml]
+[bbj]
 [freemarker]
 [vbscript]
-[povray]
 [sass]
+[povray]
 [jmk]
 [icalendar]
 [slate]
@@ -477,12 +477,12 @@ td|# TODO:
 [n3]
 [cobol]
 [csv]
+[assembly-x86]
 [css]
 rb|border: thin solid red;
-[assembly-x86]
 [binsource-agc]
-[uscript]
-[gnuplot]
-[xq]
 [javascript]
 td|// TODO: 
+[xq]
+[gnuplot]
+[uscript]

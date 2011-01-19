@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-
-<projects name="All Projects" >
-<project name="clash api" file="clash_api.xml" root="/home/kmcd/src/clash.api/TestClient/trunk"  />
-</projects>

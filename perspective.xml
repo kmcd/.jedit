@@ -2,12 +2,9 @@
 <!DOCTYPE PERSPECTIVE SYSTEM "perspective.dtd">
 <PERSPECTIVE>
 <BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">/home/kmcd/.jedit/.gitignore</BUFFER>
-<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">/home/kmcd/src/sodoku/Rakefile</BUFFER>
-<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">/home/kmcd/src/sodoku/lib/sodoku.rb</BUFFER>
-<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">/home/kmcd/src/sodoku/test/test_sodku.rb</BUFFER>
 <VIEW PLAIN="FALSE"><PANES>
-"/home/kmcd/.jedit/.gitignore" buffer "/home/kmcd/.jedit/.gitignore" buff "/home/kmcd/src/sodoku/Rakefile" buff "/home/kmcd/src/sodoku/lib/sodoku.rb" buff "/home/kmcd/src/sodoku/test/test_sodku.rb" buff "global" bufferset
+"/home/kmcd/.jedit/.gitignore" buffer "/home/kmcd/.jedit/.gitignore" buff "view" bufferset
 </PANES>
-<GEOMETRY X="297" Y="57" WIDTH="961" HEIGHT="695" EXT_STATE="0" />
+<GEOMETRY X="175" Y="745" WIDTH="1020" HEIGHT="763" EXT_STATE="6" />
 </VIEW>
 </PERSPECTIVE>

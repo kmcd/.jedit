@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE PERSPECTIVE SYSTEM "perspective.dtd">
 <PERSPECTIVE>
-<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">/home/kmcd/src/sodoku/Rakefile</BUFFER>
-<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">/home/kmcd/src/sodoku/lib/sodoku.rb</BUFFER>
-<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">/home/kmcd/src/sodoku/test/test_sodku.rb</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">/home/kmcd/src/watertshirts.org/watertshirts_todo.txt</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">/home/kmcd/src/watertshirts.org/adwords/watertshirts_marketing.txt</BUFFER>
 <VIEW PLAIN="FALSE"><PANES>
-"/home/kmcd/src/sodoku/Rakefile" buffer "/home/kmcd/src/sodoku/Rakefile" buff "/home/kmcd/src/sodoku/lib/sodoku.rb" buff "/home/kmcd/src/sodoku/test/test_sodku.rb" buff "global" bufferset
+"/home/kmcd/src/watertshirts.org/watertshirts_todo.txt" buffer "/home/kmcd/src/watertshirts.org/watertshirts_todo.txt" buff "/home/kmcd/src/watertshirts.org/adwords/watertshirts_marketing.txt" buff "view" bufferset
 </PANES>
-<GEOMETRY X="297" Y="57" WIDTH="961" HEIGHT="695" EXT_STATE="0" />
+<GEOMETRY X="-3" Y="0" WIDTH="1020" HEIGHT="763" EXT_STATE="0" />
 </VIEW>
 </PERSPECTIVE>

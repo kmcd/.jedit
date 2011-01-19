@@ -1,77 +1,70 @@
 [vfs.browser.path]
-/home/kmcd/src/sodoku/test
-/home/kmcd/src/sodoku
-/home/kmcd/src/sodoku/lib
-/home/kmcd/src/soduku/lib
-/home/kmcd/src/soduku
-/home/kmcd/src/soduku/test
-/home/kmcd/src
 /home/kmcd/src/blog
-/home/kmcd/src/metrixapp/app/controllers
-/home/kmcd/src/metrixapp
-/home/kmcd/src/rails/railties/test
-/home/kmcd/.jedit
-/home/kmcd/jedit/4.3.1/modes
-/home/kmcd/.jedit/modes
-/home/kmcd
-/home/kmcd/src/blog/views
-/home/kmcd/src/blog/lib
-/home/kmcd/src/blog/articles
-/home/kmcd/src/blog/public
-/home/kmcd/.jedit/macros
-[vfs.browser.filter]
-*\[^~#\]
-*\[^~#\].html
-[sftp.host]
-staging.careermee.com
+/home/kmcd/src/moneyspyder/pf/app/views/layouts/shop
+/home/kmcd/src/moneyspyder/pf/app/controllers/shop
+/home/kmcd/src/watertshirts.org
+/home/kmcd/src/watertshirts.org/adwords
+/home/kmcd/src/moneyspyder/pf/db/migrate
+sftp://moneyspyder@209.251.186.223:7000/data/thepresentfinder/current/app/views/shop/order_tracking
+sftp://moneyspyder@209.251.186.223:7000/data/thepresentfinder/current/app/views/shop
+sftp://moneyspyder@209.251.186.223:7000/data/thepresentfinder/current/app/views
+sftp://moneyspyder@209.251.186.223:7000/data/thepresentfinder/current/app
+sftp://moneyspyder@209.251.186.223:7000/data/thepresentfinder/current
+sftp://moneyspyder@209.251.186.223:7000/data/thepresentfinder
+sftp://moneyspyder@209.251.186.223:7000/data
+sftp://moneyspyder@209.251.186.223:7000
+sftp://moneyspyder@209.251.186.223:7000/home
+sftp://moneyspyder@209.251.186.223:7000/home/moneyspyder
+/home/kmcd/src/moneyspyder/pf/app/views/shop/order_tracking
+/home/kmcd/src/moneyspyder/pf/config
+/home/kmcd/src/moneyspyder/pf
+/home/kmcd/src/moneyspyder/pf/app
 [helpviewer.search]
 superabb
+[sftp.host]
+209.251.186.223:7000
+209.251.186.218:7006
+209.251.186.218:7000
+209.251.186.223:7002
+209.251.186.221:7005
+209.251.186.221:7004
+209.251.186.223:7001
+74.201.254.36:8519
+staging.careermee.com
+[vfs.browser.filter]
+*\[^~#\]
+*notes*
+*pdf
+*notes.txt
+*spec*
+*\[^~#\].html
 [FindFilePlugin.path]
+/home/kmcd/src/moneyspyder/pf
 /home/kmcd/src/clash/admin/
 [ftp.user]
+moneyspyder
 root
 [search.directory]
-/home/kmcd/src/sodoku
-/home/kmcd/src/metrixapp
-/home/kmcd/src/rails
-/home/kmcd/src/blog/articles
-/home/kmcd/src/petri/vendor
-/home/kmcd/src/petri/
-/home/kmcd/src/petri/app
-/home/kmcd/src/petri
-/home/kmcd/src/petri/app/
-/home/kmcd/src/petri/app/views/users
-/home/kmcd/src/blog
-/home/kmcd/src/clash/admin/vendor
-/home/kmcd/src/clash/api
-/home/kmcd/src/clash/admin
-/home/kmcd/src/carrierwave/lib
-/home/kmcd/src/clash/admin/app/models
-/home/kmcd/src/clash/admin/a
-/home/kmcd/src/clash/admin/app
-/home/kmcd/src/clash/admin/
-/home/kmcd/src/clash/api/test
-[replace]
-sodoku
-sodoko
-</li>
-<li>
-h3
-h2
-.reports.show
-10 seconds
-Sign up in 10 seconds
-Sign up in 10 seconds 
-Traffic
-Upgrade to premium account
-Logged in
-Signed up
-Viewed landing page
-\\n
-* 
-\]
-\[
-;
+/home/kmcd/src/moneyspyder/pf
+/home/kmcd/src/eycap
+/home/kmcd/src/moneyspyder/cc/
+/home/kmcd/src/moneyspyder/cc/test
+/home/kmcd/src/moneyspyder/cc
+/home/kmcd/src/moneyspyder/fc
+/home/kmcd/src/moneyspyder/fcc
+/home/kmcd/src/moneyspyder/fc/test
+/home/kmcd/src/moneyspyder/cake/
+/home/kmcd/src/moneyspyder/fc/
+/home/kmcd/src/moneyspyder/tw
+/home/kmcd/src/blog/
+/home/kmcd/src/blog/lib/
+/home/kmcd/src/moneyspyder/tw/app
+/home/kmcd/src/moneyspyder/tw/vendor
+/home/kmcd/src/moneyspyder/tw/vendoir
+/home/kmcd/src/moneyspyder/cake
+/home/kmcd/src/moneyspyder/cake/config
+/home/kmcd/src/moneyspyder/cc/app
+/home/kmcd/src/moneyspyder/pf/
 [console.BeanShell]
 exit;
 ;
@@ -93,32 +86,79 @@ import ;
 clearConsole();
 \"Dreyfus model of skill acquisition\".toLowerCase().replaceAll(\"\\\\s\",\"_\");
 \"Dreyfus model of skill acquisition\".toLowerCase();
-[FindFilePlugin.filter]
-camp*cont*rb
+[replace]
+# 
+* 
+h2.
+thepresentfinder_staging
+next_day
+assert_next_delivery_date @$1day
+time \'
+stub_current_time
+@friday
+@thursday
+@wednesday
+@day_after_tomorrow
+@tomorrow
+delivery
+article
+ForgottenPasswordTextChunk
+AccountLoginPasswordTextChunk
+LoggedInBasketFooterTextChunk
+before
+something
+[svnplugin.repositoryname]
+jedit
 [search.filter]
+*{tml,erb}
+*css
 *
+*js
+*{tml,erb,js}
+*.rb
+*test*.rb
+*action*.rb
+*chro*.rb
+*report*.rb
+*{.rb,.rake}
+*bask*cont*rb
+*rb
+*yml
+*{ml,rb}
+*erb
+*rrb
+*{css,erb}
+*.yml
+*.erb
+[FindFilePlugin.filter]
+layout*css
+camp*cont*rb
+[svnplugin.url]
+https://jedit.svn.sourceforge.net/svnroot/jedit
 [action]
 session-manager
+session-save
+close-all
 close-buffer
+prev-buffer
+next-buffer
 save
-backspace
-prev-char
-insert-newline-indent
-next-line
-paste
-SuperAbbrevs.tab
-end
-prev-line
 delete-line
-cut
-select-end
-home
-next-char
-delete
+search-in-open-buffers
+undo
+insert-newline-indent
+global-options
+open-file
+select-none
+document-end
+FindFilePlugin-toggle
+FindFilePlugin-float
 find
-session-save-as
-copy
+plugin.findfile.FindFilePlugin.actions.newSearch
+FindFilePlugin
 [console.System]
+exit
+quit
 git push heroku master
 git st
 git cma \'Fixed typos\'
@@ -137,49 +177,47 @@ git status
 git cma \'Fixed typo\'
 git cma \'Space out trust section\'
 git cma \'Better copy\'
-g push heroku master
-git cma \'Updated lander to explain how JS works\'
 [clipboard]
-- not just unit testing: biz, usability, cash flow, performance
-Sodoku.new \'..3.2.6..9..3.5..1..18.64....81.29..7.......8..67.82....26.95..8..2.3..9..5.1.3..\'
-My Rails development environment
-Rename your data points\n   Re-order data points\n   handle https requests for metrix.js
-identify visitor with an id/token, eg metrixapp.identify(\'foo@example.org\')\n   track unique visitors with a cookie
-handle https requests for metrix.js
-Rename your data points\n   Re-order data points
- Ruby gem wrapper for api call\n   up to the minute real time data\n   identify visitor with an id/token, eg metrixapp.identify(\'foo@example.org\')\n   track unique visitors with a cookie
-Ruby gem wrapper for api call\n   up to the minute real time data
- Ruby gem wrapper for api call\n   up to the minute real time data
-track unique visitors with a cookie
- Update lander \n      prune left copy\n      add screen shot with browser frame to \'how it works\' image
-Send follow up email to leancamp guys:\n      - Sam Oliver\n      - Gywn Morfey\n      - Dave Ganley
-Ruby gem wrapper for api call
-Howto send data to MetrixApp
-Sending your data to MetrixApp\n\n
-Hint to turn on/off data lines
-.reports.new .blank_slate h1 { color: black; border: none; }\n.reports.show .help
-.reports.show .help
-.reports.new li { list-style-type: none; }
+quick_signup
+ <div id=\"quick_signup\" class=\"nav-section\">\n         <h2>Newsletter</h2>\n         \n         <p>To receive emails of regular <em>Special Offers</em> enter your email address.</p>\n         \n         <% form_remote_tag(:url => shop_email_signup_path) do -%>\n            <% better_fields_for :email_signup, @email_signup do |f| %>\n               <div class=\'field\'>\n                  <%= f.error_on :email_address %>\n                  <%= f.text_field :email_address, :maxlength => 255 %>\n               </div>\n            <% end %>\n            \n            <%= submit_tag \'Subscribe\', :class => \'submit_button\' %>\n         <% end %>\n       </div>
+@signup
+Thank you for signing up to The Present Finder newsletter!
+message
+content_tag(:h2, message)
+keith@moneyspyder.co.uk
+Newsletter Sign Up successful\n\nThank you for signing up to The Present Finder newsletter!\n\nkeith@moneyspyder.co.uk has been added to our newsletter mailing list.\n\nIf you want to unsubscribe from the newsletter at any time, you can contact us.\n
+Newsletter Sign Up successful\n\nThank you for signing up to The Present Finder newsletter!\n\nkeith@moneyspyder.co.uk has been added to our newsletter mailing list.\n\nIf you want to unsubscribe from the newsletter at any time, you can contact us.
+h3. \"Kanban by David Anderson is available to purchase on his website.\":http:// 
+* 
+Measure
+High severity, high priority defects are fixed immediately. They receive a different, higher, class of service than other work. To fix a high-severity production defect, we put other work aside, pull in as many people as we require.
+Triage
+Reviewing open issues, therefore, becomes vital to improving flow through the\nsystem. Issue-log review should happen frequently and regularly.\n\nSynchronizing across Geographic Locations\n* electronic system\n* keep physical card walls synchronized, at the very least, on a daily basis.\n\nWhen the telecommuter completed an item and changed its electronic status, they\nwould contact their sticky buddy by instant message, email, or phone and ask them to update the physical board.
+Triage: assessing and classifying into categories for priority of attention\n\nIssue Log Review and Escalation\n\nWhen work items in the Kanban system are impeded, they will be marked as such\nand an issue work item will be created. The issue will remain open until the impediment is removed and the original work item can progress through the system.
+* get agreement on a WIP limit \n  * Discuss and agree on an input-coordination mechanism, such as a\n  regular prioritization meeting\n  * Discuss and agree on a release/delivery-coordination mechanism,\n  * Agree on a lead-time target for each class of service of work item
+Reduce Work-in-Progress and Deliver Often Frequent Releases Build Trust.
+Goldratt
+Goldratt, 
 [sftp.privateKey]
 /home/kmcd/.ssh/id_dsa
 [find]
-soduku
-li 
-li
-ol
-$
+debugger
+quick_signup
+fuchsia
+color: red
+for emails
+contact us
+\\d+\\.\\s+
+\[a-z\]\\.
 ^
-CSV
-dt 
-h2
-</li>
-<li>
-h1
-1.xml
-.reports.index
-swf
-data
-date_formats
-graphs
-legend
-60 seconds
+\\d\\.\\s+
+Chapter 11 
+ch \\d
+==
+- 
+(Explained in chapter 6.)
+(explained in chapter 6.)
+(explained in chapter 6)
+remote_tag
+subscribe
+parital.*subscribe
