@@ -1,26 +1,31 @@
 [vfs.browser.path]
+/home/kmcd/src/blog/views
 /home/kmcd/src/blog
-/home/kmcd/src/moneyspyder/pf/app/views/layouts/shop
-/home/kmcd/src/moneyspyder/pf/app/controllers/shop
-/home/kmcd/src/watertshirts.org
-/home/kmcd/src/watertshirts.org/adwords
-/home/kmcd/src/moneyspyder/pf/db/migrate
-sftp://moneyspyder@209.251.186.223:7000/data/thepresentfinder/current/app/views/shop/order_tracking
-sftp://moneyspyder@209.251.186.223:7000/data/thepresentfinder/current/app/views/shop
-sftp://moneyspyder@209.251.186.223:7000/data/thepresentfinder/current/app/views
-sftp://moneyspyder@209.251.186.223:7000/data/thepresentfinder/current/app
-sftp://moneyspyder@209.251.186.223:7000/data/thepresentfinder/current
-sftp://moneyspyder@209.251.186.223:7000/data/thepresentfinder
-sftp://moneyspyder@209.251.186.223:7000/data
-sftp://moneyspyder@209.251.186.223:7000
-sftp://moneyspyder@209.251.186.223:7000/home
-sftp://moneyspyder@209.251.186.223:7000/home/moneyspyder
-/home/kmcd/src/moneyspyder/pf/app/views/shop/order_tracking
-/home/kmcd/src/moneyspyder/pf/config
-/home/kmcd/src/moneyspyder/pf
-/home/kmcd/src/moneyspyder/pf/app
-[helpviewer.search]
-superabb
+/home/kmcd/src/blog/lib
+/home/kmcd/src/blog/articles
+/home/kmcd/src/web_crawler
+/home/kmcd/src
+/home/kmcd/src/web_crawler/lib
+/home/kmcd/src/web_crawler/test
+/home/kmcd/.jedit/macros
+/home/kmcd/src/ruby-private/test
+/home/kmcd/src/ruby-private
+/home/kmcd/src/ruby-private/lib
+/home/kmcd/src/rails
+/home/kmcd/src/rails/actionpack
+/home/kmcd/src/rails/actionpack/lib
+/home/kmcd/src/rails/actionpack/lib/action_controller
+/home/kmcd/src/moneyspyder/tw/app/views/notifier
+/home/kmcd/src/moneyspyder/tw/db/migrate
+/home/kmcd/tmp
+/home/kmcd
+[vfs.browser.filter]
+*\[^~#\]
+*notes*
+*pdf
+*notes.txt
+*spec*
+*\[^~#\].html
 [sftp.host]
 209.251.186.223:7000
 209.251.186.218:7006
@@ -31,40 +36,61 @@ superabb
 209.251.186.223:7001
 74.201.254.36:8519
 staging.careermee.com
-[vfs.browser.filter]
-*\[^~#\]
-*notes*
-*pdf
-*notes.txt
-*spec*
-*\[^~#\].html
+[helpviewer.search]
+superabb
 [FindFilePlugin.path]
+/home/kmcd/src/moneyspyder/tw
+/home/kmcd/Documents/books
+/home/kmcd/src/moneyspyder/cc
 /home/kmcd/src/moneyspyder/pf
+/home/kmcd/Documents
+/home/kmcd/src/blog
 /home/kmcd/src/clash/admin/
 [ftp.user]
 moneyspyder
 root
 [search.directory]
+/home/kmcd/src/moneyspyder/tw/
+/home/kmcd/src/moneyspyder/tw/test
+/home/kmcd/src/moneyspyder/tw
+/home/kmcd/src/moneyspyder/
 /home/kmcd/src/moneyspyder/pf
+/home/kmcd/src/moneyspyder/pf/db/migrate
+/home/kmcd/src/blog
+/home/kmcd/src/moneyspyder/cc
 /home/kmcd/src/eycap
 /home/kmcd/src/moneyspyder/cc/
 /home/kmcd/src/moneyspyder/cc/test
-/home/kmcd/src/moneyspyder/cc
 /home/kmcd/src/moneyspyder/fc
 /home/kmcd/src/moneyspyder/fcc
 /home/kmcd/src/moneyspyder/fc/test
 /home/kmcd/src/moneyspyder/cake/
 /home/kmcd/src/moneyspyder/fc/
-/home/kmcd/src/moneyspyder/tw
 /home/kmcd/src/blog/
 /home/kmcd/src/blog/lib/
 /home/kmcd/src/moneyspyder/tw/app
 /home/kmcd/src/moneyspyder/tw/vendor
-/home/kmcd/src/moneyspyder/tw/vendoir
-/home/kmcd/src/moneyspyder/cake
-/home/kmcd/src/moneyspyder/cake/config
-/home/kmcd/src/moneyspyder/cc/app
-/home/kmcd/src/moneyspyder/pf/
+[replace]
+\"
+# 
+#
+@task
+account_welcome_image
+*
+ 
+\\s
+method
+h2.
+\\n
+* 
+thepresentfinder_staging
+next_day
+assert_next_delivery_date @$1day
+time \'
+stub_current_time
+@friday
+@thursday
+@wednesday
 [console.BeanShell]
 exit;
 ;
@@ -86,76 +112,73 @@ import ;
 clearConsole();
 \"Dreyfus model of skill acquisition\".toLowerCase().replaceAll(\"\\\\s\",\"_\");
 \"Dreyfus model of skill acquisition\".toLowerCase();
-[replace]
-# 
-* 
-h2.
-thepresentfinder_staging
-next_day
-assert_next_delivery_date @$1day
-time \'
-stub_current_time
-@friday
-@thursday
-@wednesday
-@day_after_tomorrow
-@tomorrow
-delivery
-article
-ForgottenPasswordTextChunk
-AccountLoginPasswordTextChunk
-LoggedInBasketFooterTextChunk
-before
-something
 [svnplugin.repositoryname]
 jedit
-[search.filter]
-*{tml,erb}
+[svnplugin.url]
+https://jedit.svn.sourceforge.net/svnroot/jedit
+[FindFilePlugin.filter]
+product.rb
+*return*
+*mining*notes*
+*mining*notes
+*pain*css
+*catalog*request*
+*catalog*
+*catal*
+admin*test*
+*complete*act*
+complete*act*
+header.css
+*debug*notes*
+check*css
+bask*css
+nav*css
+*notes*
 *css
+*ie*css
+*subscribe*
+[search.filter]
+*{tml,erb,rb}
 *
-*js
-*{tml,erb,js}
 *.rb
+*.rhtml
+*{css}
+*{tml,erb}
+*js
+*{tml,erb,rjs,js}
+*{tml,erb,rjs}
+*{.rb,.rake}
+*shipment*action.rb
+*action*rb
+chro*rb
+*{tml,rb}
+*.txtl
+*{tml,erb,js}
+*css
 *test*.rb
 *action*.rb
 *chro*.rb
-*report*.rb
-*{.rb,.rake}
-*bask*cont*rb
-*rb
-*yml
-*{ml,rb}
-*erb
-*rrb
-*{css,erb}
-*.yml
-*.erb
-[FindFilePlugin.filter]
-layout*css
-camp*cont*rb
-[svnplugin.url]
-https://jedit.svn.sourceforge.net/svnroot/jedit
 [action]
-session-manager
-session-save
 close-all
+save
+paste
+open-file
 close-buffer
 prev-buffer
+backspace
+select-prev-word
+prev-char
+next-line
+prev-line
 next-buffer
-save
+next-page
 delete-line
-search-in-open-buffers
-undo
+select-next-char
+copy
+paste-previous
+cut
+SuperAbbrevs.tab
 insert-newline-indent
-global-options
-open-file
-select-none
-document-end
-FindFilePlugin-toggle
-FindFilePlugin-float
-find
-plugin.findfile.FindFilePlugin.actions.newSearch
-FindFilePlugin
 [console.System]
 exit
 quit
@@ -178,46 +201,46 @@ git cma \'Fixed typo\'
 git cma \'Space out trust section\'
 git cma \'Better copy\'
 [clipboard]
-quick_signup
- <div id=\"quick_signup\" class=\"nav-section\">\n         <h2>Newsletter</h2>\n         \n         <p>To receive emails of regular <em>Special Offers</em> enter your email address.</p>\n         \n         <% form_remote_tag(:url => shop_email_signup_path) do -%>\n            <% better_fields_for :email_signup, @email_signup do |f| %>\n               <div class=\'field\'>\n                  <%= f.error_on :email_address %>\n                  <%= f.text_field :email_address, :maxlength => 255 %>\n               </div>\n            <% end %>\n            \n            <%= submit_tag \'Subscribe\', :class => \'submit_button\' %>\n         <% end %>\n       </div>
-@signup
-Thank you for signing up to The Present Finder newsletter!
-message
-content_tag(:h2, message)
-keith@moneyspyder.co.uk
-Newsletter Sign Up successful\n\nThank you for signing up to The Present Finder newsletter!\n\nkeith@moneyspyder.co.uk has been added to our newsletter mailing list.\n\nIf you want to unsubscribe from the newsletter at any time, you can contact us.\n
-Newsletter Sign Up successful\n\nThank you for signing up to The Present Finder newsletter!\n\nkeith@moneyspyder.co.uk has been added to our newsletter mailing list.\n\nIf you want to unsubscribe from the newsletter at any time, you can contact us.
-h3. \"Kanban by David Anderson is available to purchase on his website.\":http:// 
-* 
-Measure
-High severity, high priority defects are fixed immediately. They receive a different, higher, class of service than other work. To fix a high-severity production defect, we put other work aside, pull in as many people as we require.
-Triage
-Reviewing open issues, therefore, becomes vital to improving flow through the\nsystem. Issue-log review should happen frequently and regularly.\n\nSynchronizing across Geographic Locations\n* electronic system\n* keep physical card walls synchronized, at the very least, on a daily basis.\n\nWhen the telecommuter completed an item and changed its electronic status, they\nwould contact their sticky buddy by instant message, email, or phone and ask them to update the physical board.
-Triage: assessing and classifying into categories for priority of attention\n\nIssue Log Review and Escalation\n\nWhen work items in the Kanban system are impeded, they will be marked as such\nand an issue work item will be created. The issue will remain open until the impediment is removed and the original work item can progress through the system.
-* get agreement on a WIP limit \n  * Discuss and agree on an input-coordination mechanism, such as a\n  regular prioritization meeting\n  * Discuss and agree on a release/delivery-coordination mechanism,\n  * Agree on a lead-time target for each class of service of work item
-Reduce Work-in-Progress and Deliver Often Frequent Releases Build Trust.
-Goldratt
-Goldratt, 
+http://feeds.feedburner.com/KeithMcdonnellsArticlesOnSoftware
+fetch_articles
+sort_by {|a| a.updated_at }.reverse
+Article.all
+(:order => \"updated_at DESC\")
+publish to hacker news, ruby flow etc. rake task
+h2. I wrote a \"prototype web crawler in Ruby\":https://github.com/kmcd/web_crawler
+https://github.com/kmcd/web_crawler
+prototype web crawler written in Ruby
+dependency
+gem.add_dependency \'no\'
+== Installation\n\ngem\n\n== Usage\n\n# Must specify a start point\n# Optionally limit to a domain\n\ncrawler = Crawler.new \'http://google.com\'\ncrawler.start\n\n# Fetches page\n# Resolve DNS from cache\n# \n# Extracts all URLS\n# Forms canonoical representation of all URLs\n# \n\n# Log output\n# Stores downloaded files in .ruby_crawler/$URL\n
+gem
+s.add_dependency \'schacon-git\'
+10201  gem install algorithms\n10220  gem install ruby-prof\n10225  gem install net-dns\n10227  gem install nokogiri\n
+source \"http://rubygems.org\"\n
+No input without output (news, information diet)
+ 0.100000   0.020000   0.120000 (  3.949688)
+ruby-1.8.7-p302 >  puts Benchmark.measure { Crawler.new(\'http://www.dmoz.org\').start(10) }
+218,751.455811193
 [sftp.privateKey]
 /home/kmcd/.ssh/id_dsa
 [find]
-debugger
-quick_signup
-fuchsia
-color: red
-for emails
-contact us
-\\d+\\.\\s+
-\[a-z\]\\.
+$
+install 
+APP_NAME
+meta
+meta_de
+is_index
+deliver.*conf.*
+Notifier.*return.*
+Welcome back
+weight-bands
+3
+def assert_unrestricted_and_zero_weight
+zero-we
+named.*weight
+text_chunk
+Notifier.*return
+return
+deliver_order_conf
+’
 ^
-\\d\\.\\s+
-Chapter 11 
-ch \\d
-==
-- 
-(Explained in chapter 6.)
-(explained in chapter 6.)
-(explained in chapter 6)
-remote_tag
-subscribe
-parital.*subscribe

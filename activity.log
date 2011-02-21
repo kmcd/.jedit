@@ -1,423 +1,717 @@
-Log file created on Wed Jan 19 12:54:28 GMT 2011
+Log file created on Mon Feb 21 15:38:11 GMT 2011
 IMPORTANT:
 Because updating this file after every log message would kill
 performance, it will be *incomplete* unless you invoke the
 Utilities->Troubleshooting->Update Activity Log on Disk command!
-12:54:28 [main] [message] Log: When reporting bugs, please include the following information:
-12:54:28 [main] [message] Log: java.version=1.6.0_22
-12:54:28 [main] [message] Log: java.vm.version=17.1-b03
-12:54:28 [main] [message] Log: java.runtime.version=1.6.0_22-b04
-12:54:28 [main] [message] Log: java.vendor=Sun Microsystems Inc.
-12:54:28 [main] [message] Log: java.compiler=null
-12:54:28 [main] [message] Log: os.name=Linux
-12:54:28 [main] [message] Log: os.version=2.6.32-27-generic
-12:54:28 [main] [message] Log: os.arch=i386
-12:54:28 [main] [message] Log: user.home=/home/kmcd
-12:54:28 [main] [message] Log: java.home=/usr/lib/jvm/java-6-sun-1.6.0.22/jre
-12:54:28 [main] [message] Log: java.class.path=/home/kmcd/jedit/4.3.1/jedit.jar
-12:54:28 [main] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/activity.log" to "/home/kmcd/.jedit/settings-backup/activity.log~1~"
-12:54:28 [main] [notice] jEdit: jEdit version 4.3.1
-12:54:28 [main] [message] jEdit: Settings directory is /home/kmcd/.jedit
-12:54:28 [main] [message] jEdit: jEdit home directory is /home/kmcd/jedit/4.3.1
-12:54:28 [main] [debug] SplashScreen: init:25ms
-12:54:28 [main] [debug] SplashScreen: init system properties:38ms
-12:54:28 [main] [message] BeanShell: Beanshell Init
-12:54:28 [main] [debug] SplashScreen: init beanshell:63ms
-12:54:28 [main] [debug] SplashScreen: loading site properties:3ms
-12:54:28 [main] [debug] SplashScreen: loading user properties:2ms
-12:54:28 [main] [debug] GUIUtilities: Icon theme set to: tango
-12:54:28 [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
-12:54:28 [main] [debug] SplashScreen: init GUI:20ms
-12:54:28 [main] [debug] EditServer: jEdit server started on port 40421
-12:54:28 [main] [debug] EditServer: Authorization key is 1371215794
-12:54:28 [main] [debug] SplashScreen: init server:18ms
-12:54:28 [main] [debug] SplashScreen: init look and feel:168ms
-12:54:28 [main] [debug] SplashScreen: init VFS Manager:7ms
-12:54:28 [main] [debug] ActionSet: Loading actions from jar:file:/home/kmcd/jedit/4.3.1/jedit.jar!/org/gjt/sp/jedit/actions.xml
-12:54:28 [main] [debug] DockableWindowManager: Loading dockables from jar:file:/home/kmcd/jedit/4.3.1/jedit.jar!/org/gjt/sp/jedit/dockables.xml
-12:54:28 [main] [debug] EditBus: SearchSettingsChanged[source=null]
-12:54:28 [main] [debug] SplashScreen: init resources:178ms
-12:54:28 [main] [notice] jEdit: Loading plugins from /home/kmcd/jedit/4.3.1/jars
-12:54:28 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/jedit/4.3.1/jars/LatestVersion.jar,class=LatestVersionPlugin]
-12:54:28 [main] [notice] jEdit: Loading plugins from /home/kmcd/.jedit/jars
-12:54:28 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/SideKick.jar,class=sidekick.SideKickPlugin]
-12:54:28 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/Console.jar,class=console.ConsolePlugin]
-12:54:28 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/resolver.jar]
-12:54:28 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
-12:54:28 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/jing.jar]
-12:54:28 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/CandyFolds.jar,class=candyfolds.CandyFoldsPlugin]
-12:54:28 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/kappalayout.jar]
-12:54:28 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/trang.jar]
-12:54:28 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/Beauty.jar,class=beauty.BeautyPlugin]
-12:54:28 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/CommonControls.jar,class=CommonControlsPlugin]
-12:54:28 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/TextTools.jar,class=TextToolsPlugin]
-12:54:28 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/jsch.jar]
-12:54:28 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/relaxngDatatype.jar]
-12:54:28 [main] [debug] ActionSet: Loading actions from jar:file:/home/kmcd/jedit/4.3.1/jedit.jar!/org/gjt/sp/jedit/browser.actions.xml
-12:54:28 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/FindFile.jar,class=findfile.FindFilePlugin]
-12:54:28 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/Sessions.jar,class=sessions.SessionsPlugin]
-12:54:28 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/xercesImpl.jar]
-12:54:28 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/SuperAbbrevs.jar,class=SuperAbbrevsPlugin]
-12:54:28 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
-12:54:28 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/FTP.jar,class=ftp.FtpPlugin]
-12:54:28 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/VoxSpell.jar,class=voxspellcheck.VoxSpellPlugin]
-12:54:28 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/XML.jar,class=xml.XmlPlugin]
-12:54:28 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/XercesPlugin.jar,class=xerces.XercesPlugin]
-12:54:28 [main] [debug] SplashScreen: init plugins:132ms
-12:54:28 [main] [message] HistoryModel: Loading history
-12:54:28 [main] [debug] SplashScreen: init history model:14ms
-12:54:28 [main] [message] BufferHistory: Loading /home/kmcd/.jedit/recent.xml
-12:54:28 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/xercesImpl.jar
-12:54:29 [main] [debug] SplashScreen: init buffer history:205ms
-12:54:29 [main] [message] KillRing: Loading /home/kmcd/.jedit/killring.xml
-12:54:29 [main] [debug] SplashScreen: init killring:20ms
-12:54:29 [main] [debug] jEdit: SOCKS proxy disabled
-12:54:29 [main] [debug] jEdit: HTTP proxy disabled
-12:54:29 [main] [debug] EditBus: PropertiesChanged[source=null]
-12:54:29 [main] [debug] SplashScreen: init various properties:28ms
-12:54:29 [main] [message] jEdit: Loading mode catalog file /home/kmcd/jedit/4.3.1/modes/catalog
-12:54:29 [main] [message] jEdit: Loading mode catalog file /home/kmcd/.jedit/modes/catalog
-12:54:29 [main] [debug] SplashScreen: init modes:45ms
-12:54:29 [main] [debug] PluginJAR: Activating sidekick.SideKickPlugin because of startup
-12:54:29 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/SideKick.jar
-12:54:29 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/SideKick.jar,class=sidekick.SideKickPlugin]
-12:54:29 [main] [debug] PluginJAR: Activating console.ConsolePlugin because of startup
-12:54:29 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/Console.jar
-12:54:29 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
-12:54:29 [main] [debug] ConsolePlugin: Loaded 19 Actions
-12:54:29 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/ErrorList.jar
-12:54:29 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
-12:54:29 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/Console.jar,class=console.ConsolePlugin]
-12:54:29 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
-12:54:29 [main] [debug] PluginJAR: Activating candyfolds.CandyFoldsPlugin because of startup
-12:54:29 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/CandyFolds.jar
-12:54:29 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/CandyFolds.jar,class=candyfolds.CandyFoldsPlugin]
-12:54:29 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
-12:54:29 [main] [debug] PluginJAR: Activating sessions.SessionsPlugin because of startup
-12:54:29 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/Sessions.jar
-12:54:29 [main] [debug] Session: open: name=moneyspyder
-12:54:29 [main] [debug] Session: loadXML: name=moneyspyder filename=/home/kmcd/.jedit/sessions/moneyspyder.xml
-12:54:29 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/Sessions.jar,class=sessions.SessionsPlugin]
-12:54:29 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
-12:54:29 [main] [debug] PluginJAR: Activating buffertabs.BufferTabsPlugin because of startup
-12:54:29 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/BufferTabs.jar
-12:54:29 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
-12:54:29 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
-12:54:29 [main] [debug] PluginJAR: Activating voxspellcheck.VoxSpellPlugin because of startup
-12:54:29 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/VoxSpell.jar
-12:54:31 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/VoxSpell.jar,class=voxspellcheck.VoxSpellPlugin]
-12:54:31 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
-12:54:31 [main] [debug] SplashScreen: activate plugins:2197ms
-12:54:31 [main] [debug] Macros: Registered beanshell macro handler
-12:54:31 [main] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
-12:54:31 [main] [message] BeanShell: Running script /home/kmcd/jedit/4.3.1/startup/startup.bsh
-12:54:31 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/FTP.jar
-12:54:31 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/jsch.jar
-12:54:31 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/FTP.jar,class=ftp.FtpPlugin]
-12:54:31 [main] [debug] EditBus: DynamicMenuChanged[menu=plugin.console.ConsolePlugin.menu,source=null]
-12:54:31 [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
-12:54:31 [main] [debug] SplashScreen: init macros:158ms
-12:54:31 [main] [debug] SplashScreen: run startup scripts:1ms
-12:54:31 [main] [debug] SplashScreen: run startup scripts:4ms
-12:54:31 [AWT-EventQueue-0] [message] PerspectiveManager: Loading /home/kmcd/.jedit/perspective.xml
-12:54:31 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/kmcd/jedit/4.3.1/modes/ruby.xml
-12:54:31 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=order_item_test.rb (~/src/moneyspyder/pf/test/unit/)]
-12:54:31 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=order_item_test.rb (~/src/moneyspyder/pf/test/unit/)]
-12:54:31 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=order_item_test.rb (~/src/moneyspyder/pf/test/unit/)]
-12:54:31 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=order_item_test.rb (~/src/moneyspyder/pf/test/unit/)]
-12:54:31 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=order_item.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/)]
-12:54:31 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=order_item.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/)]
-12:54:31 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=order_item.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/)]
-12:54:31 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=order_item.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/)]
-12:54:31 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=variant.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/)]
-12:54:31 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=variant.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/)]
-12:54:31 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=variant.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/)]
-12:54:31 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=variant.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/)]
-12:54:32 [AWT-EventQueue-0] [debug] BufferSet: 23053938 addBufferAt(order_item.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/),-1)
-12:54:32 [AWT-EventQueue-0] [debug] BufferSet: 23053938: Buffer added order_item.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/) at 0
-12:54:32 [AWT-EventQueue-0] [debug] BufferSet: 23053938: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive,view]
-12:54:32 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFERSET_CHANGED,source=org.gjt.sp.jedit.EditPane[inactive,view]]
-12:54:32 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive,view]]
-12:54:32 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive,view]]
-12:54:32 [AWT-EventQueue-0] [debug] BufferSet: 23053938: Buffer added order_item.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/) at 0
-12:54:32 [AWT-EventQueue-0] [debug] BufferSet: 23053938: addBufferSetListener buffertabs.BufferTabs[order_item.rb]
-12:54:32 [AWT-EventQueue-0] [debug] BufferSet: 23053938 addBufferAt(order_item_test.rb (~/src/moneyspyder/pf/test/unit/),-1)
-12:54:32 [AWT-EventQueue-0] [debug] BufferSet: 23053938: Buffer added order_item_test.rb (~/src/moneyspyder/pf/test/unit/) at 1
-12:54:32 [AWT-EventQueue-0] [debug] BufferSet: 23053938 addBufferAt(order_item.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/),1)
-12:54:32 [AWT-EventQueue-0] [debug] BufferSet: 23053938: Buffer moved order_item.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/) from 0 to 1
-12:54:32 [AWT-EventQueue-0] [debug] BufferSet: 23053938 addBufferAt(variant.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/),-1)
-12:54:32 [AWT-EventQueue-0] [debug] BufferSet: 23053938: Buffer added variant.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/) at 2
-12:54:33 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
-12:54:33 [AWT-EventQueue-0] [debug] SideKick: No parser
-12:54:33 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@1b59919
-12:54:33 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
-12:54:33 [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
-12:54:33 [jEdit I/O #1] [debug] WorkThread: Work request thread starting [jEdit I/O #1]
-12:54:33 [jEdit I/O #2] [debug] WorkThread: Work request thread starting [jEdit I/O #2]
-12:54:33 [jEdit I/O #4] [debug] WorkThread: Work request thread starting [jEdit I/O #4]
-12:54:33 [jEdit I/O #3] [debug] WorkThread: Work request thread starting [jEdit I/O #3]
-12:54:33 [AWT-EventQueue-0] [message] jEdit: Startup complete
-12:54:33 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
-12:54:33 [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
-12:54:33 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:54:35 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:54:35 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:54:35 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSING,view=org.gjt.sp.jedit.View[active],source=order_item.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/)]
-12:54:35 [AWT-EventQueue-0] [debug] BufferSet: 23053938: Buffer removed order_item.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/)
-12:54:35 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:54:35 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:54:35 [AWT-EventQueue-0] [debug] SideKick: No parser
-12:54:35 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@d2b64e
-12:54:35 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
-12:54:35 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=order_item.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/)]
-12:54:36 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:54:36 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:54:36 [AWT-EventQueue-0] [debug] BufferSet: 23053938: Buffer removed order_item_test.rb (~/src/moneyspyder/pf/test/unit/)
-12:54:36 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:54:36 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:54:36 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:54:36 [AWT-EventQueue-0] [debug] SideKick: No parser
-12:54:36 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@10e9df
-12:54:36 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
-12:54:36 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=order_item_test.rb (~/src/moneyspyder/pf/test/unit/)]
-12:54:36 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:54:36 [AWT-EventQueue-0] [debug] BufferSet: 23053938: Buffer removed variant.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/)
-12:54:36 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/kmcd/jedit/4.3.1/modes/text.xml
-12:54:36 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/)]
-12:54:36 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/)]
-12:54:36 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/)]
-12:54:36 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/)]
-12:54:36 [AWT-EventQueue-0] [debug] BufferSet: 23053938 addBufferAt(Untitled-1 (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/),-1)
-12:54:36 [AWT-EventQueue-0] [debug] BufferSet: 23053938: Buffer added Untitled-1 (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/) at 0
-12:54:36 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:54:36 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:54:36 [AWT-EventQueue-0] [debug] SideKick: No parser
-12:54:36 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@15a3a1
-12:54:36 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
-12:54:36 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=variant.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/)]
-12:54:43 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=variant.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/)]
-12:54:43 [AWT-EventQueue-0] [debug] BufferSet: 23053938 addBufferAt(variant.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/),-1)
-12:54:43 [AWT-EventQueue-0] [debug] BufferSet: 23053938: Buffer added variant.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/) at 1
-12:54:43 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=1,run=org.gjt.sp.jedit.bufferio.BufferLoadRequest[variant.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/)]]
-12:54:43 [AWT-EventQueue-0] [debug] BufferSetManager: removeBuffer(BufferSet[nbBuffers=2],Untitled-1 (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/))
-12:54:43 [AWT-EventQueue-0] [debug] BufferSet: 23053938: Buffer removed Untitled-1 (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/)
-12:54:43 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:54:43 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:54:43 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/) is in no bufferSet anymore, closing it
-12:54:43 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSING,view=null,source=Untitled-1 (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/)]
-12:54:43 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=null,source=Untitled-1 (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/)]
-12:54:43 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=variant.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/)]
-12:54:43 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=variant.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/)]
-12:54:43 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=variant.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/)]
-12:54:43 [AWT-EventQueue-0] [debug] SideKick: No parser
-12:54:43 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@13c4c09
-12:54:43 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
-12:54:46 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=order_item_test.rb (~/src/moneyspyder/pf/test/unit/)]
-12:54:46 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=4,run=org.gjt.sp.jedit.bufferio.BufferLoadRequest[order_item_test.rb (~/src/moneyspyder/pf/test/unit/)]]
-12:54:46 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=order_item_test.rb (~/src/moneyspyder/pf/test/unit/)]
-12:54:46 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=order_item_test.rb (~/src/moneyspyder/pf/test/unit/)]
-12:54:46 [AWT-EventQueue-0] [debug] SideKick: No parser
-12:54:46 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@b3c24f
-12:54:46 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
-12:54:46 [AWT-EventQueue-0] [debug] BufferSet: 23053938 addBufferAt(order_item_test.rb (~/src/moneyspyder/pf/test/unit/),-1)
-12:54:46 [AWT-EventQueue-0] [debug] BufferSet: 23053938: Buffer added order_item_test.rb (~/src/moneyspyder/pf/test/unit/) at 1
-12:54:46 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=order_item_test.rb (~/src/moneyspyder/pf/test/unit/)]
-12:54:46 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:54:46 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:54:46 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:54:46 [AWT-EventQueue-0] [debug] SideKick: No parser
-12:54:46 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@b29c9d
-12:54:46 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
-12:54:48 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=order_item.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/)]
-12:54:48 [AWT-EventQueue-0] [debug] BufferSet: 23053938 addBufferAt(order_item.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/),-1)
-12:54:48 [jEdit I/O #1] [debug] WorkThread: Running in work thread: [id=5,run=org.gjt.sp.jedit.bufferio.BufferLoadRequest[order_item.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/)]]
-12:54:48 [AWT-EventQueue-0] [debug] BufferSet: 23053938: Buffer added order_item.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/) at 2
-12:54:48 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=order_item.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/)]
-12:54:48 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:54:48 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:54:48 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:54:49 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=order_item.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/)]
-12:54:49 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=order_item.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/)]
-12:54:49 [AWT-EventQueue-0] [debug] SideKick: No parser
-12:54:49 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@5c2a25
-12:54:49 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
-12:54:52 [AWT-EventQueue-0] [debug] ActionSet: Loading actions from jeditresource:/Sessions.jar!/actions.xml
-12:54:52 [AWT-EventQueue-0] [debug] Session: save: name=moneyspyder
-12:54:52 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:54:52 [AWT-EventQueue-0] [debug] Session: saveXML: name=moneyspyder filename=/home/kmcd/.jedit/sessions/moneyspyder.xml
-12:54:52 [AWT-EventQueue-0] [debug] SessionManager: saveCurrentSessionProperty: currentSession=moneyspyder
-12:54:52 [AWT-EventQueue-0] [message] HistoryModel: Saving history
-12:54:52 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/history" to "/home/kmcd/.jedit/settings-backup/history~1~"
-12:54:52 [AWT-EventQueue-0] [message] BufferHistory: Saving /home/kmcd/.jedit/recent.xml
-12:54:52 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/recent.xml" to "/home/kmcd/.jedit/settings-backup/recent.xml~1~"
-12:54:52 [AWT-EventQueue-0] [message] KillRing: Saving /home/kmcd/.jedit/killring.xml
-12:54:52 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/killring.xml" to "/home/kmcd/.jedit/settings-backup/killring.xml~1~"
-12:54:52 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/properties" to "/home/kmcd/.jedit/settings-backup/properties~1~"
-12:54:53 [AWT-EventQueue-0] [debug] SessionManager: session saved: moneyspyder
-12:54:53 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:54:57 [AWT-EventQueue-0] [debug] SessionManager: setCurrentSession: currentSession=moneyspyder newSessionName=default
-12:54:57 [AWT-EventQueue-0] [debug] SessionManager: autosaving current session...
-12:54:57 [AWT-EventQueue-0] [debug] Session: save: name=moneyspyder
-12:54:57 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:54:57 [AWT-EventQueue-0] [debug] Session: saveXML: name=moneyspyder filename=/home/kmcd/.jedit/sessions/moneyspyder.xml
-12:54:57 [AWT-EventQueue-0] [debug] SessionManager: saveCurrentSessionProperty: currentSession=moneyspyder
-12:54:57 [AWT-EventQueue-0] [message] HistoryModel: Saving history
-12:54:57 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/history" to "/home/kmcd/.jedit/settings-backup/history~1~"
-12:54:57 [AWT-EventQueue-0] [message] BufferHistory: Saving /home/kmcd/.jedit/recent.xml
-12:54:57 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/recent.xml" to "/home/kmcd/.jedit/settings-backup/recent.xml~1~"
-12:54:57 [AWT-EventQueue-0] [message] KillRing: Saving /home/kmcd/.jedit/killring.xml
-12:54:57 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/killring.xml" to "/home/kmcd/.jedit/settings-backup/killring.xml~1~"
-12:54:57 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/properties" to "/home/kmcd/.jedit/settings-backup/properties~1~"
-12:54:57 [AWT-EventQueue-0] [debug] SessionManager: session saved: moneyspyder
-12:54:57 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:54:57 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:54:57 [AWT-EventQueue-0] [debug] BufferSet: 23053938: Buffer removed variant.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/)
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=variant.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_base/app/models/)]
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:54:58 [AWT-EventQueue-0] [debug] BufferSet: 23053938: Buffer removed order_item_test.rb (~/src/moneyspyder/pf/test/unit/)
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=order_item_test.rb (~/src/moneyspyder/pf/test/unit/)]
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:54:58 [AWT-EventQueue-0] [debug] BufferSet: 23053938: Buffer removed order_item.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/)
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/)]
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/)]
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/)]
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/)]
-12:54:58 [AWT-EventQueue-0] [debug] BufferSet: 23053938 addBufferAt(Untitled-1 (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/),-1)
-12:54:58 [AWT-EventQueue-0] [debug] BufferSet: 23053938: Buffer added Untitled-1 (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/) at 0
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:54:58 [AWT-EventQueue-0] [debug] SideKick: No parser
-12:54:58 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@1c4a2d3
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=order_item.rb (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/)]
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: SessionChanging[source=sessions.SessionManager@9e0c2d,oldSession=moneyspyder,newSession=default]
-12:54:58 [AWT-EventQueue-0] [debug] SessionManager: saveCurrentSessionProperty: currentSession=default
-12:54:58 [AWT-EventQueue-0] [message] BufferHistory: Saving /home/kmcd/.jedit/recent.xml
-12:54:58 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/recent.xml" to "/home/kmcd/.jedit/settings-backup/recent.xml~1~"
-12:54:58 [AWT-EventQueue-0] [message] KillRing: Saving /home/kmcd/.jedit/killring.xml
-12:54:58 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/killring.xml" to "/home/kmcd/.jedit/settings-backup/killring.xml~1~"
-12:54:58 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/properties" to "/home/kmcd/.jedit/settings-backup/properties~1~"
-12:54:58 [AWT-EventQueue-0] [debug] Session: open: name=default
-12:54:58 [AWT-EventQueue-0] [debug] Session: loadXML: name=default filename=/home/kmcd/.jedit/sessions/default.xml
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=watertshirts_todo.txt (~/src/watertshirts.org/)]
-12:54:58 [AWT-EventQueue-0] [debug] BufferSet: 23053938 addBufferAt(watertshirts_todo.txt (~/src/watertshirts.org/),-1)
-12:54:58 [AWT-EventQueue-0] [debug] BufferSet: 23053938: Buffer added watertshirts_todo.txt (~/src/watertshirts.org/) at 1
-12:54:58 [AWT-EventQueue-0] [debug] BufferSetManager: removeBuffer(BufferSet[nbBuffers=2],Untitled-1 (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/))
-12:54:58 [AWT-EventQueue-0] [debug] BufferSet: 23053938: Buffer removed Untitled-1 (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/)
-12:54:58 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=8,run=org.gjt.sp.jedit.bufferio.BufferLoadRequest[watertshirts_todo.txt (~/src/watertshirts.org/)]]
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:54:58 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/) is in no bufferSet anymore, closing it
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSING,view=null,source=Untitled-1 (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/)]
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=null,source=Untitled-1 (~/src/moneyspyder/pf/vendor/plugins/flexshop_orders/app/models/)]
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=watertshirts_todo.txt (~/src/watertshirts.org/)]
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=watertshirts_marketing.txt (~/src/watertshirts.org/adwords/)]
-12:54:58 [AWT-EventQueue-0] [debug] BufferSet: 23053938 addBufferAt(watertshirts_marketing.txt (~/src/watertshirts.org/adwords/),-1)
-12:54:58 [AWT-EventQueue-0] [debug] BufferSet: 23053938: Buffer added watertshirts_marketing.txt (~/src/watertshirts.org/adwords/) at 1
-12:54:58 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=11,run=org.gjt.sp.jedit.bufferio.BufferLoadRequest[watertshirts_marketing.txt (~/src/watertshirts.org/adwords/)]]
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=watertshirts_marketing.txt (~/src/watertshirts.org/adwords/)]
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: SessionChanged[source=sessions.SessionManager@9e0c2d,oldSession=moneyspyder,newSession=default]
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=watertshirts_todo.txt (~/src/watertshirts.org/)]
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=watertshirts_todo.txt (~/src/watertshirts.org/)]
-12:54:58 [AWT-EventQueue-0] [debug] SideKick: No parser
-12:54:58 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@a8a314
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=watertshirts_marketing.txt (~/src/watertshirts.org/adwords/)]
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=watertshirts_marketing.txt (~/src/watertshirts.org/adwords/)]
-12:54:58 [AWT-EventQueue-0] [debug] SideKick: No parser
-12:54:58 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@dff0ea
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
-12:54:58 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:54:59 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/perspective.xml" to "/home/kmcd/.jedit/settings-backup/perspective.xml~1~"
-12:55:08 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:55:08 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:55:08 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:55:08 [AWT-EventQueue-0] [debug] SideKick: No parser
-12:55:08 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@dca7d0
-12:55:08 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
-12:55:09 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:55:09 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:55:09 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:55:09 [AWT-EventQueue-0] [debug] SideKick: No parser
-12:55:09 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@ad97f5
-12:55:09 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
-12:55:10 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:55:10 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:55:10 [AWT-EventQueue-0] [debug] BufferSet: 23053938: Buffer removed watertshirts_todo.txt (~/src/watertshirts.org/)
-12:55:10 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:55:10 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:55:10 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:55:10 [AWT-EventQueue-0] [debug] SideKick: No parser
-12:55:10 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@17414c8
-12:55:10 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
-12:55:10 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=watertshirts_todo.txt (~/src/watertshirts.org/)]
-12:55:10 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:55:10 [AWT-EventQueue-0] [debug] BufferSet: 23053938: Buffer removed watertshirts_marketing.txt (~/src/watertshirts.org/adwords/)
-12:55:10 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/src/watertshirts.org/adwords/)]
-12:55:10 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/src/watertshirts.org/adwords/)]
-12:55:10 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/src/watertshirts.org/adwords/)]
-12:55:10 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/src/watertshirts.org/adwords/)]
-12:55:10 [AWT-EventQueue-0] [debug] BufferSet: 23053938 addBufferAt(Untitled-1 (~/src/watertshirts.org/adwords/),-1)
-12:55:10 [AWT-EventQueue-0] [debug] BufferSet: 23053938: Buffer added Untitled-1 (~/src/watertshirts.org/adwords/) at 0
-12:55:10 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:55:10 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:55:10 [AWT-EventQueue-0] [debug] SideKick: No parser
-12:55:10 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@47a8f3
-12:55:10 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
-12:55:10 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=org.gjt.sp.jedit.View[active],source=watertshirts_marketing.txt (~/src/watertshirts.org/adwords/)]
-12:55:23 [jEdit server daemon [/home/kmcd/.jedit/server]] [message] EditServer: Socket[addr=/127.0.0.1,port=38176,localport=40421]: connected
-12:55:23 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: Socket[addr=/127.0.0.1,port=38176,localport=40421]: authenticated successfully
-12:55:23 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: parent = "/home/kmcd/.jedit";
-12:55:23 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: args = new String[2];
-12:55:23 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: args[0] = null;
-12:55:23 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: args[1] = ".gitignore";
-12:55:23 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: view = jEdit.getLastView();
-12:55:23 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: buffer = EditServer.handleClient(true,false,false,parent,args);
-12:55:23 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: if(buffer != null && false) {
-12:55:23 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer:  buffer.setWaitSocket(socket);
-12:55:23 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer:  doNotCloseSocket = true;
-12:55:23 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: }
-12:55:23 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: if(view != jEdit.getLastView() && false) {
-12:55:23 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer:  jEdit.getLastView().setWaitSocket(socket);
-12:55:23 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer:  doNotCloseSocket = true;
-12:55:23 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: }
-12:55:23 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: if(doNotCloseSocket == void)
-12:55:23 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer:  socket.close();
-12:55:23 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=.gitignore (~/.jedit/)]
-12:55:23 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=15,run=org.gjt.sp.jedit.bufferio.BufferLoadRequest[.gitignore (~/.jedit/)]]
-12:55:23 [AWT-EventQueue-0] [debug] BufferSet: 23053938 addBufferAt(.gitignore (~/.jedit/),-1)
-12:55:23 [AWT-EventQueue-0] [debug] BufferSet: 23053938: Buffer added .gitignore (~/.jedit/) at 1
-12:55:23 [AWT-EventQueue-0] [debug] BufferSetManager: removeBuffer(BufferSet[nbBuffers=2],Untitled-1 (~/src/watertshirts.org/adwords/))
-12:55:23 [AWT-EventQueue-0] [debug] BufferSet: 23053938: Buffer removed Untitled-1 (~/src/watertshirts.org/adwords/)
-12:55:23 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:55:23 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:55:23 [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (~/src/watertshirts.org/adwords/) is in no bufferSet anymore, closing it
-12:55:23 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSING,view=null,source=Untitled-1 (~/src/watertshirts.org/adwords/)]
-12:55:23 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CLOSED,view=null,source=Untitled-1 (~/src/watertshirts.org/adwords/)]
-12:55:23 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=.gitignore (~/.jedit/)]
-12:55:23 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=.gitignore (~/.jedit/)]
-12:55:23 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=.gitignore (~/.jedit/)]
-12:55:23 [AWT-EventQueue-0] [debug] SideKick: No parser
-12:55:23 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@168afdd
-12:55:23 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
-12:55:23 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
-12:55:24 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:55:26 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:55:26 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=.gitignore (~/.jedit/)]
-12:55:29 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/perspective.xml" to "/home/kmcd/.jedit/settings-backup/perspective.xml~1~"
-12:55:29 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=18,run=org.gjt.sp.jedit.bufferio.BufferAutosaveRequest[.gitignore (~/.jedit/)]]
-12:55:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=.gitignore (~/.jedit/)]
-12:55:30 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/.jedit/.gitignore has permissions 0644
-12:55:30 [jEdit I/O #1] [debug] WorkThread: Running in work thread: [id=19,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[.gitignore (~/.jedit/)]]
-12:55:30 [jEdit I/O #1] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/.gitignore" to "/home/kmcd/tmp/home/kmcd/.jedit/jedit-bak..gitignore"
-12:55:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=.gitignore (~/.jedit/)]
-12:55:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=.gitignore (~/.jedit/)]
-12:55:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=.gitignore (~/.jedit/)]
-12:55:30 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/.jedit,source=null]
-12:55:30 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/.jedit/.gitignore,source=null]
-12:55:42 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
-12:55:42 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:38:11 [main] [message] Log: When reporting bugs, please include the following information:
+15:38:11 [main] [message] Log: java.version=1.6.0_22
+15:38:11 [main] [message] Log: java.vm.version=17.1-b03
+15:38:11 [main] [message] Log: java.runtime.version=1.6.0_22-b04
+15:38:11 [main] [message] Log: java.vendor=Sun Microsystems Inc.
+15:38:11 [main] [message] Log: java.compiler=null
+15:38:11 [main] [message] Log: os.name=Linux
+15:38:11 [main] [message] Log: os.version=2.6.32-28-generic
+15:38:11 [main] [message] Log: os.arch=i386
+15:38:11 [main] [message] Log: user.home=/home/kmcd
+15:38:11 [main] [message] Log: java.home=/usr/lib/jvm/java-6-sun-1.6.0.22/jre
+15:38:11 [main] [message] Log: java.class.path=/home/kmcd/jedit/4.3.1/jedit.jar
+15:38:11 [main] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/activity.log" to "/home/kmcd/.jedit/settings-backup/activity.log~1~"
+15:38:11 [main] [notice] jEdit: jEdit version 4.3.1
+15:38:11 [main] [message] jEdit: Settings directory is /home/kmcd/.jedit
+15:38:11 [main] [message] jEdit: jEdit home directory is /home/kmcd/jedit/4.3.1
+15:38:11 [main] [debug] SplashScreen: init:19ms
+15:38:12 [main] [debug] SplashScreen: init system properties:77ms
+15:38:12 [main] [message] BeanShell: Beanshell Init
+15:38:12 [main] [debug] SplashScreen: init beanshell:110ms
+15:38:12 [main] [debug] SplashScreen: loading site properties:5ms
+15:38:12 [main] [debug] SplashScreen: loading user properties:5ms
+15:38:12 [main] [debug] GUIUtilities: Icon theme set to: tango
+15:38:12 [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+15:38:12 [main] [debug] SplashScreen: init GUI:32ms
+15:38:12 [main] [debug] EditServer: jEdit server started on port 45649
+15:38:12 [main] [debug] EditServer: Authorization key is 167337037
+15:38:12 [main] [debug] SplashScreen: init server:34ms
+15:38:12 [main] [debug] SplashScreen: init look and feel:256ms
+15:38:12 [main] [debug] SplashScreen: init VFS Manager:10ms
+15:38:12 [main] [debug] ActionSet: Loading actions from jar:file:/home/kmcd/jedit/4.3.1/jedit.jar!/org/gjt/sp/jedit/actions.xml
+15:38:12 [main] [debug] DockableWindowManager: Loading dockables from jar:file:/home/kmcd/jedit/4.3.1/jedit.jar!/org/gjt/sp/jedit/dockables.xml
+15:38:12 [main] [debug] EditBus: SearchSettingsChanged[source=null]
+15:38:12 [main] [debug] SplashScreen: init resources:318ms
+15:38:12 [main] [notice] jEdit: Loading plugins from /home/kmcd/jedit/4.3.1/jars
+15:38:12 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/jedit/4.3.1/jars/LatestVersion.jar,class=LatestVersionPlugin]
+15:38:12 [main] [notice] jEdit: Loading plugins from /home/kmcd/.jedit/jars
+15:38:12 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/SideKick.jar,class=sidekick.SideKickPlugin]
+15:38:12 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/resolver.jar]
+15:38:12 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/jna.jar]
+15:38:12 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
+15:38:12 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/jing.jar]
+15:38:12 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/CandyFolds.jar,class=candyfolds.CandyFoldsPlugin]
+15:38:12 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/kappalayout.jar]
+15:38:12 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/trang.jar]
+15:38:12 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/Beauty.jar,class=beauty.BeautyPlugin]
+15:38:12 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/CommonControls.jar,class=CommonControlsPlugin]
+15:38:12 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/TextTools.jar,class=TextToolsPlugin]
+15:38:12 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/jsch.jar]
+15:38:12 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/relaxngDatatype.jar]
+15:38:12 [main] [debug] ActionSet: Loading actions from jar:file:/home/kmcd/jedit/4.3.1/jedit.jar!/org/gjt/sp/jedit/browser.actions.xml
+15:38:12 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/FindFile.jar,class=findfile.FindFilePlugin]
+15:38:12 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/Sessions.jar,class=sessions.SessionsPlugin]
+15:38:12 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/xercesImpl.jar]
+15:38:12 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/SuperAbbrevs.jar,class=SuperAbbrevsPlugin]
+15:38:12 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+15:38:12 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/FTP.jar,class=ftp.FtpPlugin]
+15:38:12 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/XML.jar,class=xml.XmlPlugin]
+15:38:13 [main] [debug] EditBus: PluginUpdate[what=LOADED,exit=false,source=/home/kmcd/.jedit/jars/XercesPlugin.jar,class=xerces.XercesPlugin]
+15:38:13 [main] [debug] SplashScreen: init plugins:238ms
+15:38:13 [main] [message] HistoryModel: Loading history
+15:38:13 [main] [debug] SplashScreen: init history model:20ms
+15:38:13 [main] [message] BufferHistory: Loading /home/kmcd/.jedit/recent.xml
+15:38:13 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/xercesImpl.jar
+15:38:13 [main] [debug] SplashScreen: init buffer history:344ms
+15:38:13 [main] [message] KillRing: Loading /home/kmcd/.jedit/killring.xml
+15:38:13 [main] [debug] SplashScreen: init killring:31ms
+15:38:13 [main] [debug] jEdit: SOCKS proxy disabled
+15:38:13 [main] [debug] jEdit: HTTP proxy disabled
+15:38:13 [main] [debug] EditBus: PropertiesChanged[source=null]
+15:38:13 [main] [debug] SplashScreen: init various properties:40ms
+15:38:13 [main] [message] jEdit: Loading mode catalog file /home/kmcd/jedit/4.3.1/modes/catalog
+15:38:13 [main] [message] jEdit: Loading mode catalog file /home/kmcd/.jedit/modes/catalog
+15:38:13 [main] [debug] SplashScreen: init modes:108ms
+15:38:13 [main] [debug] PluginJAR: Activating sidekick.SideKickPlugin because of startup
+15:38:13 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/SideKick.jar
+15:38:13 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/SideKick.jar,class=sidekick.SideKickPlugin]
+15:38:13 [main] [debug] PluginJAR: Activating candyfolds.CandyFoldsPlugin because of startup
+15:38:13 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/CandyFolds.jar
+15:38:13 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/CandyFolds.jar,class=candyfolds.CandyFoldsPlugin]
+15:38:13 [main] [debug] PluginJAR: Activating sessions.SessionsPlugin because of startup
+15:38:13 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/Sessions.jar
+15:38:13 [main] [debug] Session: open: name=blog
+15:38:13 [main] [debug] Session: loadXML: name=blog filename=/home/kmcd/.jedit/sessions/blog.xml
+15:38:13 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/Sessions.jar,class=sessions.SessionsPlugin]
+15:38:13 [main] [debug] PluginJAR: Activating buffertabs.BufferTabsPlugin because of startup
+15:38:13 [main] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/BufferTabs.jar
+15:38:13 [main] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/BufferTabs.jar,class=buffertabs.BufferTabsPlugin]
+15:38:13 [main] [debug] SplashScreen: activate plugins:97ms
+15:38:13 [main] [debug] Macros: Registered beanshell macro handler
+15:38:13 [main] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+15:38:13 [main] [message] BeanShell: Running script /home/kmcd/jedit/4.3.1/startup/startup.bsh
+15:38:13 [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+15:38:13 [main] [debug] SplashScreen: init macros:187ms
+15:38:13 [main] [debug] SplashScreen: run startup scripts:2ms
+15:38:13 [main] [debug] SplashScreen: run startup scripts:4ms
+15:38:13 [AWT-EventQueue-0] [message] PerspectiveManager: Loading /home/kmcd/.jedit/perspective.xml
+15:38:14 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (~/)]
+15:38:14 [AWT-EventQueue-0] [debug] BufferSet: 24854782 addBufferAt(Untitled-1 (~/),-1)
+15:38:14 [AWT-EventQueue-0] [debug] BufferSet: 24854782: Buffer added Untitled-1 (~/) at 0
+15:38:14 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (~/)]
+15:38:14 [AWT-EventQueue-0] [debug] BufferSet: 14672643 addBufferAt(Untitled-1 (~/),-1)
+15:38:14 [AWT-EventQueue-0] [debug] BufferSet: 14672643: Buffer added Untitled-1 (~/) at 0
+15:38:14 [AWT-EventQueue-0] [debug] BufferSet: 14672643: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive,view]
+15:38:14 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFERSET_CHANGED,source=org.gjt.sp.jedit.EditPane[inactive,view]]
+15:38:14 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive,view]]
+15:38:14 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive,view]]
+15:38:14 [AWT-EventQueue-0] [debug] BufferSet: 14672643: Buffer added Untitled-1 (~/) at 0
+15:38:14 [AWT-EventQueue-0] [debug] BufferSet: 14672643: addBufferSetListener buffertabs.BufferTabs[Untitled-1]
+15:38:15 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+15:38:15 [AWT-EventQueue-0] [debug] PluginJAR: Opening /home/kmcd/.jedit/jars/ErrorList.jar
+15:38:15 [AWT-EventQueue-0] [debug] EditBus: PluginUpdate[what=ACTIVATED,exit=false,source=/home/kmcd/.jedit/jars/ErrorList.jar,class=errorlist.ErrorListPlugin]
+15:38:15 [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+15:38:15 [jEdit I/O #2] [debug] WorkThread: Work request thread starting [jEdit I/O #2]
+15:38:15 [jEdit I/O #1] [debug] WorkThread: Work request thread starting [jEdit I/O #1]
+15:38:15 [jEdit I/O #3] [debug] WorkThread: Work request thread starting [jEdit I/O #3]
+15:38:15 [jEdit I/O #4] [debug] WorkThread: Work request thread starting [jEdit I/O #4]
+15:38:15 [AWT-EventQueue-0] [message] jEdit: Startup complete
+15:38:15 [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+15:38:15 [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+15:38:15 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/kmcd/jedit/4.3.1/modes/text.xml
+15:38:15 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (~/)]
+15:38:15 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (~/)]
+15:38:15 [AWT-EventQueue-0] [debug] SideKick: No parser
+15:38:15 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@391da0
+15:38:15 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:38:18 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:38:18 [AWT-EventQueue-0] [debug] BufferSet: 14672643 addBufferAt(backlog.txt (~/src/blog/),-1)
+15:38:18 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=3,run=org.gjt.sp.jedit.bufferio.BufferLoadRequest[backlog.txt (~/src/blog/)]]
+15:38:18 [AWT-EventQueue-0] [debug] BufferSet: 14672643: Buffer added backlog.txt (~/src/blog/) at 1
+15:38:19 [AWT-EventQueue-0] [debug] BufferSetManager: removeBuffer(BufferSet[nbBuffers=2],Untitled-1 (~/))
+15:38:19 [AWT-EventQueue-0] [debug] BufferSet: 14672643: Buffer removed Untitled-1 (~/)
+15:38:19 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+15:38:19 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,view]]
+15:38:19 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:38:19 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:38:19 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:38:19 [AWT-EventQueue-0] [debug] SideKick: No parser
+15:38:19 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@9319d9
+15:38:19 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+15:38:20 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+15:38:21 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:38:21 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:38:21 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+15:38:21 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=6,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+15:38:21 [jEdit I/O #3] [debug] MiscUtilities: Saving backup of file "/home/kmcd/src/blog/backlog.txt" to "/home/kmcd/tmp/home/kmcd/src/blog/jedit-bak.backlog.txt"
+15:38:21 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:38:21 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:38:21 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:38:21 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+15:38:21 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+15:38:22 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:38:22 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+15:38:22 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=9,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+15:38:22 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:38:22 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:38:22 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:38:22 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+15:38:22 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+15:38:42 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:38:42 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+15:38:42 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=12,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+15:38:42 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:38:42 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:38:42 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:38:42 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+15:38:42 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+15:38:43 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/perspective.xml" to "/home/kmcd/.jedit/settings-backup/perspective.xml~1~"
+15:38:48 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:38:48 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:38:48 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+15:38:48 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=15,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+15:38:48 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:38:48 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:38:48 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:38:48 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+15:38:48 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+15:38:49 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:38:49 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+15:38:49 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=18,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+15:38:49 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:38:49 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:38:49 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:38:49 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+15:38:49 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+15:38:56 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+15:39:03 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+15:39:04 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+15:39:05 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+15:39:06 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+15:39:07 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:39:07 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:39:08 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+15:39:08 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=21,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+15:39:08 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:39:08 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:39:08 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:39:08 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+15:39:08 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+15:39:08 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+15:39:10 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+15:39:10 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+15:39:10 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:39:13 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=24,run=org.gjt.sp.jedit.bufferio.BufferAutosaveRequest[backlog.txt (~/src/blog/)]]
+15:39:15 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+15:39:25 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+15:39:26 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:39:26 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+15:39:26 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=25,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+15:39:26 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:39:26 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:39:26 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:39:26 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+15:39:26 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+15:39:28 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:39:29 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:39:29 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+15:39:29 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=28,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+15:39:29 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:39:29 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:39:29 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:39:29 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+15:39:29 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+15:39:32 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+15:39:35 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=$,source=null]
+15:39:35 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+15:39:35 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:39:35 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:39:35 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+15:39:35 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=31,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+15:39:35 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:39:35 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:39:35 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:39:35 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+15:39:35 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+15:39:36 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+15:39:36 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:39:37 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+15:39:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:39:38 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+15:39:38 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=34,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+15:39:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:39:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:39:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:39:38 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+15:39:38 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+15:39:54 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:39:54 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:39:55 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:39:55 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+15:39:55 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=37,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+15:39:55 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:39:55 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:39:55 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:39:55 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+15:39:55 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+15:40:00 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:40:00 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:00 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+15:40:00 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=40,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+15:40:00 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:40:00 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:00 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:00 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+15:40:00 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+15:40:01 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:01 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+15:40:01 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=43,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+15:40:01 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:40:01 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:01 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:01 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+15:40:01 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+15:40:08 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:09 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+15:40:09 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=46,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+15:40:09 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:40:09 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:09 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:09 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+15:40:09 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+15:40:23 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:40:24 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:24 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+15:40:24 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=49,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+15:40:24 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:40:24 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:24 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:24 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+15:40:24 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+15:40:24 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:24 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+15:40:24 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=52,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+15:40:24 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:40:24 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:24 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:24 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+15:40:24 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+15:40:33 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:40:34 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:34 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+15:40:34 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=55,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+15:40:34 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:40:34 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:34 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:34 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+15:40:34 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+15:40:35 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:40:35 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:35 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+15:40:35 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=58,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+15:40:35 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:40:35 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:35 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:35 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+15:40:35 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+15:40:36 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:40:36 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:37 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+15:40:37 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=61,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+15:40:37 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:40:37 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:37 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:37 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+15:40:37 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+15:40:37 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:37 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+15:40:37 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=64,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+15:40:37 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:40:37 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:37 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:37 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+15:40:37 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+15:40:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:40:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:38 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+15:40:38 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=67,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+15:40:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:40:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:38 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+15:40:38 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+15:40:43 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:40:43 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:43 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+15:40:43 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=70,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+15:40:43 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:40:43 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:43 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:43 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+15:40:43 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+15:40:50 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:51 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+15:40:51 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=73,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+15:40:51 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:40:51 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:51 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:51 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+15:40:51 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+15:40:56 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=$,source=null]
+15:40:56 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+15:40:56 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:40:56 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:56 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+15:40:56 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=76,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+15:40:56 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:40:56 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:56 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:56 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+15:40:56 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+15:40:57 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+15:40:57 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:40:57 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+15:40:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:58 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+15:40:58 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=79,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+15:40:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:40:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:40:58 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+15:40:58 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+15:41:05 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:41:10 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:52:16 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+15:52:17 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+15:52:18 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+15:52:18 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:52:19 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+15:52:19 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=82,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+15:52:19 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+15:52:19 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:52:19 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+15:52:19 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+15:52:19 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+15:52:21 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:34:05 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:34:06 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:34:07 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:34:07 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:34:34 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:34:41 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:34:41 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:34:41 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+16:34:41 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=85,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+16:34:41 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:34:41 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:34:41 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:34:41 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+16:34:41 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+16:34:43 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:34:44 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:34:44 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:34:44 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+16:34:44 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=88,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+16:34:44 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:34:44 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:34:44 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:34:44 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+16:34:44 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+16:34:45 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:34:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:34:45 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+16:34:45 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=91,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+16:34:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:34:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:34:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:34:45 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+16:34:45 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+16:34:47 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:34:49 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:34:52 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=$,source=null]
+16:34:52 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:34:52 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:34:53 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:34:53 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+16:34:53 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=94,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+16:34:53 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:34:53 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:34:53 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:34:53 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+16:34:53 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+16:34:54 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:34:54 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:34:54 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:34:55 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:34:55 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:34:55 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+16:34:55 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=97,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+16:34:55 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:34:55 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:34:55 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:34:55 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+16:34:55 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+16:34:56 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:34:56 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+16:34:56 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=100,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+16:34:56 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:34:56 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:34:56 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:34:56 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+16:34:56 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+16:35:04 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:35:20 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:35:21 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:35:31 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:35:57 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:35:58 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:36:00 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:36:04 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:36:05 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:36:07 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:36:13 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=103,run=org.gjt.sp.jedit.bufferio.BufferAutosaveRequest[backlog.txt (~/src/blog/)]]
+16:36:14 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:36:14 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+16:36:14 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=104,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+16:36:14 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:36:14 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:36:14 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:36:14 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+16:36:14 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+16:36:15 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:36:16 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:36:16 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+16:36:16 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=107,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+16:36:16 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:36:16 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:36:16 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:36:16 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+16:36:16 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+16:36:16 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:36:17 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+16:36:17 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=110,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+16:36:17 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:36:17 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:36:17 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:36:17 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+16:36:17 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+16:36:28 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:36:32 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:36:32 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+16:36:32 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=113,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+16:36:32 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:36:32 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:36:32 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:36:32 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+16:36:32 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+16:36:44 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=$,source=null]
+16:36:44 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:36:44 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:36:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:36:45 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+16:36:45 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=116,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+16:36:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:36:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:36:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:36:45 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+16:36:45 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+16:36:46 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:36:46 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:36:47 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:36:52 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:36:52 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:36:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:36:58 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+16:36:58 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=119,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+16:36:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:36:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:36:58 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:36:58 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+16:36:58 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+16:37:01 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:01 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+16:37:01 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=122,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+16:37:01 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:37:01 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:01 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:01 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+16:37:01 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+16:37:13 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=$,source=null]
+16:37:13 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:37:13 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:37:14 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:14 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+16:37:14 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=125,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+16:37:14 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:37:14 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:14 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:14 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+16:37:14 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+16:37:15 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:37:15 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:37:15 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:37:15 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:15 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+16:37:15 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=128,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+16:37:15 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:37:15 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:15 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:15 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+16:37:15 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+16:37:16 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:16 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+16:37:16 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=131,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+16:37:16 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:37:16 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:16 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:16 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+16:37:16 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+16:37:24 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=$,source=null]
+16:37:24 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:37:24 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:37:25 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:37:25 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:37:27 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=$,source=null]
+16:37:27 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:37:29 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:37:29 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:29 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+16:37:29 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=134,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+16:37:29 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:37:29 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:29 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:29 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+16:37:29 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+16:37:29 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:37:29 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:37:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:30 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+16:37:30 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=137,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+16:37:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:37:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:30 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:30 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+16:37:30 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+16:37:31 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+16:37:31 [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+16:37:31 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:37:32 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:37:33 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:33 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+16:37:33 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=140,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+16:37:33 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:37:33 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:33 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:33 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+16:37:33 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+16:37:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:37:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:45 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+16:37:45 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=143,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+16:37:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:37:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:45 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:45 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+16:37:45 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+16:37:46 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:37:47 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:37:47 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:37:57 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:37:57 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:57 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+16:37:57 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=146,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+16:37:57 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:37:57 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:57 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:37:57 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+16:37:57 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+16:38:00 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:38:01 [AWT-EventQueue-0] [debug] EditBus: RegisterChanged[register=$,source=null]
+16:38:01 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:38:01 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:38:01 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:38:02 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+16:38:02 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=149,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+16:38:02 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:38:02 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:38:02 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:38:02 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+16:38:02 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+16:38:03 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:38:03 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:38:03 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:38:03 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:38:03 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+16:38:03 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=152,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+16:38:03 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:38:03 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:38:03 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:38:03 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+16:38:03 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+16:38:05 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:38:05 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:38:05 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/src/blog/backlog.txt has permissions 0644
+16:38:05 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=155,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[backlog.txt (~/src/blog/)]]
+16:38:05 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=backlog.txt (~/src/blog/)]
+16:38:05 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:38:05 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=backlog.txt (~/src/blog/)]
+16:38:05 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog,source=null]
+16:38:05 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/src/blog/backlog.txt,source=null]
+16:38:06 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:40:22 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:40:53 [jEdit server daemon [/home/kmcd/.jedit/server]] [message] EditServer: Socket[addr=/127.0.0.1,port=52863,localport=45649]: connected
+16:40:53 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: Socket[addr=/127.0.0.1,port=52863,localport=45649]: authenticated successfully
+16:40:53 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: parent = "/home/kmcd/.jedit";
+16:40:53 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: args = new String[2];
+16:40:53 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: args[0] = null;
+16:40:53 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: args[1] = ".gitignore";
+16:40:53 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: view = jEdit.getLastView();
+16:40:53 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: buffer = EditServer.handleClient(true,false,false,parent,args);
+16:40:53 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: if(buffer != null && false) {
+16:40:53 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer:  buffer.setWaitSocket(socket);
+16:40:53 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer:  doNotCloseSocket = true;
+16:40:53 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: }
+16:40:53 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: if(view != jEdit.getLastView() && false) {
+16:40:53 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer:  jEdit.getLastView().setWaitSocket(socket);
+16:40:53 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer:  doNotCloseSocket = true;
+16:40:53 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: }
+16:40:53 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: if(doNotCloseSocket == void)
+16:40:53 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer:  socket.close();
+16:40:54 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=.gitignore (~/.jedit/)]
+16:40:54 [AWT-EventQueue-0] [debug] BufferSet: 14672643 addBufferAt(.gitignore (~/.jedit/),-1)
+16:40:54 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=158,run=org.gjt.sp.jedit.bufferio.BufferLoadRequest[.gitignore (~/.jedit/)]]
+16:40:54 [AWT-EventQueue-0] [debug] BufferSet: 14672643: Buffer added .gitignore (~/.jedit/) at 1
+16:40:54 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=.gitignore (~/.jedit/)]
+16:40:54 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:40:54 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:40:54 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:40:54 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=.gitignore (~/.jedit/)]
+16:40:54 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=.gitignore (~/.jedit/)]
+16:40:54 [AWT-EventQueue-0] [debug] SideKick: No parser
+16:40:54 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@61a7e6
+16:40:54 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+16:40:54 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:41:04 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:41:04 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:41:05 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:41:05 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=.gitignore (~/.jedit/)]
+16:41:05 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:41:05 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=.gitignore (~/.jedit/)]
+16:41:05 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/.jedit/.gitignore has permissions 0644
+16:41:06 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=161,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[.gitignore (~/.jedit/)]]
+16:41:06 [jEdit I/O #2] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/.gitignore" to "/home/kmcd/tmp/home/kmcd/.jedit/jedit-bak..gitignore"
+16:41:06 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=.gitignore (~/.jedit/)]
+16:41:06 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=.gitignore (~/.jedit/)]
+16:41:06 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=.gitignore (~/.jedit/)]
+16:41:06 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/.jedit,source=null]
+16:41:06 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/.jedit/.gitignore,source=null]
+16:41:13 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/perspective.xml" to "/home/kmcd/.jedit/settings-backup/perspective.xml~1~"
+16:41:32 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:41:32 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+16:41:59 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+16:41:59 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]

@@ -3,8 +3,6 @@
 
 <SESSION name="default">
   <FILES>
-      <FILE filename="/home/kmcd/src/watertshirts.org/watertshirts_todo.txt" isCurrent="true" encoding="UTF-8" carat="442"/>
-      <FILE filename="/home/kmcd/src/watertshirts.org/adwords/watertshirts_marketing.txt" encoding="UTF-8" carat="0"/>
   </FILES>
 
   <PROPERTIES>

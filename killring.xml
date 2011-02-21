@@ -1,51 +1,47 @@
 <?xml version="1.1" encoding="UTF-8" ?>
 <!DOCTYPE KILLRING SYSTEM "killring.dtd">
 <KILLRING>
-<ENTRY>h2</ENTRY>
-<ENTRY>p</ENTRY>
-<ENTRY>d</ENTRY>
-<ENTRY>a</ENTRY>
-<ENTRY>()</ENTRY>
-<ENTRY>params[</ENTRY>
-<ENTRY>:</ENTRY>
-<ENTRY>]</ENTRY>
-<ENTRY>Sign-up for emails from The Present Finder</ENTRY>
-<ENTRY>                  &lt;%= f.label :email_address, 'Email', :class =&gt; 'required' %&gt;
-</ENTRY>
-<ENTRY>e re</ENTRY>
-<ENTRY>ie</ENTRY>
+<ENTRY>def fetch_art
+    
+  end</ENTRY>
+<ENTRY>def fetch_arti
+    
+  end</ENTRY>
+<ENTRY>def fetch_artif
+    
+  end</ENTRY>
+<ENTRY>def fetch_artifc
+    
+  end</ENTRY>
+<ENTRY>def fetch_artifcl
+    
+  end</ENTRY>
+<ENTRY>def fetch_artifcle
+    
+  end</ENTRY>
+<ENTRY>def fetch_artifcles
+    
+  end</ENTRY>
 <ENTRY>s</ENTRY>
-<ENTRY>ign Up</ENTRY>
-<ENTRY>ib</ENTRY>
-<ENTRY>dm</ENTRY>
-<ENTRY> &lt;div id="quick_signup" class="nav-section"&gt;
-         &lt;h2&gt;Newsletter&lt;/h2&gt;
-         
-         &lt;p&gt;To receive emails of regular &lt;em&gt;Special Offers&lt;/em&gt; enter your email address.&lt;/p&gt;
-         
-         &lt;% form_remote_tag(:url =&gt; shop_email_signup_path) do -%&gt;
-            &lt;% better_fields_for :email_signup, @email_signup do |f| %&gt;
-               &lt;div class='field'&gt;
-                  &lt;%= f.error_on :email_address %&gt;
-                  &lt;%= f.text_field :email_address, :maxlength =&gt; 255 %&gt;
-               &lt;/div&gt;
-            &lt;% end %&gt;
-            
-            &lt;%= submit_tag 'Subscribe', :class =&gt; 'submit_button' %&gt;
-         &lt;% end %&gt;
-       &lt;/div&gt;</ENTRY>
-<ENTRY>background-color: fuchsia; </ENTRY>
-<ENTRY>#centered-content {
-    min-height: 300px;
-    width: 960px;
-    position: relative;
-    clear: both;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 122px;
-    -webkit-box-shadow: 0px 0px 5px #9A8C7A;
-    background-color: white;
-}</ENTRY>
-<ENTRY>    debugger
+<ENTRY>e</ENTRY>
+<ENTRY>l</ENTRY>
+<ENTRY>c</ENTRY>
+<ENTRY>f</ENTRY>
+<ENTRY>def fetch_artic
+    
+  end</ENTRY>
+<ENTRY>def fetch_articl
+    
+  end</ENTRY>
+<ENTRY>def fetch_article
+    
+  end</ENTRY>
+<ENTRY>def fetch_articles
+    
+  end</ENTRY>
+<ENTRY>Article.all</ENTRY>
+<ENTRY>    sort_by {|a| a.updated_at }.reverse
 </ENTRY>
+<ENTRY>.reverse</ENTRY>
+<ENTRY>/keith_mcdonnell.rss</ENTRY>
 </KILLRING>

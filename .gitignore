@@ -4,3 +4,4 @@ jars-cache/*.*
 history
 sessions/*.*
 cache/*.*
+cache/password-cache

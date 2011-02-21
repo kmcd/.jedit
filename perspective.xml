@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE PERSPECTIVE SYSTEM "perspective.dtd">
 <PERSPECTIVE>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">/home/kmcd/src/blog/backlog.txt</BUFFER>
 <BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">/home/kmcd/.jedit/.gitignore</BUFFER>
 <VIEW PLAIN="FALSE"><PANES>
-"/home/kmcd/.jedit/.gitignore" buffer "/home/kmcd/.jedit/.gitignore" buff "view" bufferset
+"/home/kmcd/.jedit/.gitignore" buffer "/home/kmcd/src/blog/backlog.txt" buff "/home/kmcd/.jedit/.gitignore" buff "view" bufferset
 </PANES>
-<GEOMETRY X="175" Y="745" WIDTH="1020" HEIGHT="763" EXT_STATE="6" />
+<GEOMETRY X="169" Y="22" WIDTH="1035" HEIGHT="737" EXT_STATE="0" />
 </VIEW>
 </PERSPECTIVE>

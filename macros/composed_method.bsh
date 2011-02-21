@@ -1,0 +1,17 @@
+// This is a recorded macro. First, check over the
+// commands to make sure this is what you intended. Then,
+// save this buffer, and the macro should appear in the
+// Macros menu.
+Registers.cut(textArea,'$');
+textArea.setSelectedText("def");
+SuperAbbrevsPlugin.tab(view, textArea, buffer);
+textArea.setSelectedText("foo");
+textArea.goToNextLine(false);
+Registers.paste(textArea,'$',false);
+textArea.goToStartOfWhiteSpace(true);
+Registers.cut(textArea,'$');
+s = textArea.getSelectionAtOffset(textArea.getCaretPosition());
+if(s == null)
+   textArea.selectNone();
+else
+   textArea.removeFromSelection(s);
