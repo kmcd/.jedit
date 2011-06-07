@@ -4,10 +4,8 @@
 // Macros menu.
 Registers.cut(textArea,'$');
 textArea.setSelectedText("<pre>");
-xml.XmlActions.insertClosingTagKeyTyped(view);
 textArea.insertEnterAndIndent();
 Registers.paste(textArea,'$',false);
 textArea.insertEnterAndIndent();
 textArea.setSelectedText("</pre>");
-xml.XmlActions.insertClosingTagKeyTyped(view);
 buffer.save(view,null,true);
