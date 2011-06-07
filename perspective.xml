@@ -3,8 +3,9 @@
 <PERSPECTIVE>
 <BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">/home/kmcd/src/rubyjobhunt/app/views/feeds/index.html.erb</BUFFER>
 <BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">/home/kmcd/tmp/feature.txt</BUFFER>
+<BUFFER AUTORELOAD="TRUE" AUTORELOAD_DIALOG="TRUE">/home/kmcd/.jedit/.gitignore</BUFFER>
 <VIEW PLAIN="FALSE"><PANES>
-"/home/kmcd/tmp/feature.txt" buffer "/home/kmcd/src/rubyjobhunt/app/views/feeds/index.html.erb" buff "/home/kmcd/tmp/feature.txt" buff "view" bufferset
+"/home/kmcd/.jedit/.gitignore" buffer "/home/kmcd/src/rubyjobhunt/app/views/feeds/index.html.erb" buff "/home/kmcd/tmp/feature.txt" buff "/home/kmcd/.jedit/.gitignore" buff "view" bufferset
 </PANES>
 <GEOMETRY X="536" Y="33" WIDTH="1342" HEIGHT="1098" EXT_STATE="0" />
 </VIEW>

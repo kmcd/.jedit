@@ -1765,3 +1765,67 @@ Utilities->Troubleshooting->Update Activity Log on Disk command!
 13:14:56 [AWT-EventQueue-0] [debug] SideKick: No parser
 13:14:56 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@1a3fe65
 13:14:56 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+13:17:37 [jEdit server daemon [/home/kmcd/.jedit/server]] [message] EditServer: Socket[addr=/127.0.0.1,port=56076,localport=52522]: connected
+13:17:37 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: Socket[addr=/127.0.0.1,port=56076,localport=52522]: authenticated successfully
+13:17:37 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: parent = "/home/kmcd/.jedit";
+13:17:37 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: args = new String[2];
+13:17:37 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: args[0] = null;
+13:17:37 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: args[1] = ".gitignore";
+13:17:37 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: view = jEdit.getLastView();
+13:17:37 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: buffer = EditServer.handleClient(true,false,false,parent,args);
+13:17:37 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: if(buffer != null && false) {
+13:17:37 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer:  buffer.setWaitSocket(socket);
+13:17:37 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer:  doNotCloseSocket = true;
+13:17:37 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: }
+13:17:37 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: if(view != jEdit.getLastView() && false) {
+13:17:37 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer:  jEdit.getLastView().setWaitSocket(socket);
+13:17:37 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer:  doNotCloseSocket = true;
+13:17:37 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: }
+13:17:37 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer: if(doNotCloseSocket == void)
+13:17:37 [jEdit server daemon [/home/kmcd/.jedit/server]] [debug] EditServer:  socket.close();
+13:17:37 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=.gitignore (~/.jedit/)]
+13:17:37 [AWT-EventQueue-0] [debug] BufferSet: 14247087 addBufferAt(.gitignore (~/.jedit/),-1)
+13:17:37 [jEdit I/O #3] [debug] WorkThread: Running in work thread: [id=14,run=org.gjt.sp.jedit.bufferio.BufferLoadRequest[.gitignore (~/.jedit/)]]
+13:17:37 [AWT-EventQueue-0] [debug] BufferSet: 14247087: Buffer added .gitignore (~/.jedit/) at 2
+13:17:37 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=.gitignore (~/.jedit/)]
+13:17:37 [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+13:17:37 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+13:17:37 [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=BUFFER_CHANGED,source=org.gjt.sp.jedit.EditPane[active,view]]
+13:17:38 [AWT-EventQueue-0] [notice] jEdit$3: Loading edit mode /home/kmcd/jedit/4.3.1/modes/text.xml
+13:17:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=.gitignore (~/.jedit/)]
+13:17:38 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=.gitignore (~/.jedit/)]
+13:17:38 [AWT-EventQueue-0] [debug] SideKick: No parser
+13:17:38 [AWT-EventQueue-0] [debug] SideKickParsedData: Setting parsed data of org.gjt.sp.jedit.View[active] to sidekick.SideKickParsedData@16339b2
+13:17:38 [AWT-EventQueue-0] [debug] EditBus: SideKickUpdate[source=null]
+13:17:38 [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=recent-files,source=null]
+13:17:40 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+13:17:42 [AWT-EventQueue-0] [debug] EditBus: PositionChanging[what=POSITION_CHANGING,source=org.gjt.sp.jedit.EditPane[active,view]]
+13:17:42 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=.gitignore (~/.jedit/)]
+13:17:44 [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/perspective.xml" to "/home/kmcd/.jedit/settings-backup/perspective.xml~1~"
+13:17:44 [jEdit I/O #2] [debug] WorkThread: Running in work thread: [id=17,run=org.gjt.sp.jedit.bufferio.BufferAutosaveRequest[.gitignore (~/.jedit/)]]
+13:17:51 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=.gitignore (~/.jedit/)]
+13:17:51 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/.jedit/.gitignore has permissions 0644
+13:17:51 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=18,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[.gitignore (~/.jedit/)]]
+13:17:51 [jEdit I/O #4] [debug] MiscUtilities: Saving backup of file "/home/kmcd/.jedit/.gitignore" to "/home/kmcd/tmp/home/kmcd/.jedit/jedit-bak..gitignore"
+13:17:51 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=.gitignore (~/.jedit/)]
+13:17:51 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=.gitignore (~/.jedit/)]
+13:17:51 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=.gitignore (~/.jedit/)]
+13:17:51 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/.jedit,source=null]
+13:17:51 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/.jedit/.gitignore,source=null]
+13:17:51 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=null,source=.gitignore (~/.jedit/)]
+13:17:52 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=.gitignore (~/.jedit/)]
+13:17:52 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/.jedit/.gitignore has permissions 0644
+13:17:52 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=21,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[.gitignore (~/.jedit/)]]
+13:17:52 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=.gitignore (~/.jedit/)]
+13:17:52 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=.gitignore (~/.jedit/)]
+13:17:52 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=.gitignore (~/.jedit/)]
+13:17:52 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/.jedit,source=null]
+13:17:52 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/.jedit/.gitignore,source=null]
+13:17:57 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVING,view=org.gjt.sp.jedit.View[active],source=.gitignore (~/.jedit/)]
+13:17:57 [AWT-EventQueue-0] [debug] FileVFS: /home/kmcd/.jedit/.gitignore has permissions 0644
+13:17:57 [jEdit I/O #4] [debug] WorkThread: Running in work thread: [id=24,run=org.gjt.sp.jedit.bufferio.BufferSaveRequest[.gitignore (~/.jedit/)]]
+13:17:57 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=.gitignore (~/.jedit/)]
+13:17:57 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=DIRTY_CHANGED,view=org.gjt.sp.jedit.View[active],source=.gitignore (~/.jedit/)]
+13:17:57 [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=SAVED,view=org.gjt.sp.jedit.View[active],source=.gitignore (~/.jedit/)]
+13:17:57 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/.jedit,source=null]
+13:17:57 [AWT-EventQueue-0] [debug] EditBus: VFSUpdate[path=/home/kmcd/.jedit/.gitignore,source=null]

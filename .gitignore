@@ -5,3 +5,4 @@ history
 sessions/*.*
 cache/*.*
 cache/password-cache
+jars/*
