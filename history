@@ -1,32 +1,26 @@
 [vfs.browser.path]
-/home/kmcd/src/rubyjobhunt/app/views
-/home/kmcd/src/rubyjobhunt/app/views/feeds
-/home/kmcd/src/rubyjobhunt/app/controllers
-/home/kmcd/src/rubyjobhunt/app
-/home/kmcd/src/rubyjobhunt
-/home/kmcd/.jedit/schemes
-/home/kmcd/src/arc/leap/features
-/home/kmcd/src/arc/leap/features/step_definitions
-/home/kmcd/src/arc/leap
-/home/kmcd/src/arc
-/home/kmcd/src
-/home/kmcd/src/rubyjobhunt/app/models
-/home/kmcd/src/rubyjobhunt/app/mailers
-/home/kmcd/src/rubyjobhunt/lib
-/home/kmcd/src/rubyjobhunt/lib/tasks
-/home/kmcd/src/rubyjobhunt/app/views/job_posts
-/home/kmcd/src/arc/collective.intel
-/home/kmcd/Documents
+/home/kmcd/bin
 /home/kmcd
-/home/kmcd/tmp
-[vfs.browser.filter]
-*\[^~#\]
-*char*
-*notes*
-*pdf
-*notes.txt
-*spec*
-*\[^~#\].html
+/home/kmcd/src/leap/app/views/admin
+/home/kmcd/src/leap/app/views/admin/companies
+/home/kmcd/src/leap/config
+/home/kmcd/src/leap
+/home/kmcd/src/leap/app
+/home/kmcd/src/leap/app/controllers
+/home/kmcd/src/leap/app/views/beneficiaries
+/home/kmcd/src/leap/app/views
+/home/kmcd/src/leap/app/models
+/home/kmcd/src/leap/public/javascripts
+/home/kmcd/src/leap/public
+/home/kmcd/src/leap/app/views/beneficiary_nominations
+/home/kmcd/Desktop
+/home/kmcd/src
+/home/kmcd/src/leap/lib
+/home/kmcd/src/leap/app/views/layouts
+/home/kmcd/Documents/notes
+/home/kmcd/Documents
+[helpviewer.search]
+superabb
 [sftp.host]
 redbrick.dcu.ie:22
 redbrick.dcu.ie
@@ -39,8 +33,16 @@ redbrick.dcu.ie
 209.251.186.223:7001
 74.201.254.36:8519
 staging.careermee.com
-[helpviewer.search]
-superabb
+[vfs.browser.filter]
+*
+*notes*
+*notes
+*\[^~#\]
+*char*
+*pdf
+*notes.txt
+*spec*
+*\[^~#\].html
 [FindFilePlugin.path]
 /home/kmcd/Documents
 /home/kmcd/src/leap/leapcr
@@ -62,11 +64,17 @@ bkeeper
 moneyspyder
 root
 [search.directory]
+/home/kmcd/src/leap
+/home/kmcd/src/leap/app
+/home/kmcd/src/leap/public
+/home/kmcd/src/culture
+/home/kmcd/src/omni/
+-
+/home/kmcd/src/arc/culture
+/home/kmcd/.rvm/gems/ruby-1.8.7-p302/gems/feedtools-0.2.29/test/unit/
 /home/kmcd/src/arc/leap
 /home/kmcd/src/rubyjobhunt
 /home/kmcd/src/rubyjob
-/home/kmcd/src/leap
-/home/kmcd/src/leap/app
 /home/kmcd/src/leap/app/models
 /home/kmcd/src/leap/app/views
 /home/kmcd/src/leap/
@@ -76,33 +84,6 @@ root
 /home/kmcd/src/leap/leapcr
 /home/kmcd/src/mocha
 /home/kmcd/src/leap/leapcr/test
-/home/kmcd/src/leap/leapcr/app
-/home/kmcd/src/leap/leapcr/db
-/home/kmcd/src/leap/leapcr/lib
-/home/kmcd/src/leap/leapcr/db/migrate
-/home/kmcd/src/leap/db/migrate
-/home/kmcd/src/leap/*controller*
-[replace]
-style\\\\:i
- => 
-\"
-item
-7
-*
-current_company
-907
-905
-26
-906
-screen cast
-* 
-h2.
-h2. 
-logica
-h3.
-$1$2
--
-ruby_almanac
 [console.BeanShell]
 exit;
 ;
@@ -124,10 +105,50 @@ import ;
 clearConsole();
 \"Dreyfus model of skill acquisition\".toLowerCase().replaceAll(\"\\\\s\",\"_\");
 \"Dreyfus model of skill acquisition\".toLowerCase();
+[replace]
+doc\\.
+doc
+def 
+-
+\\n\\n$1
+\\n$1
+admin_password
+room
+g
+style\\\\:i
+ => 
+\"
+item
+7
+*
+current_company
+907
+905
+26
+906
 [svnplugin.repositoryname]
 jedit
-[svnplugin.url]
-https://jedit.svn.sourceforge.net/svnroot/jedit
+[search.filter]
+*rb
+*erb
+*
+*css
+*rrb
+*js
+*.rb
+*haml
+*controller*rb
+*.erb
+_*erb
+*spec*rb
+*ss
+*cont*
+*camp*scss
+*scss
+route*
+*form*
+*form*erb
+comp*cont*
 [FindFilePlugin.filter]
 *breakthrough*
 *notes*
@@ -149,48 +170,29 @@ about*
 bulk*up*
 comp*cont*
 admin*cont*spec.rb
-[search.filter]
-*rb
-*.rb
-*controller*rb
-*
-*erb
-*.erb
-_*erb
-*spec*rb
-*css
-*ss
-*cont*
-*camp*scss
-*scss
-route*
-*form*
-*form*erb
-comp*cont*
-*controller*
-*.
-*.js
+[svnplugin.url]
+https://jedit.svn.sourceforge.net/svnroot/jedit
 [action]
-global-options
-close-buffer
-next-buffer
-home
-select-end
-next-paragraph
-prev-buffer
-next-line
-select-next-line
-prev-line
-next-page
-schemeEditor
-select-none
 open-file
-editor-scheme-selector
+plugin-manager
+prev-line
+next-line
 save
-find
-prev-page
-undo
+insert-newline-indent
+paste
+backspace
+end
+shift-right
+select-next-line
+select-end
 delete-line
+cut
+home
+select-next-word
+shift-left
+SuperAbbrevs.tab
+complete-word
+undo
 [console.System]
 exit
 quit
@@ -213,46 +215,46 @@ git cma \'Fixed typo\'
 git cma \'Space out trust section\'
 git cma \'Better copy\'
 [clipboard]
-Feature: Admin Members\n  In order to manage members\n  As an admin user\n  I want to be able to edit and delete members\n  \n@admin_dashboard\nScenario: Accessing the admin dashboard\n  Given I am logged in as an admin\n  When I go to the admin dashboard\n  Then I should see \"Admin\"\n  And I should see a list of admin links:\n      | Path                      | Name                |\n      | /admin/charities          | Charities           |\n      | /admin/members            | Members             |\n      | /admin/categories         | Event Categories    |\n      | /admin/videos             | Videos              |\n      | /blog/manage              | Blog                |\n      | /admin/lists              | Lists               |\n      | /admin/companies          | Companies           |\n      | /admin/cr_intros          | CR Intros           |\n      | /admin/developments       | Development         |\n      | /admin/charities/featured | Charity of the Week |\n      | /admin/awards             | Awards              |\n      | /admin/jobs               | Jobs                |\n  \n@admin_members\nScenario: Accessing the Admin Members section\n  Given I am logged in as an admin\n  When I am on the admin members page\n  Then I should see \"Test Bob\"\n  And I should see \"Edit\"\n  this is to test that admin users cannot delete themselves!\n  And I should not see \"Delete\"\n\n@admin_members_delete\nScenario: Deleting members record in the Admin Members section\n  Given I am logged in as an admin\n  And I have the following members:\n  | forename | surname | email            |\n  | Mickey   | Mouse   | mickey@mouse.com |\n  | Donald   | Duck    | donald@duck.com  |\n\n  When I am on the admin members page\n  Then I should have 3 members\n  Then I should see \"Mickey Mouse\"\n  And I should see \"Donald Duck\"\n  And I should see \"Delete\"\n  When I follow \"Delete\" and click \"OK\"\n  Then I should have 2 members\n  \n\nFeature: Campaigns\n   In order to increase engagement\n   As a User\n   I want to see and follow campaigns\n\nScenario: New Campaign\n   Given I am an Admin (leap & charity)\n   When I go to the new Campaign page\n   Then I should see \"Create a New Campaign\" (image, contact details)\n   When I add a charity to a campaign\n   Then the charity should receive an email informing them about campaigns, that they\'ve been tagged and links to upload events or write a guest blog\n   \nScenario: Campaigns Page\n   Given I am on the Campaigns page\n   Then I should see a list of existing campaigns, with a title, sub-heading (mission of campaign), date and an image\n   And they should be ordered by start date\n   And each one should have a \'See more\' button\n   And I should be able to invite\n\nScenario: Campaign Page\n   Given I am on the Movember Campaign page\t\n   When the campaign is occurring\n   Then I should see a title official_link, hashtag, charities , comment wall, other faces, image (confirm)\n   And I should see a list of the involved charities   \n   And I should see a \"Pledge your commitment to this cause and click here to join the campaign\" button\n   And I should see a twitter feed of the campaign\n   And I should see a list of Events relating to the campaign\n   And I should be able to create an event\n   And I should be able to invite\n   \nScenario: Join a Campaign\n   Given I have joined an Campaign\n   Then I should appear on the Campaign page for other people in my company to see\n   And I should receive a badge\ndiff --git a/features/charities.feature b/features/charities.feature\ndeleted file mode 100644\nindex ae8bc0b..0000000\n \na/features/charities.feature\n@beneficiary\nFeature: Charity registration\n\tIn order to register as a charity\n\tAs a charity owner\n\tI want register on the site\n\t\n\t\nScenario: new site user\n\tWhen I go to the new charity page\n\tThen I should see \"This must be a real email address\"\n\tcheck signup form\n\tAnd I fill in the following:\n\t | charity\[name\]                                  | Oxfam                         |\n\t | charity\[charity_numbers_attributes\]\[0\]\[number\] | 202918                        |\n\t | charity\[street\]                               | Oxfam House, John Smith Drive |\n\t | charity\[locality\]                              | Cowley                        |\n\t | charity\[region\]                                | Oxford                        |\n\t | charity\[url\]                                   | http://www.oxfam.org.uk       |\n\t | charity\[postal_code\]\t\t\t\t\t\t\t  | OX4 2JY\t\t\t\t\t\t  |\n\t | job_title                                      | Tester                        |\n\t | charity\[owner_attributes\]\[forename\]             | Tom                           |\n\t | charity\[owner_attributes\]\[surname\]             | Waddington                    |\n\t | charity\[owner_attributes\]\[email\]               | tom@tomwaddington.co.uk       |\n\tAnd I press \"Register\"\n\tThen I should see \"Registration submitted!\"\n\n\n@charity_subdomain\n\nFeature: Charity Sudomain\n  In order for charities to access their own pages\n  As a charity\n  I want to see a default landing page when I visit the charities subdomain\n\n@charity_landing\nScenario: Charity landing page\n  Given I am on the charities subdomain\n  Then I should be on the charities landing page\n  And I should see \"Sign in to access your Leap Charities profile page\" on the page\n  And I should see \"click here to join us, you know you want to\" on the page\n\n@charity_login\nScenario: Clicking on login link on charities landing page\n  Given I am on the charities subdomain\n  Then I should be on the charities landing page\n  When I click on \"Sign in\"\n  Then I should see \"Log in\" on the page\n  Then I should see \"Email address\" on the page\n  Then I should see \"Password\" on the page\n\n@charity_signup\nScenario: Clicking on signup link on charities landing page\n  Given I am on the charities subdomain\n  Then I should be on the charities landing page\n  When I click on \"click here\"\n  Then I should be on the charities signup page\n\n@charity_logged_in\nScenario: Clicking on login link and logging in\n  Given I am on the charities subdomain\n  Then I should be on the charities landing page\n  When I click on \"Sign in\"\n  Then I should see \"Log in\" on the page\n  When I fill in the following:\n    | Email address | christine.napthine@chasecare.org.uk |\n    | Password      | password                            |\n  And I press \"Log in\"\n  Then I should be on the charities landing page\n  \n\n@user\nFeature: Email unsubscribe\n   As a member\n   In order to not get spam emails\n   I want to unsubscribe \n\n@wip\nScenario: Unsubscribing from newsletters and reminders\n   Given I am the registered member Test Bob (test@leapcr.com)\n   When I receive an email\n   Then I should be unsubscribed from newsletters and reminders\n   And I follow \"unsubscribe\"\ndiff --git a/features/event_invites.feature b/features/event_invites.feature\ndeleted file mode 100644\nindex 0edbd04..0000000\n a/features/event_invites.feature\n\n\nFeature: Event invites\n  In order to increase event attendance\n  As an admin\n  I want to be able to invite colleagues to an event\t\n\t\n\tScenario: Invite Colleagues Page\n\t  Given an event exists with name: \"AIDS The Reckoning\"\n\t  And I am logged in\n\t  When I go to the show page for that event\n\t\tAnd I follow \"AIDS The Reckoning\" within \".events\"\n\t\tAnd I follow \"Invite some of your colleagues\"\n\t  Then I should see \"Invite Colleagues\"\n\t\t\n\tScenario: Invite colleagues to an event\n\t  Given an event exists with name: \"AIDS The Reckoning\"\n\t  And an event_date exists with event: the first event\n\t\tAnd I am logged in\n\t  And I go to the event_date\'s invite page\n\t\tWhen I go to the event\'s event_date page\n\t\tThen show me the page\n\t  And I should see \"Invite Colleagues\"\n\t\n\tScenario: Invite Colleagues\n\t  Given I am logged in as an admin\n\t  And I am on the events invite page\n\t  When I select some colleagues\n\t  And I press the \'Send invitations\' button\n\t  Then those users should receive invitations\t\n\t\n\tScenario: Cant invite self\n\t  Given context\n\t  When event\n\t  Then outcome\n\t\n\t\n\t\n@events\n\nFeature: Events\n  In order to participate in events\n  As a user\n  I want to be able to view and add events\n \n  @events_main\n  Scenario: Events main page\n    Given there are events named \"Event 1,Event 2,Event 3\"\n    And I am on the events page\n    Then I should have 3 events\n    And I should see \"3 events found in your area\"\n    And I should see \"Event 1\" within \"#mini_event_1\"\n    And I should see \"Event 2\" within \"#mini_event_2\"\n    And I should see \"Event 3\" within \"#mini_event_3\"\n  \n  @events_private\n  Scenario: Private events linked to a company\n    Given there are private events named \"Private Event 1\"\n    Then I should have 1 event\n    When I am on the events page\n    Then I should see \"0 events found in your area\"\n    And I should not see \"Private Event 1\"\n  \n  @events_public\n  Scenario: Public events without any link to a company\n    Given there are public events named \"Public Event 1\"\n    Then I should have 1 event\n    When I am on the events page\n    Then I should see \"1 event found in your area\"\n    And I should see \"Public Event 1\"\n  \n  @add_events\n  Scenario: Adding events as a logged in user\n    Given I am logged in\n    When I go to the events page\n    And I click on \"Add an event\"\n    Then I should see \"Add an event\"\n    When I fill in the following:\n      | Event Name                                          | My First Event                 |\n      | Subheading                                          | Introduction to my first event |\n      | event_event_dates_attributes_0_start_date_formatted | #{Date.now}                    |\n      | event_event_dates_attributes_0_end_date_formatted   | #{Date.now + 1.day}            |\n      \n    When I press \"Save\"\n    Then I should be on \"My First Event\" event page\n    Then I should have 1 event\n    When I publish the event\n    #When I click on \"Publish\"\n    And I go to the events page\n    Then I should see \"My First Event\"\n    And I should see \"Introduction to my first event\"\n    \n  \n  @add_events_not_logged_in\n  Scenario: Adding events as a non user\n    Given I have logged out\n    And I go to the events page\n    When I click on \"Add an event\"\n    need this for the rest to pass???\n    Then show me the page\n    Then I should see \"You\'ll need to log in\"\n    And I should see \"To do that, you\'ll need to be logged in to your account on Leap\"\n  \n  @created_invalid_event\n  Scenario: Create Invalid Event\n    Given I am logged in\n    And I am on the new event page\n    When I press \"Save\"\n    Then I should see \"2 errors prohibited this event from being saved\"\n    And I should see \"Name can\'t be blank\"\n    And I should see \"Subheading can\'t be blank\"\n    And I should have 0 events\n  \n  @update_event\n  Scenario: Update An Event\n    Given I am logged in\n    And I have events named \"Mandela Day,AIDS\"\n    And I go to the events page\n    And I follow \"Mandela Day\"\n    When I follow \"Edit event\"\n    And I fill in \"Event Name\" with \"Tony Day\"\n    And I press \"Save\"\n    Then I should see \"Tony Day\"\n  \n  @update_event_other\n  Scenario: Update An Event I Didn\'t Create\n    Given I am logged in\n    And there are events named \"Mandela Day,AIDS\"\n    And I go to the events page\n    When I follow \"Mandela Day\"\n    Then I should not see \"Edit event\"\n    \n  @delete_event_admin\n  Scenario: Delete An Event As An Admin\n    Given I am logged in as an admin\n    And I have events named \"Mandela Day,AIDS\"\n    And I go to the events page\n    And I follow \"Mandela Day\"  \n    When I follow \"Delete event\"\n    Then I should not see \"Mandela Day\"\n    And I should have 1 event\n  \n  @delete_event\n  Scenario: Cannot delete An Event As A User\n    Given I am logged in\n    And I have events named \"Mandela Day,AIDS\"\n    And I go to the events page\n    When I follow \"Mandela Day\" \n    Then I should not see \"Delete event\"\n  \n  @update_event_location\n  Scenario: Update An Event Location\n    Given I am logged in\n    And I have events named \"Mandela Day,AIDS\"\n    And I go to the events page\n    And I follow \"Mandela Day\"\n    When I follow \"Edit event\"\n    And I fill in \"Building & Street\" with \"Greek Street\"\n    And I fill in \"Town / City\" with \"London\"\n    And I press \"Save\"\n    Then I should see \"Greek Street\"\n    And I should see \"London\"\n\n  @update_event_time\n  Scenario: Update An Event Time\n    Given I am logged in\n    And I have events named \"Mandela Day,AIDS\"\n    And I go to the events page\n    And I follow \"Mandela Day\"\n    When I follow \"Edit event\"\n    And I fill in \"event_event_dates_attributes_0_start_date_formatted\" with \"Tue 14 December, 2010\"\n    And I fill in \"event_event_dates_attributes_0_end_date_formatted\" with \"Wed 15 December, 2010\"\n    And I select \"12\" as the start time\n    And I select \"21\" as the finish time\n    And I press \"Save\"\n    Then I should be on \"Mandela Day\" event page\n    Then I should see \"14 Dec 12pm - Dec 15 9pm\"\n\ndiff --git a/features/members.feature b/features/members.feature\ndeleted file mode 100644\nindex b3a50e8..0000000\n a/features/members.feature\n\n\n@user\nFeature: User Login\n\tIn order for users to use the site\n\tAs a user\n\tI want to be able to login, activate, logout and  persist a UserSession\n\t\n\t@successful_activation\n\tScenario: Successful activation\n\t\tGiven I register as Test Bob (test@leapcr.com)\n\t\tWhen I go to the activation page\n\t\tAnd I click on \"Next\"\n\t\tAnd I follow \"Nah\"\n\t\tAnd I press \"survey-submit\"\n\t\tAnd I fill in \"Password\" with \"password\"\n\t  And I fill in \"Retype password\" with \"password\"\n\t  When I check \"member\[terms_and_conditions\]\"\n\t  And I press \"Activate\"\n\t\tThen I should be on the dashboard page\n\t\n\t@wrong_activation\n\tScenario: Wrong activation code\n\t  Given I register as Test Bob (test@leapcr.com)\n\t  When I visit the activation page with an incorrect activation code\n\t  Then I should see \"Incorrect activation code\"\n\t\n\t@already_activated\n\tScenario: Already activated\n\t  Given I am the registered member Test Bob (test@leapcr.com)\n\t  When I go to the activation page\n\t  Then I should be on the login page\n\t\n\t@successful_login\n\tScenario: Successful login\n\t\tGiven I am the registered member Test Bob (test@leapcr.com)\n\t\tAnd I am on the dashboard page\n\t\tWhen I fill in \"Email\" with \"test@leapcr.com\"\n\t\tAnd I fill in \"Password\" with \"password\"\n\t\tAnd I press \"Sign in\"\n\t\tThen I should be on the dashboard page\n\t\n\t@unsuccessful_login\n\tScenario: Unsuccessful login\n\t  Given I am the registered member Test Bob (test@leapcr.com)\n\t  And I am on the login page\n\t  When I fill in \"Email\" with \"test@leapcr.com\"\n\t\tAnd I fill in \"Password\" with \"wrongpassword\"\n\t\tAnd I press \"Sign in\"\n\t  Then I should see \"Password is not valid\"\n\n@opportunity\n\nFeature: Opportunities\n  In order to access my company\'s opportunities\n  As a company user or employee\n  I want to be able to view these opportunities\n\n@opportunity_landing\nScenario: Opportunity landing page\n  Given I am logged in\n  And I have the following opportunities:\n  | title        | description           | contact_telephone | contact_email    |\n  | Mickey Mouse | My First Opportunity  | 123456            | mickey@mouse.com |\n  | Donald Duck  | My Second Opportunity | 67890             | donald@duck.com  |\n\n  When I go to the opportunities page\n  Then I should see \"Mickey Mouse\" on the page\n  And I should see \"Donald Duck\" on the page\n  And I should have 2 opportunities\n\n@opportunity_show\nScenario: Opportunity show page\n  Given I am logged in\n  And I have the following opportunities:\n  | title            | description | contact_telephone | contact_email | permalink |\n  | Test Opportunity | Lorem Ipsum | 123456            | test@test.com | test-opp  |  \n\n  When I go to the opportunities page\n  Then I should see \"Test Opportunity\" on the page\n  And I should see \"Lorem Ipsum\" on the page\n  When I click on \"Test Opportunity\"\n  Then I should be on the opportunity show page for \"Test Opportunity\"\n  \n@opportunity_no_access\nScenario: Private access to Opportunity\n  Given I am logged in\n  And I have the following opportunities:\n  the company_id below is set to some random number so it will not match the company of the logged in user\n  | title            | description      | contact_telephone | contact_email | permalink | company_id |\n  | Test Opportunity | Test Description | 123456            | test@test.com | test-opp  | 3          |\n\n  When I go to the opportunities page\n  Then I should see \"You currently do not have any opportunities.\"\n  And I should not see \"Test Opportunity\"\n  And I should not see \"Test Description\"\n\n\n@opportunity_create\nScenario: Creating an opportunity\n  Given I am logged in as a company admin\n  When I go to the new opportunities page\n  Then I should see \"Add a new opportunity\"\n  When I fill in the following:\n    | Title                         | My First Opportunity                 |\n    | Description                   | Introduction to my first opportunity |\n    | opportunity_contact_telephone | 123456                               |\n    | opportunity_contact_email     | test@test.com                        |\n\n  And I press \"Save changes\"\n  Then I should be on the opportunity page for \"My First Opportunity\"\n  And I should have 1 opportunities\n\n@opportunity_edit\nScenario: Editing an opportunity\n  Given I am logged in as a company admin\n  And I have the following opportunities:\n  | title            | description      | contact_telephone | contact_email | permalink |\n  | Test Opportunity | Test Description | 123456            | test@test.com | test-opp  |\n  When I go to the edit opportunity page for \"test-opp\"\n  Then I should see \"Test Opportunity\" within the opportunity form\n  And I should see \"Test Description\" within the opportunity form\n\n
-feed.url
-link_to
-FeedTools::Feed.open(feed.url)
-@job_posts.group_by(&:date).sort.reverse
-@job_posts = JobPost.search params\[:q\]
-http://www.indeed.co.uk/rc/clk?jk=c2e8983d972bd653&from=rss&rtk=161gk33a314212vo&qd=RnZhMybXSk4M3QtTVGXWoY-ygtZLXr_zwggEpygkL3t9H96ZIR7xaaAsUt8TqwFwIXNAyT1kiwH_s3jSJ2StEg&rd=
-http://www.indeed.co.uk/rc/clk?jk=c2e8983d972bd653&from=rss&rtk=161h1qi2m14215tu&qd=RnZhMybXSk4M3QtTVGXWoY-ygtZLXr_zwggEpygkL3t9H96ZIR7xaaAsUt8TqwFwIXNAyT1kiwH_s3jSJ2StEg&rd=
-http://www.indeed.co.uk/rc/clk?jk=c2e8983d972bd653&from=rss&rtk=161gqunn0142g4bp&qd=RnZhMybXSk4M3QtTVGXWoY-ygtZLXr_zwggEpygkL3t9H96ZIR7xaaAsUt8TqwFwIXNAyT1kiwH_s3jSJ2StEg&rd=
-if group.last.size > 1
-JobPost.all.group_by(&:url).each do |group|
-#dddfe1
-TinyURL killer
-rails templates binary
-nice rails scaffold with flutie
-seat reservation system
-1st Goal: 10 - 25K unique vistors / month
-sq3r blogging vid
-sq3r ch1,2 advanced rails
-JobPost.all.group_by(&:url).each do |group|\n    # group.last\[1..-1\].map(&:destroy) if group.last.size > 1\n    puts group.first,group.last.size  if group.last.size > 1\n  end
+<% end %>
+{:cause => cause.permalink}
+params
+search_beneficiaries_path
+\\\"
+offices.sum {|o| o.members.to_a.sum {|m| m.participations.select {|p| p.type_s == \'Event\' }.count } },
+members.to_a.sum {|m| m.participations.select {|p| p.type_s == \'Event\' }.count },
+total attendances
+@report.attended_event_members.count
+attended_event_members
+# Registered for an event this week
+current_company
+http://www.softensity.com/
+@doc = TextEditor::Document.new
+DocumentTest
+class DocumentAddTextTest < Test::Unit::TestCase
+Inefficient TextEditor::Document implementation\nmoduleTextEditor\nclassDocument\ndefinitialize\n@contents=\"\"\n@snapshots=\[\]\n@reverted=\[\]\nend\n\nattr_reader:contents\n\ndefadd_text(text,position=-1)\nsnapshot(true)\ncontents.insert(position,text)\nend\n\ndefremove_text(first=0,last=contents.length)\nsnapshot(true)\ncontents.slice!(first...last)\nend\n\ndefsnapshot(tainted=false)\n@reverted=\[\]iftainted\n@snapshots<<@contents.dup\nend\n\ndefundo\nreturnif@snapshots.empty?\n\n@reverted<<@contents\n@contents=@snapshots.pop\nend\n\ndefredo\nreturnif@reverted.empty?\n\nsnapshot\n@contents=@reverted.pop\nend\n\nend\nend
+moduleÊTextEditor\nÊÊÊÊÊÊclassÊDocument\nÊÊÊÊÊÊÊÊdefÊinitialize\nÊÊÊÊÊÊÊÊÊÊ@contentsÊ=Ê\"\"\nÊÊÊÊÊÊÊÊÊÊ@snapshotsÊ=Ê\[\]\nÊÊÊÊÊÊÊÊÊÊ@revertedÊÊ=Ê\[\]\nÊÊÊÊÊÊÊÊend\nÊÊÊÊ\nÊÊÊÊÊÊÊÊattr_readerÊ:contents\nÊÊÊÊ\nÊÊÊÊÊÊÊÊdefÊadd_text(text,Êposition=-1)\nÊÊÊÊÊÊÊÊÊÊsnapshot(true)\nÊÊÊÊÊÊÊÊÊÊcontents.insert(position,Êtext)\nÊÊÊÊÊÊÊÊend\nÊÊÊÊ\nÊÊÊÊÊÊÊÊdefÊremove_text(first=0,Êlast=contents.length)\nÊÊÊÊÊÊÊÊÊÊsnapshot(true)\nÊÊÊÊÊÊÊÊÊÊcontents.slice!(first...last)\nÊÊÊÊÊÊÊÊend\nÊÊÊÊ\nÊÊÊÊÊÊÊÊdefÊsnapshot(tainted=false)\nÊÊÊÊÊÊÊÊÊÊ@revertedÊ=Ê\[\]ÊifÊtainted\nÊÊÊÊÊÊÊÊÊÊ@snapshotsÊ<<Ê@contents.dup\nÊÊÊÊÊÊÊÊend\nÊÊÊÊ\nÊÊÊÊÊÊÊÊdefÊundo\nÊÊÊÊÊÊÊÊÊÊreturnÊifÊ@snapshots.empty?\nÊÊÊÊ\nÊÊÊÊÊÊÊÊÊÊ@revertedÊ<<Ê@contents\nÊÊÊÊÊÊÊÊÊÊ@contentsÊ=Ê@snapshots.pop\nÊÊÊÊÊÊÊÊend\nÊÊÊÊ\nÊÊÊÊÊÊÊÊdefÊredo\nÊÊÊÊÊÊÊÊÊÊreturnÊifÊ@reverted.empty?\nÊÊÊÊ\nÊÊÊÊÊÊÊÊÊÊsnapshot\nÊÊÊÊÊÊÊÊÊÊ@contentsÊ=Ê@reverted.pop\nÊÊÊÊÊÊÊÊend\nÊÊÊÊ\nÊÊÊÊÊÊend\nÊÊÊÊend\n
+Remove bounced emails from job queue
+Remove bounced emails from job queue\'
 [sftp.privateKey]
 /home/kmcd/.ssh/id_dsa
 [find]
-style\\\\:b
-^@@.*$
-^\\+\\+\\+.*$
-^+++.*$
-+++
-# 
-^-
-fold
- style\\\\:b
-comment
-style
-def invert_dataset
-style\\\\:ib
-bold
-,.*
-key 
-Show \\tEdit \\tDestroy
-Invite colleagues
-#
-\'
+static_gmap
+search_beneficiaries_path
+search_beneficiaries
+search
+def search
+search_beneficiaries_url
+Get starte
+Choose charities who benefit
+switch
+named.*attended_event_dates
+attended_event_dates
+def attended_event_dates
+def attended_event_members
+the last event was
+\\\[\\\]
+@doc\\.
+def
+Ê
+ÊÊÊÊÊÊÊÊ
+ÊÊÊÊÊÊÊÊÊÊ

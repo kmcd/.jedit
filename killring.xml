@@ -1,58 +1,27 @@
 <?xml version="1.1" encoding="UTF-8" ?>
 <!DOCTYPE KILLRING SYSTEM "killring.dtd">
 <KILLRING>
-<ENTRY>+++ /dev/null</ENTRY>
-<ENTRY>@@ -1,34 +0,0 @@</ENTRY>
-<ENTRY>@@ -1,43 +0,0 @@</ENTRY>
-<ENTRY>@@ -1,12 +0,0 @@</ENTRY>
-<ENTRY>@@ -1,36 +0,0 @@</ENTRY>
-<ENTRY>@@ -1,140 +0,0 @@</ENTRY>
-<ENTRY>@@ -1,48 +0,0 @@</ENTRY>
-<ENTRY>@@ -1,80 +0,0 @@</ENTRY>
-<ENTRY>diff --git a/features/campaigns.feature b/features/campaigns.feature
-deleted file mode 100644
-index 5f10609..0000000
- a/features/campaigns.feature
-
+<ENTRY>  &lt;% end %&gt;
 </ENTRY>
-<ENTRY>\ No newline at end of file
-diff --git a/features/charity_subdomain.feature b/features/charity_subdomain.feature
-deleted file mode 100644
-index 12ed254..0000000
- a/features/charity_subdomain.feature
+<ENTRY>&gt;&gt;&gt;&gt;&gt;&gt;&gt; fc0580d9465a24d5da12b9ed9214d526dad29f62
 </ENTRY>
-<ENTRY>diff --git a/features/dashboard.feature b/features/dashboard.feature
-deleted file mode 100644
-index e69de29..0000000
-diff --git a/features/email_unsubscribe.feature b/features/email_unsubscribe.feature
-deleted file mode 100644
-index b881a0a..0000000
- a/features/email_unsubscribe.feature
-
-
+<ENTRY>"</ENTRY>
+<ENTRY>sis</ENTRY>
+<ENTRY># Registered for an event this week</ENTRY>
+<ENTRY>rhiw</ENTRY>
+<ENTRY>    throw current_company
 </ENTRY>
-<ENTRY>\ No newline at end of file
-diff --git a/features/events.feature b/features/events.feature
-deleted file mode 100644
-index 0f28a14..0000000
- a/features/events.feature
-
-
-</ENTRY>
-<ENTRY>diff --git a/features/opportunities.feature b/features/opportunities.feature
-deleted file mode 100644
-index cea1559..0000000
- a/features/opportunities.feature
-
-</ENTRY>
-<ENTRY>var</ENTRY>
-<ENTRY>d</ENTRY>
-<ENTRY>
-en</ENTRY>
+<ENTRY>(params.merge(</ENTRY>
+<ENTRY>)</ENTRY>
+<ENTRY>({:cause =&gt; cause.permalink})</ENTRY>
+<ENTRY>=</ENTRY>
+<ENTRY>#</ENTRY>
+<ENTRY># </ENTRY>
+<ENTRY>#=</ENTRY>
+<ENTRY>params.merge(</ENTRY>
 <ENTRY>er</ENTRY>
-<ENTRY>  :foo =&gt; @bar
-</ENTRY>
-<ENTRY>  # POST /job_posts
-</ENTRY>
-<ENTRY>style\:b</ENTRY>
+<ENTRY>nex</ENTRY>
+<ENTRY>f</ENTRY>
+<ENTRY>o</ENTRY>
+<ENTRY>&lt;% end %&gt;</ENTRY>
 </KILLRING>
